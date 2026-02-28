@@ -1,5 +1,8 @@
-$Base = "~\Documents\Links\Europa Universalis 4\Anbennar"
-$Mod  = ".\src"
+#$Base = "C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\gfx"
+#$Base = "~\Documents\Links\Europa Universalis 4\Anbennar"
+$Base = ".\src\interface"
+$Mod = "~\Documents\Links\Europa Universalis 4\Anbennar\interface"
+#$Mod  = "..\src"
 
 $BaseFull = (Resolve-Path $Base).Path
 $ModFull  = (Resolve-Path $Mod).Path

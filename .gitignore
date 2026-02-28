@@ -2,3 +2,6 @@
 different.txt
 missing_in_base.txt
 identical.txt
+resources
+scripts
+.venv
