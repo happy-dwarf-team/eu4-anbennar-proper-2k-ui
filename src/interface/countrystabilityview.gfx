@@ -262,27 +262,6 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
-	
-	spriteType = {
-		name = "GFX_disaster_estate_qizilbash_disaster"
-		texturefile = "gfx//interface//disasters//dlc//king of kings//estate_qizilbash_disaster.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
-
-	spriteType = {
-		name = "GFX_disaster_estate_ghulams_disaster"
-		texturefile = "gfx//interface//disasters//dlc//king of kings//estate_ghulams_disaster.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
-
-	spriteType = {
-		name = "GFX_disaster_georgian_crisis"
-		texturefile = "gfx//interface//disasters//dlc//king of kings//georgian_crisis.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
 
 	spriteType = {
 		name = "GFX_disaster_french_revolution"
@@ -308,20 +287,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_disaster_granada_succession_war"
 		texturefile = "gfx//interface//disasters//granada_succession_war.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
-
-	spriteType = {
-		name = "GFX_disaster_german_revolt"
-		texturefile = "gfx//interface//disasters//german_revolt.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
-	
-	spriteType = {
-		name = "GFX_disaster_hungarian_revolt"
-		texturefile = "gfx//interface//disasters//hungarian_revolt.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
@@ -638,18 +603,7 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
-	#spriteType = {
-	#	name = "GFX_disaster_collapse_of_clans"
-	#	texturefile = "gfx//interface//disasters//collapse_of_clans.dds"
-	#	noOfFrames = 3
-	#	loadType = "INGAME"
-	#}
-	#spriteType = {
-	#	name = "GFX_disaster_era_of_princes"
-	#	texturefile = "gfx//interface//disasters//era_of_princes.dds"
-	#	noOfFrames = 3
-	#	loadType = "INGAME"
-	#}
+
 	spriteType = {
 		name = "GFX_disaster_prussian_confederation_disaster"
 		texturefile = "gfx//interface//disasters//prussian_confederation_disaster.dds"
@@ -657,61 +611,299 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 
-	### DOMINATION DLC ###
-
+	#Anbennar
+	#Anbennar
 	spriteType = {
-		name = "GFX_disaster_tur_disaster_ottoman_power_struggle"
-		texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_ottoman_power_struggle.dds"
+		name = "GFX_disaster_estate_artificers_disaster"
+		texturefile = "gfx//interface//disasters//estate_artificers_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
 
 	spriteType = {
-		name = "GFX_disaster_tur_disaster_janissary_coup"
-		texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_janissary_coup.dds"
+		name = "GFX_disaster_estate_adventurers_disaster"
+		texturefile = "gfx//interface//disasters//estate_adventurers_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
 
 	spriteType = {
-		name = "GFX_disaster_tur_disaster_plot_of_the_harem"
-		texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_plot_of_the_harem.dds"
+		name = "GFX_disaster_estate_mages_disaster"
+		texturefile = "gfx//interface//disasters//estate_mages_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
 
 	spriteType = {
-		name = "GFX_disaster_tur_disaster_eyalet_rebellion"
-		texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_eyalet_rebellion.dds"
+		name = "GFX_disaster_war_of_the_black_trees"
+		texturefile = "gfx//interface//disasters//war_of_the_black_trees.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
 
 	spriteType = {
-		name = "GFX_disaster_tur_disaster_pasha_decadence"
-		texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_pasha_decadence.dds"
-		noOfFrames = 3
-		loadType = "INGAME"
-	}
-	
-	spriteType = {
-		name = "GFX_disaster_estate_janissary_disaster"
-		texturefile = "gfx//interface//disasters//dlc//domination//estate_janissary_disaster.dds"
+		name = "GFX_disaster_estate_vampires_broken_masquerade_disaster"
+		texturefile = "gfx//interface//disasters//estate_vampires_broken_masquerade_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
 
 	spriteType = {
-		name = "GFX_disaster_estate_eunuchs_disaster"
-		texturefile = "gfx//interface//disasters//dlc//domination//estate_eunuchs_disaster.dds"
+		name = "GFX_disaster_estate_vampires_restore_masquerade_disaster"
+		texturefile = "gfx//interface//disasters//estate_vampires_restore_masquerade_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
 
 	spriteType = {
-		name = "GFX_disaster_infantes_of_aragon"
-		texturefile = "gfx//interface//disasters//dlc//domination//infantes_of_aragon.dds"
+		name = "GFX_disaster_estate_vampires_install_thrall_disaster"
+		texturefile = "gfx//interface//disasters//estate_vampires_install_thrall_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_disaster_halfling_revolt_disaster"
+		texturefile = "gfx//interface//disasters//halfling_revolt_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_grombar_wars_of_religion"
+		texturefile = "gfx//interface//disasters//grombar_wars_of_religion.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_jaddari_deioderan"
+		texturefile = "gfx//interface//disasters//the_deioderan.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_ibevar_reformation"
+		texturefile = "gfx//interface//disasters//ibevar_reformation_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_magnate_uprising"
+		texturefile = "gfx//interface//disasters//fall_of_majapahit.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_bim_lau_spirit_disaster"
+		texturefile = "gfx//interface//disasters//bim_lau_spirit_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_nsc_dukeldar"
+		texturefile = "gfx//interface//disasters//dukeldar.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_nsc_dinam_elutur"
+		texturefile = "gfx//interface//disasters//dinam_elutur.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+
+	spriteType = {
+		name = "GFX_disaster_blue_scarf_rebellion"
+		texturefile = "gfx//interface//disasters//blue_scarf_rebellion.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_azjakuma_xianjie_rebellion"
+		texturefile = "gfx//interface//disasters//civil_war.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_command_rise_of_the_shamans"
+		texturefile = "gfx//interface//disasters//command_rise_of_the_shamans.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_command_insubordination"
+		texturefile = "gfx//interface//disasters//command_insubordination.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_barumand_sarkubkashr"
+		texturefile = "gfx//interface//disasters//civil_war.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_astral_terror"
+		texturefile = "gfx//interface//disasters//astral_terror.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_gemradcurt_red_winter"
+		texturefile = "gfx//interface//disasters//gemradcurt_red_winter_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_disaster_dwarven_pantheon_rediscovery"
+		texturefile = "gfx//interface//disasters//dwarven_pantheon_rediscovery.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_disaster_gor_burad_the_eruption"
+		texturefile = "gfx//interface//disasters//gor_burad_the_eruption.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_disaster_estate_nobility_disaster_hisost"
+		texturefile = "gfx//interface//disasters//estate_nobility_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	#also temporary
+	spriteType = {
+		name = "GFX_disaster_cestirmark_shadow_war"
+		texturefile = "gfx//interface//disasters//command_rise_of_the_shamans.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_disaster_oinukhudi_civil_war"
+		texturefile = "gfx//interface//disasters//oinukhudi_civil_war.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_ahati_disaster"
+		texturefile = "gfx//interface//disasters//estate_ahati_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_disaster_kamrayakvals_war"
+		texturefile = "gfx//interface//disasters//kamrayakvals_war.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+
+		### DOMINATION DLC ### 1.35
+
+		spriteType = {
+			name = "GFX_disaster_tur_disaster_ottoman_power_struggle"
+			texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_ottoman_power_struggle.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_tur_disaster_janissary_coup"
+			texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_janissary_coup.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_tur_disaster_plot_of_the_harem"
+			texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_plot_of_the_harem.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_tur_disaster_eyalet_rebellion"
+			texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_eyalet_rebellion.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_tur_disaster_pasha_decadence"
+			texturefile = "gfx//interface//disasters//dlc//domination//tur_disaster_pasha_decadence.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_estate_janissary_disaster"
+			texturefile = "gfx//interface//disasters//dlc//domination//estate_janissary_disaster.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_estate_eunuchs_disaster"
+			texturefile = "gfx//interface//disasters//dlc//domination//estate_eunuchs_disaster.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_infantes_of_aragon"
+			texturefile = "gfx//interface//disasters//dlc//domination//infantes_of_aragon.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_estate_qizilbash_disaster"
+			texturefile = "gfx//interface//disasters//dlc//king of kings//estate_qizilbash_disaster.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_estate_ghulams_disaster"
+			texturefile = "gfx//interface//disasters//dlc//king of kings//estate_ghulams_disaster.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_georgian_crisis"
+			texturefile = "gfx//interface//disasters//dlc//king of kings//georgian_crisis.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_binsplosion"
+			texturefile = "gfx//interface//disasters//oinukhudi_civil_war.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
+		spriteType = {
+			name = "GFX_disaster_prelude_to_greatness"
+			texturefile = "gfx//interface//disasters//court_and_country.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
+
 }

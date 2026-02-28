@@ -232,7 +232,62 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_combat_terrain_farmlands"
 		texturefile = "gfx/interface/combat_terrain_farmlands.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_dwarven_hold"	
+		texturefile = "gfx//interface//combat_terrain_dwarven_hold.dds"
 	}		
+
+	spriteType = {
+		name = "GFX_combat_terrain_dwarven_road"	
+		texturefile = "gfx//interface//combat_terrain_dwarven_road.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_cavern"	
+		texturefile = "gfx//interface//combat_terrain_cavern.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_combat_terrain_city_terrain"	
+		texturefile = "gfx//interface//combat_terrain_city_terrain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_dwarven_hold_surface"	
+		texturefile = "gfx//interface//combat_terrain_dwarven_hold_surface.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_ancient_forest"	
+		texturefile = "gfx//interface//combat_terrain_ancient_forest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_gladeway"	
+		texturefile = "gfx//interface//combat_terrain_gladeway.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_fey_gladeway"	
+		texturefile = "gfx//interface//combat_terrain_fey_gladeway.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_mushroom_forest_terrain"	
+		texturefile = "gfx//interface//combat_terrain_mushroom_forest_terrain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_shadow_swamp_terrain"	
+		texturefile = "gfx//interface//combat_terrain_shadow_swamp.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_bloodgroves"	
+		texturefile = "gfx//interface//combat_terrain_bloodgroves.dds"
+	}
 	
 #############################################
 

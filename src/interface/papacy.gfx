@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_papacy_action_strip"
-		texturefile = "gfx//interface//papacy_action_strip.dds"
+		texturefile = "gfx//interface//ravelian_action_strip.dds"
 		noOfFrames = 9
 	}
 
@@ -34,37 +34,37 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_apostolicae_servitutis"
+		name = "GFX_contemplation_edict"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_apostolicae_servitutis.dds"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
-		name = "GFX_praeclara_carissimi"
+		name = "GFX_faith_through_trade"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_praeclara_carissimi.dds"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
-		name = "GFX_immensa_aeterni_dei"
+		name = "GFX_revelation_dissemination"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_immensa_aeterni_dei.dds"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
-		name = "GFX_libertas_ecclesiae"
+		name = "GFX_holiness_in_simple_work"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_libertas_ecclesiae.dds"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
-		name = "GFX_illius_qui_se_pro_divini"
+		name = "GFX_ravelian_crusade"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_illius_qui_se_pro_divini.dds"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
-		name = "GFX_dei_gratia_rex"
+		name = "GFX_one_world_one_god"
 		texturefile = "gfx/interface/the_holy_see/golden_bull_dei_gratia_rex.dds"
 		loadType = "INGAME"
 	}
@@ -283,13 +283,13 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_first_concession_harsh"
-		texturefile = "gfx/interface/the_holy_see/heresy_trials.dds"
+		texturefile = "gfx/interface/the_holy_see/catholic_mysticism.dds"
 		loadType = "INGAME"
 	}
 
 	spriteType = {
 		name = "GFX_second_concession_harsh"
-		texturefile = "gfx/interface/the_holy_see/roman_catechism.dds"
+		texturefile = "gfx/interface/the_holy_see/heresy_trials.dds"
 		loadType = "INGAME"
 	}
 
@@ -301,25 +301,25 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_fourth_concession_harsh"
-		texturefile = "gfx/interface/the_holy_see/catholic_mysticism.dds"
+		texturefile = "gfx/interface/the_holy_see/rescinding_celibacy.dds"
 		loadType = "INGAME"
 	}
 
 	spriteType = {
 		name = "GFX_first_concession_concilatory"
-		texturefile = "gfx/interface/the_holy_see/secret_confessions.dds"
-		loadType = "INGAME"
-	}
-
-	spriteType = {
-		name = "GFX_second_concession_concilatory"
 		texturefile = "gfx/interface/the_holy_see/non_latin_bible.dds"
 		loadType = "INGAME"
 	}
 
 	spriteType = {
+		name = "GFX_second_concession_concilatory"
+		texturefile = "gfx/interface/the_holy_see/roman_catechism.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_third_concession_concilatory"
-		texturefile = "gfx/interface/the_holy_see/rescinding_celibacy.dds"
+		texturefile = "gfx/interface/the_holy_see/secret_confessions.dds"
 		loadType = "INGAME"
 	}
 

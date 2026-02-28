@@ -608,54 +608,6 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_am_core_eyalet"
 		texturefile = "gfx/interface/icon_diplomacy_am_core_eyalet.dds"
 	}
-
-	
-	### King of Kings Icons
-
-	spriteType = {
-		name = "GFX_icon_hereditary_pronoia_subject_type"
-		texturefile = "gfx/interface/icon_hereditary_pronoia_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_hereditary_pronoia_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_hereditary_pronoia_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_hereditary_pronoia_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_hereditary_pronoia_subject_type.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_pronoia_subject_type"
-		texturefile = "gfx/interface/icon_pronoia_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_pronoia_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_pronoia_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_pronoia_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_pronoia_subject_type.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_cultural_sphere_of_influence_subject"
-		texturefile = "gfx/interface/icon_cultural_sphere_of_influence_subject.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_cultural_sphere_of_influence_subject"
-		texturefile = "gfx/interface/icon_diplomacy_lead_cultural_sphere_of_influence_subject.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_cultural_sphere_of_influence_subject"
-		texturefile = "gfx/interface/icon_diplomacy_am_cultural_sphere_of_influence_subject.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_icon_commercial_enterprise"
@@ -674,7 +626,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_icon_trade_protectorate"
-		texturefile = "gfx/interface/icon_trade_protectorate.dds"
+		texturefile = "gfx/interface/trade_protectorate.dds" #Anbennar, file has incorrect name
 	}
 	
 	spriteType = {
@@ -734,95 +686,6 @@ spriteTypes = {
 
 	#Winds of Change
 
-	spriteType = {
-		name = "GFX_icon_nahuatl_tributary"
-		texturefile = "gfx/interface/icon_nahuatl_tributary.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_nahuatl_tributary"
-		texturefile = "gfx/interface/icon_diplomacy_lead_nahuatl_tributary.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_nahuatl_tributary"
-		texturefile = "gfx/interface/icon_diplomacy_am_nahuatl_tributary.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_incorporated_vassal_subject_type"
-		texturefile = "gfx/interface/icon_incorporated_vassal_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_incorporated_vassal_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_incorporated_vassal_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_incorporated_vassal_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_incorporated_vassal_subject_type.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_european_colony"
-		texturefile = "gfx/interface/icon_european_colony.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_european_colony"
-		texturefile = "gfx/interface/icon_diplomacy_lead_european_colony.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_european_colony"
-		texturefile = "gfx/interface/icon_diplomacy_am_european_colony.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_mongol_brother_realm_subject_type"
-		texturefile = "gfx/interface/icon_mongol_brother_realm_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_mongol_brother_realm_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_mongol_brother_realm_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_mongol_brother_realm_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_mongol_brother_realm_subject_type.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_integrated_personal_union_subject_type"
-		texturefile = "gfx/interface/icon_integrated_personal_union_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_integrated_personal_union_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_integrated_personal_union_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_integrated_personal_union_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_integrated_personal_union_subject_type.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_soyurghal_subject_type"
-		texturefile = "gfx/interface/icon_soyurghal_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_soyurghal_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_soyurghal_subject_type.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_soyurghal_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_soyurghal_subject_type.dds"
-	}
 
 	### BARS
 	
@@ -2101,4 +1964,200 @@ spriteTypes = {
 		texturefile = "gfx/interface/macro_states_sort/sort_button_180.dds"
 	}	
 	
+	###Anbennar
+
+	# spriteType = {
+	# 	name = "GFX_disaster_allclan_council_disturbance"
+	# 	texturefile = "gfx//interface//disasters//allclan_council_disturbance.dds"
+	# 	noOfFrames = 3
+	# 	loadType = "INGAME"
+	# }
+
+	spriteType = {
+		name = "GFX_bar_good_to_bad_0"
+		texturefile = "gfx//interface//castanor_succession_war_bar_0.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_10"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_10.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_20"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_20.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_30"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_30.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_40"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_40.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_50"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_50.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_60"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_60.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_70"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_70.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_80"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_80.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_90"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_90.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bar_good_to_bad_100"
+		texturefile = "gfx//interface//progress_bar_good_to_bad_100.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_nsc_incident_banner"
+		texturefile = "gfx//interface//icon_nsc_incident_event.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_icon_adventurers_wanted_banner"
+		texturefile = "gfx//interface//icon_adventurers_wanted_banner.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_icon_red_text_2"
+		texturefile = "gfx//interface//icon_red_text_2.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_0"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_0.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_1"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_1.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_2"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_2.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_3"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_3.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_4"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_4.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_5"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_5.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_bar_6"
+		texturefile = "gfx//interface//ghavaanaj_training_bar_6.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_icon_elephant_filled"
+		texturefile = "gfx//interface//icon_elephant_filled.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_icon_elephant_empty"
+		texturefile = "gfx//interface//icon_elephant_empty.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_icon_elephant_blank"
+		texturefile = "gfx//interface//icon_elephant_blank.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ui_ghavaanaj_herd_window"
+		texturefile = "gfx//interface//ui_ghavaanaj_herd_window.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ui_ghavaanaj_herd_window"
+		texturefile = "gfx//interface//ui_ghavaanaj_herd_window.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_adventurer_icon_s"
+		texturefile = "gfx//interface//adventurer_icon_s.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_icon_s"
+		texturefile = "gfx//interface//native_icon_s.dds"
+		loadType = "INGAME"
+	}
+
+	### King of Kings Icons
+
+	spriteType = {
+		name = "GFX_icon_hereditary_pronoia_subject_type"
+		texturefile = "gfx/interface/icon_hereditary_pronoia_subject_type.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_hereditary_pronoia_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_hereditary_pronoia_subject_type.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_hereditary_pronoia_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_hereditary_pronoia_subject_type.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_pronoia_subject_type"
+		texturefile = "gfx/interface/icon_pronoia_subject_type.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_pronoia_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_pronoia_subject_type.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_pronoia_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_pronoia_subject_type.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_cultural_sphere_of_influence_subject"
+		texturefile = "gfx/interface/icon_cultural_sphere_of_influence_subject.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_cultural_sphere_of_influence_subject"
+		texturefile = "gfx/interface/icon_diplomacy_lead_cultural_sphere_of_influence_subject.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_cultural_sphere_of_influence_subject"
+		texturefile = "gfx/interface/icon_diplomacy_am_cultural_sphere_of_influence_subject.dds"
+	}
 }

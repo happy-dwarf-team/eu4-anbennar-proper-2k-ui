@@ -102,6 +102,64 @@ spriteTypes = {
 		texturefile = "gfx/interface/colony_terrain_farmlands.dds"
 	}	
 	
+	###Anbennar
+	
+	spriteType = {
+		name = "GFX_colony_terrain_cavern"
+		texturefile = "gfx/interface/colony_terrain_cavern.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_city_terrain"
+		texturefile = "gfx/interface/colony_terrain_city_terrain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_dwarven_hold"
+		texturefile = "gfx/interface/colony_terrain_dwarven_hold.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_dwarven_hold_surface"
+		texturefile = "gfx/interface/colony_terrain_dwarven_hold_surface.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_dwarven_road"
+		texturefile = "gfx/interface/colony_terrain_dwarven_road.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_ancient_forest"
+		texturefile = "gfx/interface/colony_terrain_ancient_forest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_gladeway"
+		texturefile = "gfx/interface/colony_terrain_gladeway.dds"
+	}
+
+	spriteType = {
+		name = "GFX_colony_terrain_fey_gladeway"	
+		texturefile = "gfx//interface//colony_terrain_fey_gladeway.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_colony_terrain_mushroom_forest_terrain"
+		texturefile = "gfx/interface/colony_terrain_mushroom_forest_terrain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_colony_terrain_shadow_swamp_terrain"
+		texturefile = "gfx/interface/colony_terrain_shadow_swamp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_bloodgroves"
+		texturefile = "gfx/interface/colony_terrain_bloodgroves.dds"
+	}
+	
 #########################################
 
 	spriteType = {
