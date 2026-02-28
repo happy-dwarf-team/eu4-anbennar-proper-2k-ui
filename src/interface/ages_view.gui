@@ -1,3 +1,4 @@
+# TODO: Add 12th ability
 guiTypes = {
 	windowType = {
 		name = "ages_view"
