@@ -5,29 +5,29 @@ guiTypes = {
 	positionType =
 	{
 		name ="countrydecisionsview_scaling_large_min_inc"
-		position = { x= 1080 y = 173 }
+		position = { x = 1080 y = 173 }
 	}
 	
 	#x is minimum resolution height for this country view to increase to huge size
 	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
 	positionType = {
 		name ="countrydecisionsview_scaling_huge_min_inc"
-		position = { x= 1296 y = 377 }
+		position = { x = 1296 y = 377 }
 	}
 
 	windowType = {
 		name = "countrydecisionsview"
-		position = { x=0 y=168 }
-		#position = { x=-720 y=168 }	
-		show_position = { x=0 y =168 }
-		hide_position = { x=-720 y =168 }	
+		#position = { x = 0 y = 168 }
+		position = { x = -720 y = 168 }	
+		show_position = { x = 0 y = 168 }
+		hide_position = { x = -720 y = 168 }	
 		animation_type = "decelerated"
-		animation_time = 10		
-		size = { x=1229 y=120 }
+		animation_time = 300		
+		size = { x = 1229 y = 120 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
 		upsound = tab_decisions
-		
+
 		iconType =
 		{
 			name ="domesticpanel_bg"
@@ -44,7 +44,7 @@ guiTypes = {
 				min_height = 1048
 				spriteType = "GFX_country_decision_view_bg_huge"
 			}	
-			position = { x= -9 y = -12 }
+			position = { x = -8 y = -12 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -56,25 +56,25 @@ guiTypes = {
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
-		}		
-		
+		}
+
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y =95 }
+			position = { x = 18 y = 95 }
 			textureFile = ""
-			font = "vic_36"
+			font = "vic_29s"
 			borderSize = {x = 5 y = 5}	
 			text = "HEADER_DECISIONS"	
-			maxWidth = 615
-			maxHeight = 39
+			maxWidth = 614
+			maxHeight = 38
 			format = centre
 		}
 
 		windowType = {
 			name = "policies_window"
 			backGround=""
-			position = { x=0 y=138 }
-			size = { x=1229 y=120 }
+			position = { x = 0 y = 138 }
+			size = { x = 1229 y = 120 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -83,7 +83,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 211 y = 3 }
+				position = { x = 209 y = 2 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -98,7 +98,7 @@ guiTypes = {
 			{
 				name ="adm_cost_icon"
 				spriteType = "GFX_icon_powers_administrative"
-				position = { x= 30 y = 55 }
+				position = { x = 29 y = 55 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -106,7 +106,7 @@ guiTypes = {
 			{
 				name ="dip_cost_icon"
 				spriteType = "GFX_icon_powers_diplomatic"
-				position = { x= 30 y = 111 }
+				position = { x = 29 y = 112 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -114,7 +114,7 @@ guiTypes = {
 			{
 				name ="mil_cost_icon"
 				spriteType = "GFX_icon_powers_military"
-				position = { x= 30 y = 165 }
+				position = { x = 28 y = 166 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -122,7 +122,7 @@ guiTypes = {
 			{
 				name ="adm_capacity_icon"
 				spriteType = "GFX_policy_possible_adm"
-				position = { x= 23 y = 24 }
+				position = { x = 23 y = 26 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
@@ -131,7 +131,7 @@ guiTypes = {
 			{
 				name ="dip_capacity_icon"
 				spriteType = "GFX_policy_possible_dip"
-				position = { x= 23 y = 80 }
+				position = { x = 23 y = 83 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
@@ -140,14 +140,14 @@ guiTypes = {
 			{
 				name ="mil_capacity_icon"
 				spriteType = "GFX_policy_possible_mil"
-				position = { x= 23 y = 134 }
+				position = { x = 23 y = 137 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "adm_cost"
-				position = { x = 54 y = 62 }
+				position = { x = 55 y = 62 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -160,7 +160,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_cost"
-				position = { x = 54 y = 117 }
+				position = { x = 55 y = 116 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -173,7 +173,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_cost"
-				position = { x = 54 y = 173 }
+				position = { x = 55 y = 173 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -186,7 +186,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "adm_capacity"
-				position = { x = 54 y = 36 }
+				position = { x = 55 y = 36 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -199,7 +199,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_capacity"
-				position = { x = 54 y = 91 }
+				position = { x = 55 y = 90 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -212,7 +212,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_capacity"
-				position = { x = 54 y = 146 }
+				position = { x = 55 y = 146 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -225,21 +225,21 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "adminstrative_policies"
-				position = { x = 93 y = 21 }
+				position = { x = 92 y = 22 }
 				size = { x = 582 y = 77 }
 				format = center
 				spacing = 60
 			}
 			OverlappingElementsBoxType = {
 				name = "diplomacy_policies"
-				position = { x = 93 y = 77 }
+				position = { x = 92 y = 77 }
 				size = { x = 582 y = 77 }
 				format = center
 				spacing = 60
 			}
 			OverlappingElementsBoxType = {
 				name = "military_policies"
-				position = { x = 93 y = 132 }
+				position = { x = 92 y = 132 }
 				size = { x = 582 y = 77 }
 				format = center
 				spacing = 60
@@ -247,13 +247,13 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "modifiers_title"
-				position = { x = 102 y = 207 }
+				position = { x = 131 y = 206 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 0}
 				text = "-2"	
-				maxWidth = 450
+				maxWidth = 360
 				maxHeight = 29
 				text = "COUNTRY_POLICIES_EFFECT"	
 				Orientation = "UPPER_LEFT"
@@ -261,12 +261,12 @@ guiTypes = {
 
 			listBoxType = {
 				name ="modifiers_description_list"
-				position = { x = 30 y = 225 }
+				position = { x = 30 y = 224 }
 				size = { x = 588 y = 96 }
 				backGround=""
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
-				spacing = 3
+				spacing = 2
 				borderSize = {x = 6 y = 6}
 				scrollbartype = "standardlistbox_slider"
 			}
@@ -276,8 +276,8 @@ guiTypes = {
 		windowType = {
 			name = "decisions_window"
 			backGround=""
-			position = { x=15 y=456 }
-			size = { x=1229 y=120 }
+			position = { x = 14 y = 492 }
+			size = { x = 1229 y = 120 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -286,7 +286,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 197 y = 33 }
+				position = { x = 191 y = 34 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -300,21 +300,21 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="decisions_listbox"
-				position = { x=41 y =69}
+				position = { x = 44 y = 79}
 				backGround=""
 				
 				if_resolution = {
-				max_height = 867
-				size = { x=540 y =144}
+				max_height = 827
+				size = { x = 540 y = 144}
 				}
 				if_resolution = {
 				min_height = 868
-				max_height = 1047
-				size = { x=540 y =318}
+				max_height = 1007
+				size = { x = 540 y = 318}
 				}
 				if_resolution = {
 				min_height = 1048
-				size = { x=542 y =528}
+				size = { x = 540 y = 521}
 				}					
 				
 				Orientation = "UPPER_LEFT"
@@ -324,11 +324,2380 @@ guiTypes = {
 				borderSize = {x = 12 y = 12}
 			}	
 		}	
+#___________________________________________________________________#
+#		:Files to edit when adding inventions Checklist:			#
+#			1. estate_privleges/estate_artifice_privileges.txt		#
+#			2. estates/99_artificers.txt							#
+#			3. scripted_effects/artifice_scripted_effects.txt		#
+#			4. events/ArtificeResearch.txt							#
+#			5. common/custom_gui/countrydecisionsview.txt			#
+#			6. scripted_triggers/anb_scripted_triggers_artifice.txt	#
+#			7. Don't forget to localize your work					#
+#-------------------------------------------------------------------#
+#			:OPTIONAL: GFX/GUI editers only:						#
+#			7. interface/countrydecisionsview.gui					#
+#			8. interface/countrydecisionsview.gfx					#
+#																	#
+#			:GFX Assets Folder: 									#
+#			9. gfx/interface/custom_gui/artificery					#
+#																	#
+#			Written By: Tators/River Doge							#
+#___________________________________________________________________#
+
+		#Artificery Inventions Stuff
+		iconType = {
+			name = "artificery_information"
+			spriteType = "GFX_artificery_information"
+			position = { x = 11 y = 342 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
+		#Artificery Fake Button
+		guiButtonType = {
+			name = "artifice_fake_button_capacity_tooltip"
+			position = { x = 511 y = 383 }
+			quadTextureSprite ="GFX_artificery_see_capacity_fake_button"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Capacity Value
+		instantTextBoxType= {
+			position = { x = 364 y = 391}
+			name = "capacity_value"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = "CAPACITY_VALUE"	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			alwaystransparent = yes
+			format = center
+		}
+		#Active Value
+		instantTextBoxType= {
+			position = { x = 364 y = 472}
+			name = "active_value"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = "ACTIVE_VALUE"	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Research - Title
+		instantTextBoxType= {
+			position = { x = 204 y = 434}
+			name = "research_title"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = "RESEARCH_TITLE"	
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+		#Inventions Menu - Title
+		instantTextBoxType= {
+			position = { x = 204 y = 352}
+			name = "inventions_menu_title"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = "INVENTIONS_MENU_TITLE"	
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+		#Capacity - Title
+		instantTextBoxType= {
+			position = { x = 364 y = 352}
+			name = "capacity_title"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = "CAPACITY_TITLE"	
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+		#Active - Title
+		instantTextBoxType= {
+			position = { x = 364 y = 434}
+			name = "active_title"
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = "ACTIVE_TITLE"	
+			orientation = "UPPER_LEFT"
+			format = center
+		}
+		iconType = {
+			name = "inventions_view_bg"
+			if_resolution = {
+				max_height = 1047
+				spriteType = "inventions_menu_background_frames_middle"
+			}
+			if_resolution = {
+				min_height = 1048
+				spriteType = "inventions_menu_background_strip"
+			}
+			position = { x = -8 y = 84 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
+		#In Menu TextBoxes below
+		#Capacity Value(In Menu)
+		instantTextBoxType= {
+			position = { x = 173 y = 149}
+			name = "capacity_value_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Active Value(In Menu)
+		instantTextBoxType= {
+			position = { x = 350 y = 149}
+			name = "active_value_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Capacity - Title(In Menu)
+		instantTextBoxType= {
+			position = { x = 173 y = 118}
+			name = "capacity_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Active - Title(In Menu)
+		instantTextBoxType= {
+			position = { x = 350 y = 118}
+			name = "active_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Society - Title(In Menu)
+		instantTextBoxType= {
+			position = { x = 130 y = 270}
+			name = "society_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Economic - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 444}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 130 y = 518}
+			}
+			name = "economic_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Military - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 617}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 130 y = 768}
+			}
+			name = "military_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Culture - Cultural - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = 264 y = 275}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 284 y = 280}
+			}
+			name = "culture_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Racial Military - Cultural - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = -6 y = 275}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = -25 y = 280}
+			}
+			name = "racialmilitary_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Religion - Cultural - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = -6 y = 532}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = -25 y = 644}
+			}
+			name = "religion_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Special - Cultural - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = 264 y = 532}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 284 y = 644}
+			}
+			name = "special_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Unique Small - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 409}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 130 y = 480}
+			}
+			name = "uniquesmall_title_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Unique Large - Title(In Menu)
+		instantTextBoxType= {
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 325}
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 130 y = 425}
+			}
+			name = "uniquelarge_title_menu"
+			font = "vic_29"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		
+
+		guiButtonType = {
+			name = "artifice_research_inventions"
+			position = { x = 379 y = 457 }
+			quadTextureSprite ="GFX_research_artificery"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "artifice_open_inventions"
+			position = { x = 379 y = 374 }
+			quadTextureSprite ="GFX_research_artificery"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "artifice_close_inventions"
+			position = { x = 244 y = 1014 }
+			quadTextureSprite = "GFX_artificery_close_inventions_menu"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+			shortcut = "ESCAPE"
+		}
+
+		#Close - Title(In Menu)
+		instantTextBoxType= {
+			position = { x = 130 y = 1026}
+			name = "close_title_menu"
+			font = "vic_29s"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+
+		#Generic Inventions Tab
+		#Position offset (x = -13 y = -17) for calculating position using menu PDN or other source
+		#Economic Tier 1
+		guiButtonType = {
+			name = "economic_invention_1_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_1_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_1_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "economic_invention_1_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_1_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 546 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 656 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_1_6"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 305 y = 546 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 287 y = 656 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "economic_invention_1_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 546 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_economic_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 656 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_economic"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+		
+		#Economic Tier 2
+		guiButtonType = {
+			name = "economic_invention_2_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_2_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_2_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "economic_invention_2_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "economic_invention_2_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 546 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 656 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "economic_invention_2_6"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 305 y = 546 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_economic_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 287 y = 656 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_economic"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "economic_invention_2_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 546 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_economic_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 656 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_economic"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Economic Tier 3
+		guiButtonType = {
+			name = "economic_invention_3_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_3_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_3_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "economic_invention_3_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 482 }
+				quadTextureSprite = "GFX_artificery_innovation_economic_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 562 }
+				quadTextureSprite ="GFX_artificery_innovation_economic"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "economic_invention_3_5"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 220 y = 546 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_economic_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 194 y = 656 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_economic"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "economic_invention_3_6"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 305 y = 546 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_economic_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 287 y = 656 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_economic"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "economic_invention_3_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 546 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_economic_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 656 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_economic"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Military Tier 1
+		guiButtonType = {
+			name = "military_invention_1_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_1_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_1_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_1_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_1_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 719 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 905 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		guiButtonType = {
+			name = "military_invention_1_6"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 305 y = 719 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 287 y = 905 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "military_invention_1_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 719 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_military_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 905 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_military"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Military Tier 2
+		guiButtonType = {
+			name = "military_invention_2_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_2_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_2_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_2_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_2_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 719 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 905 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "military_invention_2_6"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 305 y = 719 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_military_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 287 y = 905 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_military"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "military_invention_2_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 719 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_military_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 905 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_military"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Military Tier 3
+		guiButtonType = {
+			name = "military_invention_3_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_3_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_3_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_3_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 655 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 810 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_3_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 719 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 905 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "military_invention_3_6"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 305 y = 719 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 287 y = 905 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "military_invention_3_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 719 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_military_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 905 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_military"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Society Tier 1
+		guiButtonType = {
+			name = "society_invention_1_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_1_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_1_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_1_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_1_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 373 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 408 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_1_6"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 305 y = 373 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 287 y = 408 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "society_invention_1_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 373 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_society_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 408 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_society"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Society Tier 2
+		guiButtonType = {
+			name = "society_invention_2_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_2_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_2_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_2_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_2_5"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 220 y = 373 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 194 y = 408 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "society_invention_2_6"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 305 y = 373 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_society_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 287 y = 408 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_society"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "society_invention_2_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 373 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_society_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 408 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_society"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Society Tier 3
+		guiButtonType = {
+			name = "society_invention_3_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 176 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 148 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_3_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 262 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 240 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+	
+		guiButtonType = {
+			name = "society_invention_3_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 347 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 331 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "society_invention_3_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 432 y = 310 }
+				quadTextureSprite = "GFX_artificery_innovation_society_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 425 y = 313 }
+				quadTextureSprite ="GFX_artificery_innovation_society"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		#Unused Slots - Placeholders for future inventions.
+		#To use, merely uncomment them and move above this instruction
+		#Make sure to also change the associated buttom with "name = x" in "common//custom_gui//countrydecisionsview.txt"
+		# guiButtonType = {
+		# 	name = "society_invention_3_5"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 220 y = 373 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_society_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 194 y = 408 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_society"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "society_invention_3_6"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 305 y = 373 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_society_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 287 y = 408 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_society"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "society_invention_3_7"
+		# if_resolution = {
+		# 	max_height = 1047
+		# 	position = { x = 390 y = 373 }
+		# 	quadTextureSprite = "GFX_artificery_innovation_society_small"
+		# }
+		# if_resolution = {
+		# 	min_height = 1048
+		# 	position = { x = 379 y = 408 }
+		# 	quadTextureSprite ="GFX_artificery_innovation_society"
+		# }
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+
+		#Cultural Invention Tab
+		guiButtonType = {
+			name = "cultural_invention_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 398 y = 311 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 385 y = 325 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "cultural_invention_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 398 y = 380 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 496 y = 325 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "cultural_invention_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 398 y = 450 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 385 y = 422 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "cultural_invention_4"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 480 y = 311 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 496 y = 422 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "cultural_invention_5"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 480 y = 380 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 385 y = 520 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "cultural_invention_6"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 480 y = 450 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 496 y = 520 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Racial Mil Inventions
+		guiButtonType = {
+			name = "racial_military_invention_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 311 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 78 y = 325 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "racial_military_invention_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 380 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 188 y = 325 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "racial_military_invention_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 450 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 78 y = 422 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "racial_military_invention_4"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 211 y = 311 }
+				quadTextureSprite = "GFX_artificery_innovation_military_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 188 y = 422 }
+				quadTextureSprite ="GFX_artificery_innovation_military"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "racial_military_invention_5"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 211 y = 380 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_military_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 78 y = 520 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_military"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "racial_military_invention_6"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 211 y = 450 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_military_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 188 y = 520 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_military"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Religion Inventions
+		guiButtonType = {
+			name = "religion_invention_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 569 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 78 y = 690 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "religion_invention_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 638 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 188 y = 690 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "religion_invention_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 130 y = 708 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 78 y = 786 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "religion_invention_4"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 211 y = 569 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 188 y = 786 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "religion_invention_5"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 211 y = 638 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 78 y = 884 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "religion_invention_6"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 211 y = 708 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 188 y = 884 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Special Inventions
+		guiButtonType = {
+			name = "special_invention_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 398 y = 569 }
+				quadTextureSprite = "GFX_artificery_innovation_unique_small"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 385 y = 690 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "special_invention_2"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 398 y = 638 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 496 y = 690 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "special_invention_3"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 398 y = 708 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 385 y = 786 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "special_invention_4"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 480 y = 569 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 496 y = 786 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "special_invention_5"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 480 y = 638 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 385 y = 884 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "special_invention_6"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 480 y = 708 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique_small"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 496 y = 884 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Unique Invention
+		guiButtonType = {
+			name = "unique_invention_1"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 184 y = 455 }
+				quadTextureSprite = "GFX_artificery_innovation_unique"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 184 y = 523 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_2"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 283 y = 455 }
+				quadTextureSprite = "GFX_artificery_innovation_unique"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 286 y = 523 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_3"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 385 y = 455 }
+				quadTextureSprite = "GFX_artificery_innovation_unique"
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 388 y = 523 }
+				quadTextureSprite ="GFX_artificery_innovation_unique"
+			}
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "unique_invention_4"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 184 y = 554 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 184 y = 625 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "unique_invention_5"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 283 y = 554 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 286 y = 625 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		# guiButtonType = {
+		# 	name = "unique_invention_6"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 385 y = 554 }
+		# 		quadTextureSprite = "GFX_artificery_innovation_unique"
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 388 y = 625 }
+		# 		quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	}
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+		#Unique Inventions Large Menu
+		guiButtonType = {
+			name = "unique_invention_1_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 83 y = 403 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 82 y = 505 }
+			}
+			quadTextureSprite = "GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_2_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 182 y = 403 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 184 y = 505 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_3_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 287 y = 403 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 286 y = 505 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_4_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 386 y = 403 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 388 y = 505 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_5_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 491 y = 403 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 490 y = 505 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_6_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 83 y = 505 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 82 y = 607 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_7_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 182 y = 505 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 184 y = 607 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_8_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 287 y = 505 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 286 y = 607 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_9_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 386 y = 505 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 388 y = 607 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_10_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 491 y = 505 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 490 y = 607 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_11_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 83 y = 607 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 76 y = 709 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_12_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 182 y = 607 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 184 y = 709 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_13_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 287 y = 607 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 286 y = 709 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "unique_invention_14_large"
+			if_resolution = {
+				max_height = 1047
+				position = { x = 386 y = 607 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 388 y = 709 }
+			}
+			quadTextureSprite ="GFX_artificery_innovation_unique"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "unique_invention_15_large"
+		# 	if_resolution = {
+		# 		max_height = 1047
+		# 		position = { x = 491 y = 607 }
+		# 	}
+		# 	if_resolution = {
+		# 		min_height = 1048
+		# 		position = { x = 490 y = 709 }
+		# 	}
+		# 	quadTextureSprite ="GFX_artificery_innovation_unique"
+		# 	Orientation = "UPPER_LEFT"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+
+
+		#Artificery Invention Tab Selectors
+		guiButtonType = {
+			name = "artificery_generic_tab_tier_1"
+			position = { x = 10 y = 196 }
+			quadTextureSprite ="GFX_artifice_tab_icon"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "artificery_generic_tab_tier_2"
+			position = { x = 138 y = 196 }
+			quadTextureSprite ="GFX_artifice_tab_icon"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "artificery_generic_tab_tier_3"
+			position = { x = 266 y = 196 }
+			quadTextureSprite ="GFX_artifice_tab_icon"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "artificery_culture_tab"
+			position = { x = 395 y = 196 }
+			quadTextureSprite ="GFX_artifice_tab_icon"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "artificery_unique_tab"
+			position = { x = 523 y = 196 }
+			quadTextureSprite ="GFX_artifice_tab_icon"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		#Tier 1 - Tab(In Menu)
+		instantTextBoxType= {
+			position = { x = -131 y = 222}
+			name = "tier1_tab_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Tier 2 - Tab(In Menu)
+		instantTextBoxType= {
+			position = { x = 2 y = 222}
+			name = "tier2_tab_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Tier 3 - Tab(In Menu)
+		instantTextBoxType= {
+			position = { x = 130 y = 222}
+			name = "tier3_tab_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Cultural - Tab(In Menu)
+		instantTextBoxType= {
+			position = { x = 257 y = 222}
+			name = "cultural_tab_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+		#Unique - Tab(In Menu)
+		instantTextBoxType= {
+			position = { x = 385 y = 222}
+			name = "unique_tab_menu"
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 408
+			maxHeight = 24
+			text = ""	
+			orientation = "UPPER_LEFT"
+			scripted = yes
+			format = center
+		}
+
+		#Artifice Tier Emblems
+		#Tier 1-3
+		guiButtonType = {
+			name = "artifice_tier_emblem"
+			position = { x = 88 y = 94 }
+			quadTextureSprite ="GFX_artifice_tier_emblems"
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
 
 		### Select new policy window.
 		windowType = {
 			name = "new_policy_window"
-			position = { x=-9 y=-11 }	
+			position = { x=-9 y=-11 }
 			size = { x=466 y=480 }
 			moveable = 0
 			Orientation = "UPPER_LEFT"
@@ -547,7 +2916,7 @@ guiTypes = {
 					min_height = 1080
 				position = { x= 637 y = 1059 }
 				}
-				quadTextureSprite ="GFX_standard_button_71"	
+				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
 				shortcut = "z"			
@@ -555,14 +2924,13 @@ guiTypes = {
 				clicksound = back_click
 			}
 		}
-			
 	}
 
 	windowType = {
 		name = "countrydecisionsview_decision_entry"
 		backGround=""
-		position = { x=0 y=0 }
-		size = { x=360 y= 33 }
+		position = { x = 0 y = 0 }	
+		size = { x = 360 y = 34 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -572,32 +2940,31 @@ guiTypes = {
 		iconType = {
 			name = "decisions_banner"
 			spriteType ="GFX_nation_decisions_banner"	
-			position = { x= -18 y = -21 }
+			position = { x = -18 y = -20 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "decision_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x=0 y = -21}
+			position = { x = 0 y = -20}
 			orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType= {
-			position = { x=29 y = -9}
+			position = { x = 29 y = -7}
 			name = "title"
-			font = "vic_18"																#vic_18
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 395																	#280
-			maxHeight = 20
+			maxWidth = 336
+			maxHeight = 24
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			fixedsize = yes
 		}
 		guiButtonType = {
 			name = "decision_checkbox"
-			position = { x = 416  y = -7 }
+			position = { x = 396  y = -6 }
 			quadTextureSprite ="GFX_checkbox_small"	
 			tooltip = ""
 			tooltipText =""
@@ -607,12 +2974,12 @@ guiTypes = {
 		iconType = {
 			name = "info_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x=437 y = -13}
+			position = { x = 418 y = -13}
 			orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
 			name = "select_button"
-			position = { x=470 y = -16}
+			position = { x = 450 y = -14}
 			quadTextureSprite ="GFX_execute_decision"	
 			tooltip = ""
 			tooltipText =""
@@ -625,8 +2992,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_major_decision_entry"
 		backGround=""
-		position = { x=0 y= 25 }
-		size = { x=360 y= 33 }
+		position = { x = 0 y = 25 }	
+		size = { x = 360 y = 34 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -636,31 +3003,31 @@ guiTypes = {
 		iconType = {
 			name = "decisions_banner"
 			spriteType ="GFX_nation_major_decisions_banner"	
-			position = { x= -18 y = -21 }
+			position = { x = -18 y = -20 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "decision_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x=0 y = -21 }
+			position = { x = 0 y = -20 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType= {
-			position = { x=29 y = -9}
+			position = { x = 29 y = -7}
 			name = "title"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 480																	#280
-			maxHeight = 20
+			maxWidth = 336
+			maxHeight = 24
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
 		}
 		guiButtonType = {
 			name = "decision_checkbox"
-			position = { x = 416  y = -7 }
+			position = { x = 396  y = -6 }
 			quadTextureSprite ="GFX_checkbox_small"	
 			tooltip = ""
 			tooltipText =""
@@ -670,12 +3037,12 @@ guiTypes = {
 		iconType = {
 			name = "info_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x=437 y =-13}
+			position = { x = 418 y = -13}
 			orientation = "UPPER_LEFT"
 		}		
 		guiButtonType = {
 			name = "select_button"
-			position = { x=470 y =-16}
+			position = { x = 450 y = -14}
 			quadTextureSprite ="GFX_execute_decision"	
 			tooltip = ""
 			tooltipText =""
@@ -690,8 +3057,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_activepolicy"
 		backGround =""
-		position = { x=0 y=0 }	
-		size = { x=120  y=39 }
+		position = { x = 0 y = 0 }	
+		size = { x = 120  y = 38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -700,11 +3067,11 @@ guiTypes = {
 		{
 			name ="button1"
 			quadTextureSprite = "GFX_idea_economic_ideas"
-			position = { x= -30 y = 0 }
+			position = { x = -30 y = 0 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
-		
+
 		iconType =
 		{
 			name ="button1"
@@ -718,7 +3085,7 @@ guiTypes = {
 		{
 			name ="button2"
 			quadTextureSprite = "GFX_idea_economic_ideas"
-			position = { x= 25 y = 0 }
+			position = { x = 25 y = 0 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
@@ -731,11 +3098,11 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			scale = 0.62
 		}
-		
+
 		iconType = {
 			name ="policy_icon_frame"
 			spriteType = "GFX_policy_icon_frame"
-			position = { x= -23 y = 9 }
+			position = { x = -23 y = 10 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -746,8 +3113,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_possiblepolicy"
 		backGround =""
-		position = { x=0 y=0 }	
-		size = { x=120  y=39 }
+		position = { x = 0 y = 0 }	
+		size = { x = 120  y = 38 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -756,7 +3123,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="button"
 			quadTextureSprite = "GFX_policy_icon_frame_empty"
-			position = { x= -23 y = 9 }
+			position = { x = -23 y = 10 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
@@ -767,8 +3134,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_policymodifier_row"
 		backGround =""
-		position = { x = 30 y = 225 }
-		size = { x=600 y=29 }
+		position = { x = 30 y = 224 }
+		size = { x = 600 y = 29 }
 		moveable = 0
 		horizontalBorder = ""
 		fullScreen = no
@@ -789,7 +3156,7 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_policymodifier"
 		backGround =""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=120  y=24 }
 		moveable = 0
 		dontRender = ""
@@ -805,7 +3172,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x=42 y =8}
+			position = { x = 42 y = 12}
 			name = "modifier_value"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -820,7 +3187,7 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_pickpolicy"
 		backGround =""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=75 y=84 }
 		moveable = 0
 		dontRender = ""
