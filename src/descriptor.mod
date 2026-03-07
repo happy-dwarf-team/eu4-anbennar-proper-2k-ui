@@ -9,5 +9,9 @@ tags={
     "Map"
     "Missions And Decisions"
 }
-name="Anbennar - Happy Dwarfed 2K UI"
+dependencies={
+    "Anbennar: A Fantasy Total Conversion"
+    "Proper 2K UI Enhanced"
+}
+name="Anbennar - Proper 2K UI"
 supported_version="v1.37.*.*"
