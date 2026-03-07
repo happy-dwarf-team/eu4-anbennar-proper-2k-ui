@@ -169,7 +169,7 @@ guiTypes = {
 		}
 
 		scrollbarType = {
-			name = "privileges_scrollbar"	
+			name = "privileges_scrollbar"
 			slider = "landslider_SliderButton"
 			track= "landslider_TrackButton"
 			leftbutton = "landslider_upButton"
@@ -219,8 +219,8 @@ guiTypes = {
 			position = { x = 240 y = 28 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0 }	
-			text = ""	
+			borderSize = {x = 0 y = 0 }
+			text = ""
 			maxWidth = 72
 			maxHeight = 24
 			format = centre
@@ -233,13 +233,13 @@ guiTypes = {
 		iconType = {
 			name = "estate_icon"
 			scale = 0.5
-			position = { x = 0 y = 7 }
+			position = { x = -24 y = 7 }
 			quadTextureSprite ="GFX_estates_icons_colour-stroke"
 		}
 
 		instantTextBoxType = {
 			name = "dev_share_text"
-			position = { x = 24 y = 6 }
+			position = { x = 0 y = 6 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -291,15 +291,15 @@ guiTypes = {
 
 	windowType = {
 		name = "crown_land_interaction_item"
-		position = { x = 0 y = 4 }
-		size = { x = 57 y = 57 }
+		position = { x = -40 y = -40 }
+		size = { x = 120 y = 58 }
 		show_position = { x = 0 y = 0 }
 		moveable = 0
 
 		guiButtonType = {
 			name = "interaction_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite ="GFX_hint_questionmark"
+			quadTextureSprite ="GFX_empty"
 			Orientation = "UPPER_LEFT"
 		}
 	}
@@ -329,7 +329,7 @@ guiTypes = {
 			name = "estate_header"
 			position = { x=15 y=139 }
 			Orientation = "UPPER_LEFT"
-			quadTextureSprite ="GFX_new_estate_header"
+			quadTextureSprite ="GFX_estate_header"
 		}
 
 
@@ -347,7 +347,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "dev_share_title"
-			position = { x = 42 y = 137 }
+			position = { x = 35 y = 137 }	#x was 35
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -359,7 +359,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crownland_title"
-			position = { x = 327 y = 137 }
+			position = { x = 288 y = 137 }	#x was 273
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -371,7 +371,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "agenda_title"
-			position = { x = 509 y = 137 }
+			position = { x = 450 y = 137 }	#x was 375
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -381,56 +381,69 @@ guiTypes = {
 			format = centre
 		}
 
+		instantTextBoxType = {
+			name = "menu_title"
+			position = { x = 532 y = 137 }	#x was 375
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "Menu"
+			maxWidth = 120
+			maxHeight = 45
+			format = centre
+		}
+
 		iconType = {
 			name ="dev_share_pie_chart"
 			spriteType = "GFX_ledger_piechart_default"
-			position = { x= 96 y = 66 }
+			position = { x = 68 y = 66 }
 		}
 
 		iconType = {
 			name ="dev_share_pie_chart_overlays"
 			spriteType = "GFX_no_personality_chart_overlay"
-			position = { x= 47 y = 179 }
-			scale = 1.38
+			position = { x = 19 y = 179 }
+			scale = 1.37
 
 		}
 		gridBoxType = {
 			name = "estates_dev_share_gridbox"
-			position = { x = 150 y = 168 }
+			position = { x = 144 y = 168 }
 			size = { width = 120 height = 120 }
 			slotsize = { width = 69 height = 36 }
 			max_slots_horizontal = 2
 			format = "UPPER_LEFT"
 		}
 
-		iconType = {
-			name = "agenda_icon"
-			spriteType = "GFX_estates_icons"
-			position = { x = 522 y = 202 }
-		}
-
-		guiButtonType = {
-			name = "agenda_state"
-			position = { x = 582 y = 200 }
-			quadTextureSprite ="GFX_agenda_goto"
-			Orientation = "UPPER_LEFT"
-		}
-
 		instantTextBoxType = {
 			name = "agenda_effects"
-			position = { x = 516 y = 168 }
+			position = { x = 456 y = 168 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = { x = 5 y = 5 }
 			text = "AGENDA_EFFECTS"
-			maxWidth = 615
-			maxHeight = 45
+			maxWidth = 127
+			maxHeight = 149
 			format = left
 		}
 
 		iconType = {
+			name = "agenda_icon"
+			spriteType = "GFX_estates_icons"
+			scale = 0.8
+			position = { x = 466 y = 242 }	#x was 430, y was 180
+		}
+
+		guiButtonType = {
+			name = "agenda_state"
+			position = { x = 506 y = 234 }	#x was 470, y was 180
+			quadTextureSprite ="GFX_agenda_goto"
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
 			name = "crown_land_modifier_icon_1"
-			position = { x=309 y=165 }
+			position = { x = 281 y = 165 }		#x was 270, y was 137
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -438,7 +451,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_1"
-			position = { x=340 y=165 }
+			position = { x = 310 y = 165 }		#x was 300, y was 137
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -450,7 +463,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_2"
-			position = { x=309 y=186 }
+			position = { x = 281 y = 192 }		#x was 270, y was 155
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -458,7 +471,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_2"
-			position = { x=340 y=186 }
+			position = { x = 310 y = 192 }		#x was 300, y was 155
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -470,7 +483,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_3"
-			position = { x=404 y=165 }
+			position = { x = 366 y = 192 }		#x was 345, y was 137
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -478,7 +491,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_3"
-			position = { x=432 y=165 }
+			position = { x = 391 y = 192 }		#x was 373, y was 137
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -490,7 +503,7 @@ guiTypes = {
 
 		iconType = {
 			name = "crown_land_modifier_icon_4"
-			position = { x=402 y=186 }
+			position = { x = 366 y = 165 }		#x was 345, y was 155
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			quadTextureSprite ="GFX_event_bg_transparency"
@@ -498,7 +511,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "crown_land_modifier_desc_4"
-			position = { x=432 y=186 }
+			position = { x = 395 y = 165 }		#x was 373, y was 155
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=5 y=5}
@@ -511,10 +524,10 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "crown_land_interactions"
-			position = { x = 324 y = 216 }
+			position = { x = 322 y = 216 }
 			size = { width = 240 height = 120 }
-			slotsize = { width = 57 height = 57 }
-			max_slots_horizontal = 3
+			slotsize = { width = 59 height = 59 }
+			max_slots_horizontal = 6
 			format = "UPPER_LEFT"
 		}
 
