@@ -327,7 +327,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_ruler"
-			position = { x = 44  y = 206 }
+			position = { x = 74  y = 206 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -346,6 +346,25 @@ guiTypes = {
 			spriteType = "GFX_gender_icon"
 			position = { x= 22 y = 212 }
 			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name = "ruler_race_icon"
+			spriteType = "GFX_ruler_race_icon"
+			position = { x = 46 y = 210 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
+
+		iconType =
+		{
+			name = "ruler_is_mage_icon"
+			spriteType = "GFX_icon_magic_small"
+			position = { x = 56 y = 218 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+			scripted = yes
 		}
 
 		iconType =
@@ -413,7 +432,20 @@ guiTypes = {
 
 		# End of ruler statas
 
+		# Raj cohesion display
 
+		instantTextBoxType = {
+			position = { x = 180 y = 275 }
+			name = "raj_text_cohesion_diplo"
+			font = "vic_18"
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 240
+			maxHeight = 32
+			text = ""
+			orientation = "UPPER_LEFT"
+			format = left
+			scripted = yes
+		}
 
 
 		# Country stats
