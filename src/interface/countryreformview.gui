@@ -1250,7 +1250,7 @@ guiTypes = {
 		name = "gov_view_reform_level_entry_5"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=624 y=357 }
+		size = { x=624 y=432 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
