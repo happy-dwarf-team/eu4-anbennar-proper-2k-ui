@@ -5,25 +5,25 @@ guiTypes = {
 	positionType =
 	{
 		name ="countrydecisionsview_scaling_large_min_inc"
-		position = { x = 1080 y = 173 }
+		position = { x= 1080 y = 173 }
 	}
 	
 	#x is minimum resolution height for this country view to increase to huge size
 	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
 	positionType = {
 		name ="countrydecisionsview_scaling_huge_min_inc"
-		position = { x = 1296 y = 377 }
+		position = { x= 1296 y = 377 }
 	}
 
 	windowType = {
 		name = "countrydecisionsview"
-		#position = { x = 0 y = 168 }
-		position = { x = -720 y = 168 }	
-		show_position = { x = 0 y = 168 }
-		hide_position = { x = -720 y = 168 }	
+		position = { x=0 y=168 }
+		#position = { x=-720 y=168 }
+		show_position = { x=0 y =168 }
+		hide_position = { x=-720 y =168 }
 		animation_type = "decelerated"
-		animation_time = 300		
-		size = { x = 1229 y = 120 }
+		animation_time = 10
+		size = { x=1229 y=120 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
 		upsound = tab_decisions
@@ -44,7 +44,7 @@ guiTypes = {
 				min_height = 1048
 				spriteType = "GFX_country_decision_view_bg_huge"
 			}	
-			position = { x = -8 y = -12 }
+			position = { x= -9 y = -12 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -60,21 +60,21 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y = 95 }
+			position = { x = 18 y =95 }
 			textureFile = ""
-			font = "vic_29s"
+			font = "vic_36"
 			borderSize = {x = 5 y = 5}	
 			text = "HEADER_DECISIONS"	
-			maxWidth = 614
-			maxHeight = 38
+			maxWidth = 615
+			maxHeight = 39
 			format = centre
 		}
 
 		windowType = {
 			name = "policies_window"
 			backGround=""
-			position = { x = 0 y = 138 }
-			size = { x = 1229 y = 120 }
+			position = { x=0 y=138 }
+			size = { x=1229 y=120 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -83,7 +83,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 209 y = 2 }
+				position = { x = 211 y = 3 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -98,7 +98,7 @@ guiTypes = {
 			{
 				name ="adm_cost_icon"
 				spriteType = "GFX_icon_powers_administrative"
-				position = { x = 29 y = 55 }
+				position = { x= 30 y = 55 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -106,7 +106,7 @@ guiTypes = {
 			{
 				name ="dip_cost_icon"
 				spriteType = "GFX_icon_powers_diplomatic"
-				position = { x = 29 y = 112 }
+				position = { x= 30 y = 111 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -114,7 +114,7 @@ guiTypes = {
 			{
 				name ="mil_cost_icon"
 				spriteType = "GFX_icon_powers_military"
-				position = { x = 28 y = 166 }
+				position = { x= 30 y = 165 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -122,7 +122,7 @@ guiTypes = {
 			{
 				name ="adm_capacity_icon"
 				spriteType = "GFX_policy_possible_adm"
-				position = { x = 23 y = 26 }
+				position = { x= 23 y = 24 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
@@ -131,7 +131,7 @@ guiTypes = {
 			{
 				name ="dip_capacity_icon"
 				spriteType = "GFX_policy_possible_dip"
-				position = { x = 23 y = 83 }
+				position = { x= 23 y = 80 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
@@ -140,14 +140,14 @@ guiTypes = {
 			{
 				name ="mil_capacity_icon"
 				spriteType = "GFX_policy_possible_mil"
-				position = { x = 23 y = 137 }
+				position = { x= 23 y = 134 }
 				scale = 0.6
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "adm_cost"
-				position = { x = 55 y = 62 }
+				position = { x = 54 y = 62 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -160,7 +160,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_cost"
-				position = { x = 55 y = 116 }
+				position = { x = 54 y = 117 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -173,7 +173,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_cost"
-				position = { x = 55 y = 173 }
+				position = { x = 54 y = 173 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -186,7 +186,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "adm_capacity"
-				position = { x = 55 y = 36 }
+				position = { x = 54 y = 36 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -199,7 +199,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_capacity"
-				position = { x = 55 y = 90 }
+				position = { x = 54 y = 91 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -212,7 +212,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_capacity"
-				position = { x = 55 y = 146 }
+				position = { x = 54 y = 146 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -225,21 +225,21 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "adminstrative_policies"
-				position = { x = 92 y = 22 }
+				position = { x = 93 y = 21 }
 				size = { x = 582 y = 77 }
 				format = center
 				spacing = 60
 			}
 			OverlappingElementsBoxType = {
 				name = "diplomacy_policies"
-				position = { x = 92 y = 77 }
+				position = { x = 93 y = 77 }
 				size = { x = 582 y = 77 }
 				format = center
 				spacing = 60
 			}
 			OverlappingElementsBoxType = {
 				name = "military_policies"
-				position = { x = 92 y = 132 }
+				position = { x = 93 y = 132 }
 				size = { x = 582 y = 77 }
 				format = center
 				spacing = 60
@@ -247,13 +247,13 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "modifiers_title"
-				position = { x = 131 y = 206 }
+				position = { x = 102 y = 207 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 5 y = 0}
 				text = "-2"	
-				maxWidth = 360
+				maxWidth = 450
 				maxHeight = 29
 				text = "COUNTRY_POLICIES_EFFECT"	
 				Orientation = "UPPER_LEFT"
@@ -261,12 +261,12 @@ guiTypes = {
 
 			listBoxType = {
 				name ="modifiers_description_list"
-				position = { x = 30 y = 224 }
+				position = { x = 30 y = 225 }
 				size = { x = 588 y = 96 }
 				backGround=""
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
-				spacing = 2
+				spacing = 3
 				borderSize = {x = 6 y = 6}
 				scrollbartype = "standardlistbox_slider"
 			}
@@ -276,8 +276,8 @@ guiTypes = {
 		windowType = {
 			name = "decisions_window"
 			backGround=""
-			position = { x = 14 y = 492 }
-			size = { x = 1229 y = 120 }
+			position = { x=15 y=492 }
+			size = { x=1229 y=120 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -286,7 +286,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 191 y = 34 }
+				position = { x = 197 y = 33 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -300,21 +300,21 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="decisions_listbox"
-				position = { x = 44 y = 79}
+				position = { x = 41 y = 79}
 				backGround=""
 				
 				if_resolution = {
-				max_height = 827
-				size = { x = 540 y = 144}
+				max_height = 867
+				size = { x=540 y =144}
 				}
 				if_resolution = {
 				min_height = 868
-				max_height = 1007
-				size = { x = 540 y = 318}
+				max_height = 1047
+				size = { x=540 y =318}
 				}
 				if_resolution = {
 				min_height = 1048
-				size = { x = 540 y = 521}
+				size = { x=542 y =528}
 				}					
 				
 				Orientation = "UPPER_LEFT"
@@ -2924,13 +2924,14 @@ guiTypes = {
 				clicksound = back_click
 			}
 		}
+
 	}
 
 	windowType = {
 		name = "countrydecisionsview_decision_entry"
 		backGround=""
-		position = { x = 0 y = 0 }	
-		size = { x = 360 y = 34 }
+		position = { x=0 y=0 }
+		size = { x=360 y= 33 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -2940,31 +2941,32 @@ guiTypes = {
 		iconType = {
 			name = "decisions_banner"
 			spriteType ="GFX_nation_decisions_banner"	
-			position = { x = -18 y = -20 }
+			position = { x= -18 y = -21 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "decision_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x = 0 y = -20}
+			position = { x=0 y = -21}
 			orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType= {
-			position = { x = 29 y = -7}
+			position = { x=29 y = -9}
 			name = "title"
-			font = "vic_18"
+			font = "vic_18"																#vic_18
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 336
-			maxHeight = 24
+			maxWidth = 395																	#280
+			maxHeight = 20
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
+			fixedsize = yes
 		}
 		guiButtonType = {
 			name = "decision_checkbox"
-			position = { x = 396  y = -6 }
+			position = { x = 416  y = -7 }
 			quadTextureSprite ="GFX_checkbox_small"	
 			tooltip = ""
 			tooltipText =""
@@ -2974,12 +2976,12 @@ guiTypes = {
 		iconType = {
 			name = "info_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x = 418 y = -13}
+			position = { x=437 y = -13}
 			orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
 			name = "select_button"
-			position = { x = 450 y = -14}
+			position = { x=470 y = -16}
 			quadTextureSprite ="GFX_execute_decision"	
 			tooltip = ""
 			tooltipText =""
@@ -2992,8 +2994,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_major_decision_entry"
 		backGround=""
-		position = { x = 0 y = 25 }	
-		size = { x = 360 y = 34 }
+		position = { x=0 y= 25 }
+		size = { x=360 y= 33 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -3003,31 +3005,31 @@ guiTypes = {
 		iconType = {
 			name = "decisions_banner"
 			spriteType ="GFX_nation_major_decisions_banner"	
-			position = { x = -18 y = -20 }
+			position = { x= -18 y = -21 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "decision_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x = 0 y = -20 }
+			position = { x=0 y = -21 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType= {
-			position = { x = 29 y = -7}
+			position = { x=29 y = -9}
 			name = "title"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 336
-			maxHeight = 24
+			maxWidth = 480																	#280
+			maxHeight = 20
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
 		}
 		guiButtonType = {
 			name = "decision_checkbox"
-			position = { x = 396  y = -6 }
+			position = { x = 416  y = -7 }
 			quadTextureSprite ="GFX_checkbox_small"	
 			tooltip = ""
 			tooltipText =""
@@ -3037,12 +3039,12 @@ guiTypes = {
 		iconType = {
 			name = "info_icon"
 			spriteType ="GFX_info_decision"	
-			position = { x = 418 y = -13}
+			position = { x=437 y =-13}
 			orientation = "UPPER_LEFT"
 		}		
 		guiButtonType = {
 			name = "select_button"
-			position = { x = 450 y = -14}
+			position = { x=470 y =-16}
 			quadTextureSprite ="GFX_execute_decision"	
 			tooltip = ""
 			tooltipText =""
@@ -3057,8 +3059,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_activepolicy"
 		backGround =""
-		position = { x = 0 y = 0 }	
-		size = { x = 120  y = 38 }
+		position = { x=0 y=0 }
+		size = { x=120  y=39 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -3067,7 +3069,7 @@ guiTypes = {
 		{
 			name ="button1"
 			quadTextureSprite = "GFX_idea_economic_ideas"
-			position = { x = -30 y = 0 }
+			position = { x= -30 y = 0 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
@@ -3085,7 +3087,7 @@ guiTypes = {
 		{
 			name ="button2"
 			quadTextureSprite = "GFX_idea_economic_ideas"
-			position = { x = 25 y = 0 }
+			position = { x= 25 y = 0 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
@@ -3102,7 +3104,7 @@ guiTypes = {
 		iconType = {
 			name ="policy_icon_frame"
 			spriteType = "GFX_policy_icon_frame"
-			position = { x = -23 y = 10 }
+			position = { x= -23 y = 9 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -3113,8 +3115,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_possiblepolicy"
 		backGround =""
-		position = { x = 0 y = 0 }	
-		size = { x = 120  y = 38 }
+		position = { x=0 y=0 }
+		size = { x=120  y=39 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -3123,7 +3125,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="button"
 			quadTextureSprite = "GFX_policy_icon_frame_empty"
-			position = { x = -23 y = 10 }
+			position = { x= -23 y = 9 }
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
 		}
@@ -3134,8 +3136,8 @@ guiTypes = {
 	windowType = {
 		name = "countrydecisionsview_policymodifier_row"
 		backGround =""
-		position = { x = 30 y = 224 }
-		size = { x = 600 y = 29 }
+		position = { x = 30 y = 225 }
+		size = { x=600 y=29 }
 		moveable = 0
 		horizontalBorder = ""
 		fullScreen = no
@@ -3172,7 +3174,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x = 42 y = 12}
+			position = { x=42 y =8}
 			name = "modifier_value"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
