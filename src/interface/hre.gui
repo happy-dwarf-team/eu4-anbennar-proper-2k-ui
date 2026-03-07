@@ -184,7 +184,7 @@ guiTypes = {
 		iconType = {
 			name = "hre_bg_electors"
 			spriteType = "GFX_hre_bg_electors"
-			position = { x = 286 y = 150 }
+			position = { x = 286 y = 145 }
 			alwaystransparent = yes
 		}
 
@@ -192,13 +192,13 @@ guiTypes = {
 			name = "electors_label_bg"
 			spriteType = "GFX_hre_ribbon_red"
 			scale = 0.75
-			position = { x = 541 y = 115 }
+			position = { x = 531 y = 110 }
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "electors_label"
-			position = { x = 634 y = 116 }
+			position = { x = 624 y = 112 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 5}
@@ -208,51 +208,52 @@ guiTypes = {
 			format = left
 		}
 
-		# iconType = {
-		# 	name = "hre_bg_reforms"
-		# 	spriteType = "GFX_hre_bg_cent"
-		# 	position = { x = 6 y = 305 }
-		# 	alwaystransparent = yes
-		# }
+		iconType = {
+			name = "hre_bg_reforms"
+			spriteType = "GFX_hre_bg_cent"
+			position = { x = 486 y = 348 }
+			alwaystransparent = yes
+		}
 
-		# iconType = {
-		# 	name = "reforms_label_bg"
-		# 	spriteType = "GFX_hre_ribbon_red"
-		# 	scale = 0.7
-		# 	position = { x = 41 y = 271 }
-		# 	alwaystransparent = yes
-		# }
-		#
-		# instantTextBoxType = {
-		# 	name = "reforms_label"
-		# 	position = { x = 32 y = 273 }
-		# 	format = left
-		# 	textureFile = ""
-		# 	font = "vic_18"
-		# 	borderSize = {x = 5 y = 5}
-		# 	text = "HRE_REFORMS"
-		# 	maxWidth = 144
-		# 	maxHeight = 39
-		# }
+		iconType = {
+			name = "reforms_label_bg"
+			spriteType = "GFX_hre_ribbon_red"
+			scale = 0.72
+			position = { x = 538 y = 320 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "reforms_label"
+			position = { x = 630 y = 323 }
+			format = left
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 5 y = 5}
+			text = "HRE_REFORMS"
+			maxWidth = 144
+			maxHeight = 39
+		}
 
 		iconType = {
 			name = "left_branch_label_bg_decent"
-			spriteType = "GFX_hre_bg_reforms"
-			position = { x = 310 y = 290 }
+			spriteType = "GFX_hre_bg_past_incidents"
+			position = { x = 321 y = 284 }
 			alwaystransparent = yes
+			scale = 0.56
 		}
 
 		iconType = {
 			name = "left_branch_label_bg"
 			spriteType = "GFX_hre_ribbon_red"
-			scale = 0.8
-			position = { x = 586 y = 270 }
+			scale = 0.66
+			position = { x = 285 y = 265 }
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "left_branch_label" #decentralization x=+15 y=+6
-			position = { x = 680 y = 275 }
+			position = { x = 354 y = 266 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -264,22 +265,23 @@ guiTypes = {
 
 		iconType = {
 			name = "right_branch_label_bg_cent"
-			spriteType = "GFX_hre_bg_reforms"
-			position = { x = 310 y = 408 }
+			spriteType = "GFX_hre_bg_past_incidents"
+			position = { x = 850 y = 284 }
 			alwaystransparent = yes
+			scale = 0.56
 		}
 
 		iconType = {
 			name = "right_branch_label_bg"
 			spriteType = "GFX_hre_ribbon_red"
-			scale = 0.8
-			position = { x = 586 y = 388 }
+			scale = 0.66
+			position = { x = 813 y = 265 }
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "right_branch_label" #centralization x=+10 y= +6
-			position = { x = 680 y = 393 }
+			position = { x = 885 y = 266 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -460,12 +462,12 @@ guiTypes = {
 				name = "incident_label_bg"
 				spriteType = "GFX_hre_ribbon_yellow"
 				scale = 0.75
-				position = { x = 384 y = 513 }
+				position = { x = 374 y = 513 }
 			}
 				
 			instantTextBoxType = {
 				name = "imperialdiet_label2"
-				position = { x = 468 y = 533 }
+				position = { x = 458 y = 533 }
 				format = left
 				textureFile = ""
 				font = "vic_18"
@@ -543,28 +545,28 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "reform_container_mainline"
-				position = { x = 310 y = 275 }
+				position = { x = 498 y = 355 }
 				size = { width = 864 height = 75 }
 				slotsize = { width = 71 height = 54 }
-				max_slots_horizontal = 1
+				max_slots_horizontal = 5
 				format = "UPPER_LEFT"
 			}
 
 			gridBoxType = {
 				name = "reform_container_left_branch" #decentralization
-				position = { x = 454 y = 307 }
+				position = { x = 340 y = 290 }
 				size = { width = 864 height = 149 }
 				slotsize = { width = 71 height = 54 }
-				max_slots_horizontal = 8
+				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
 			
 			gridBoxType = {
 				name = "reform_container_right_branch" #centralization
-				position = { x = 454 y = 425 }
+				position = { x = 870 y = 290 }
 				size = { width = 864 height = 149 }
 				slotsize = { width = 71 height = 54 }
-				max_slots_horizontal = 8
+				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
 		}
@@ -631,7 +633,7 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "hre_electors"
-			position = { x = 306 y = 160 }
+			position = { x = 306 y = 155 }
 			size = { width = 2400 height = 84 }
 			slotsize = { width = 90 height = 79 }
 			max_slots_horizontal = 8
