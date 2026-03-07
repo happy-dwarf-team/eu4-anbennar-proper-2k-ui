@@ -232,17 +232,17 @@ guiTypes = {
 		{
 			name ="background"
 			if_resolution = {
-            max_height = 867
-			spriteType = "GFX_country_military_view_bg"
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			spriteType = "GFX_country_military_view_bg_large"
-            }
-            if_resolution = {
-			min_height = 1048
-			spriteType = "GFX_country_military_view_bg_huge"
+				max_height = 867
+				spriteType = "GFX_country_military_view_bg"
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				spriteType = "GFX_country_military_view_bg_large"
+			}
+			if_resolution = {
+				min_height = 1048
+				spriteType = "GFX_country_military_view_bg_huge"
 			}
 			position = { x= -9 y = -12 }
 			Orientation = "UPPER_LEFT"
@@ -251,17 +251,17 @@ guiTypes = {
 		{
 			name ="CoCbackground"
 			if_resolution = {
-            max_height = 867
-			spriteType = "GFX_country_military_view_bg_ap"
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			spriteType = "GFX_country_military_view_bg_ap_large"
-            }
-            if_resolution = {
-			min_height = 1048
-			spriteType = "GFX_country_military_view_bg_ap_huge"
+				max_height = 867
+				spriteType = "GFX_country_military_view_bg_ap"
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				spriteType = "GFX_country_military_view_bg_ap_large"
+			}
+			if_resolution = {
+				min_height = 1048
+				spriteType = "GFX_country_military_view_bg_ap_huge"
 			}
 			position = { x= -9 y = -12 }
 			Orientation = "UPPER_LEFT"
@@ -975,17 +975,17 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_recruit_general"
 			if_resolution = {
-            max_height = 867
-			position = { x=249 y =559 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=249 y =780 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=251 y =996 }
+				max_height = 867
+				position = { x=249 y =559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=249 y =780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=249 y =996 }
 			}
 			quadTextureSprite ="GFX_recruit_general"
 			clicksound = hire_general
@@ -996,17 +996,17 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_recruit_conquistador"
 			if_resolution = {
-            max_height = 867
-			position = { x=312 y =559 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=312 y =780 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=313 y =996 }
+				max_height = 867
+				position = { x=312 y =559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=312 y =780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=312 y =996 }
 			}
 			quadTextureSprite ="GFX_recruit_conquistador"
 			clicksound = hire_conquistador
@@ -1017,17 +1017,17 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_recruit_admiral"
 			if_resolution = {
-            max_height = 867
-			position = { x=375 y =559 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=375 y =780 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=375 y =996 }
+				max_height = 867
+				position = { x=375 y =559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=375 y =780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=375 y =996 }
 			}
 			quadTextureSprite ="GFX_recruit_admiral"
 			clicksound = hire_admiral
@@ -1037,17 +1037,17 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_recruit_explorer"
 			if_resolution = {
-            max_height = 867
-			position = { x=437 y =559 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=437 y =780 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=437 y =996 }
+				max_height = 867
+				position = { x=437 y =559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=437 y =780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=437 y =996 }
 			}
 			quadTextureSprite ="GFX_recruit_explorer"
 			clicksound = hire_explorer
@@ -1058,21 +1058,63 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_makerulergeneral"
 			if_resolution = {
-            max_height = 867
-			position = { x=499 y =559 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=499 y =780 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=499 y =996 }
+				max_height = 867
+				position = { x=499 y =559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x=499 y =780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x=499 y =996 }
 			}
 			quadTextureSprite ="GFX_convert_ruler_to_general"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "convert_ruler_to_war_wizard"
+			if_resolution = {
+				max_height = 867
+				position = { x = 499 y = 559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 499 y = 780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 499 y = 996 }
+			}
+			quadTextureSprite ="GFX_convert_ruler_to_war_wizard"
+			clicksound = hire_general
+			hint_tag = "hint_leaders"
+			scripted = yes
+		}
+
+		guiButtonType = {
+			name = "convert_ruler_to_planetouched_commander"
+			if_resolution = {
+				max_height = 867
+				position = { x = 499 y = 559 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 499 y = 780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 499 y = 996 }
+			}
+			quadTextureSprite ="GFX_convert_ruler_to_planetouched_commander"
+			clicksound = hire_general
+			hint_tag = "hint_leaders"
+			scripted = yes
 		}
 
 		guiButtonType = {
@@ -1080,16 +1122,16 @@ guiTypes = {
 			if_resolution = {
 				max_height = 867
 				position = { x=499 y =559 }
-            }
-            if_resolution = {
+			}
+			if_resolution = {
 				min_height = 868
 				max_height = 1047
 				position = { x=499 y =780 }
-            }
-            if_resolution = {
+			}
+			if_resolution = {
 				min_height = 1048
 				position = { x=499 y =996 }
-			}				
+			}
 			quadTextureSprite ="GFX_convert_consort_to_general"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
@@ -1145,8 +1187,8 @@ guiTypes = {
 				position = { x = 410 y =499 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 0 y = 0 }	
-				text = ""	
+				borderSize = {x = 0 y = 0 }
+				text = ""
 				maxWidth = 153
 				maxHeight = 24
 				format = centre
@@ -1183,7 +1225,7 @@ guiTypes = {
 			}
 
 			listboxType =
-				{
+			{
 				name ="leaderlist"
 				position = { x = 240 y = 547 }
 				backGround=""
@@ -1217,7 +1259,7 @@ guiTypes = {
 
 		### Discipline, Land, Naval Morale and Military tactics
 
-		
+
 		iconType = {
 			name ="army_tradition_icon"
 			spriteType= "GFX_icon_army_tradition"
@@ -1275,7 +1317,7 @@ guiTypes = {
 			maxHeight = 24
 			format = right
 		}
-		
+
 		iconType = {
 			name ="land_support_limit_icon"
 			spriteType= "GFX_land_forcelimit"
@@ -1304,7 +1346,7 @@ guiTypes = {
 			maxHeight = 24
 			format = right
 			fixedsize = yes
-		}	
+		}
 
 		iconType = {
 			name ="icon_military_tactics"
@@ -1480,8 +1522,8 @@ guiTypes = {
 			maxWidth = 204
 			maxHeight = 24
 			format = right
-		}	
-		
+		}
+
 		iconType = {
 			name ="navy_tradition_icon"
 			spriteType= "GFX_navy_tradition"
@@ -1539,7 +1581,7 @@ guiTypes = {
 			maxWidth = 204
 			maxHeight = 24
 			format = right
-		}		
+		}
 
 		iconType = {
 			name ="naval_support_limit_icon"
@@ -1568,7 +1610,7 @@ guiTypes = {
 			maxWidth = 204
 			maxHeight = 24
 			format = right
-		}		
+		}
 
 		iconType = {
 			name ="ship_durability_icon"
@@ -1620,9 +1662,9 @@ guiTypes = {
 			name = "naval_engagement_value"
 			textureFile = ""
 			font = "vic_18"
-			position = { x = 25 y = 853 }#+110 -5 
-			#borderSize = {x = 5 y = 5}	
-			text = "88%"	
+			position = { x = 25 y = 853 }#+110 -5
+			#borderSize = {x = 5 y = 5}
+			text = "88%"
 			maxWidth = 204
 			maxHeight = 24
 			format = right
@@ -1631,7 +1673,7 @@ guiTypes = {
 
 
 
-		
+
 		guiButtonType =	{
 			name = "mothball_all"
 			quadTextureSprite= "GFX_mothball_all_forts_button"
@@ -1688,9 +1730,9 @@ guiTypes = {
 			min_height = 1048
 			position = { x=186 y =889 }
 			}
-			
+
 		}
-		
+
 		iconType = {
 			name ="mothball_icon"
 			spriteType= "GFX_active_forts_icon"
@@ -1708,13 +1750,13 @@ guiTypes = {
 			position = { x=142 y =891 }
 			}
 			}
-			
+
 		instantTextBoxType = {
 			name = "mothball_label"
 			position = { x=109 y =919 }
 			textureFile = ""
 			font = "vic_18"
-			text = "99/99 Forts Active"	
+			text = "99/99 Forts Active"
 			maxWidth = 96
 			maxHeight = 24
 			format = center
