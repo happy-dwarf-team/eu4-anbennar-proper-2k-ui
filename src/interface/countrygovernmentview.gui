@@ -73,6 +73,191 @@ guiTypes = {
 			name ="government_mechanics_bg"
 			spriteType = "GFX_government_mechanics_bg"
 			position = { x= 76 y = 220 }
+			scripted = yes
+		}
+		#Effelai Gov Mechanic
+		iconType = {
+			name = "effelai_government_bg"
+			position = { x = 14 y = 264 }
+			quadTextureSprite = "GFX_effelai_government_background_bg"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "harpy_queendom_bg"
+			position = { x = 14 y = 264 }
+			quadTextureSprite = "GFX_harpy_queendom_claim_bg"
+			scripted = yes
+		}
+
+		#Kalsyto Gov Mechanic
+		iconType = {
+			name = "kalsyto_democracy_bg"
+			position = { x = 38 y = 322 }
+			quadTextureSprite = "GFX_kalsyto_democracy_bg"
+			scripted = yes
+		}
+
+		#Skewered Drake Gov Mechanic
+		iconType = {
+			name = "drakonshan_bg"
+			position = { x = 38 y = 284 }
+			quadTextureSprite = "GFX_drakonshan_bg"
+			scripted = yes
+		}
+
+		#Jaddari Gov Mechanic
+		iconType = {
+			name = "jaddari_desert_legion_bg"
+			position = { x = 35 y = 275 }
+			quadTextureSprite = "GFX_jaddari_desert_legion_bg"
+			scripted = yes
+		}
+
+		#Karakhanbar Gov Mechanic
+		iconType = {
+			name = "karakhanbar_black_hearth_bg"
+			position = { x = 47 y = 299 }
+			quadTextureSprite = "GFX_karakhanbar_black_hearth_bg"
+			scripted = yes
+		}
+
+		#Gronstunad Gov Mechanic
+		iconType = {
+			name = "gronstunad_authority_bg"
+			position = { x = 35 y = 275 }
+			quadTextureSprite = "GFX_gronstunad_authority_bg"
+			scripted = yes
+		}
+
+		#Gronstunad Crown Gems
+		iconType = {
+			name = "gronstunad_authority_gem_peridot"
+			position = { x = 173 y = 293 } # +115/+15
+			quadTextureSprite = "GFX_gronstunad_authority_gem_peridot"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "gronstunad_authority_gem_granite"
+			position = { x = 185 y = 293 } # +125/+15
+			quadTextureSprite = "GFX_gronstunad_authority_gem_granite"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "gronstunad_authority_gem_emerald"
+			position = { x = 197 y = 287 } # +135/+10
+			quadTextureSprite = "GFX_gronstunad_authority_gem_emerald"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "gronstunad_authority_gem_jade"
+			position = { x = 215 y = 287 } # +150/+10
+			quadTextureSprite = "GFX_gronstunad_authority_gem_jade"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "gronstunad_authority_gem_damestear"
+			position = { x = 233 y = 287 } # +165/+10
+			quadTextureSprite = "GFX_gronstunad_authority_gem_damestear"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "gronstunad_authority_gem_amethyst"
+			position = { x = 245 y = 293 } # +175/+15
+			quadTextureSprite = "GFX_gronstunad_authority_gem_amethyst"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "gronstunad_authority_gem_amber"
+			position = { x = 263 y = 293 } # +190/+15
+			quadTextureSprite = "GFX_gronstunad_authority_gem_amber"
+			scripted = yes
+		}
+
+		#Konolkhatep Gov Mechanic
+
+		iconType = {
+			name = "konolkhatep_bg"
+			position = { x = 10 y = 262 }
+			quadTextureSprite = "GFX_konolkhatep_bg"
+			scripted = yes
+		}
+
+		#Taychendi Vainglory
+
+		iconType = {
+			name = "taychendi_vainglory_bg"
+			position = { x = 0 y = 269 }
+			quadTextureSprite = "GFX_taychendi_vainglory_bg"
+			scripted = yes
+		}
+
+		#Khugra Gov Mechanic
+		iconType = {
+			name = "khugra_araizary_affinity_bg"
+			position = { x = 47 y = 292 }
+			quadTextureSprite = "GFX_khugra_araizary_affinity_bg"
+			scripted = yes
+		}
+
+		#Corinsfield Gov Mechanic
+
+		iconType = {
+			name = "corinsfield_paranoia_bg"
+			position = { x = 10 y = 262 }
+			quadTextureSprite = "GFX_corinsfield_paranoia_bg"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "corinsfield_paranoia_chicken_1"
+			position = { x = 166 y = 262 }
+			quadTextureSprite = "GFX_corinsfield_paranoia_chicken_1"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "corinsfield_paranoia_chicken_2"
+			position = { x = 136 y = 262 }
+			quadTextureSprite = "GFX_corinsfield_paranoia_chicken_2"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "corinsfield_paranoia_chicken_3"
+			position = { x = 130 y = 262 }
+			quadTextureSprite = "GFX_corinsfield_paranoia_chicken_3"
+			scripted = yes
+		}
+
+		#Wyvernheart Gov Mechanic
+		iconType = {
+			name = "floodborn_council_bg"
+			position = { x = 35 y = 287 }
+			quadTextureSprite = "GFX_floodborn_council_bg"
+			scripted = yes
+		}
+
+		#Phoenix Estate Gov Mechanic
+		iconType = {
+			name = "phoenix_estate_bg"
+			position = { x = 35 y = 293 }
+			quadTextureSprite = "GFX_phoenix_estate_bg"
+			scripted = yes
+		}
+
+		#Eduz-Vacyn Gov Mechanic
+		iconType = {
+			name = "vacyntassi_temple_authority_bg"
+			position = { x = 43 y = 292 }
+			quadTextureSprite = "GFX_vacyntassi_temple_authority_bg"
+			scripted = yes
 		}
 
 		### ------- Government -------
@@ -345,7 +530,7 @@ guiTypes = {
 			name = "specific_governments_list"
 			position = { x = 39 y = 273 } #do not set position here, set it above in specific_governments_list_position
 			size = { x = 385 y = 147 }
-				scrollbartype = "standardlistbox_slider"
+			scrollbartype = "standardlistbox_slider"
 		}
 
 		### -----------
@@ -373,14 +558,36 @@ guiTypes = {
 			hint_tag = "hint_acceptculture"
 		}
 
-#		iconType =
-#		{
-#			name ="accepted_culture"
-#			spriteType = "GFX_icon_accepted_culture"
-#			position = { x = 18 y = 620 }
-#			Orientation = "UPPER_LEFT"
-#			frame = 1
-#		}
+		#Custom GUI
+
+		iconType =
+		{
+			name = "racial_adm_icon"
+			spriteType = "GFX_racial_adm_strip"
+			position = { x = 516 y = 592 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
+
+		iconType =
+		{
+			name = "racial_mil_icon"
+			spriteType = "GFX_racial_mil_strip"
+			position = { x = 550 y = 592 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+		}
+
+		### ----------
+
+		#		iconType =
+		#		{
+		#			name ="accepted_culture"
+		#			spriteType = "GFX_icon_accepted_culture"
+		#			position = { x = 18 y = 620 }
+		#			Orientation = "UPPER_LEFT"
+		#			frame = 1
+		#		}
 
 		windowType = {
 			name = "cultures_window"
@@ -687,7 +894,7 @@ guiTypes = {
 		}
 
 		# more modifier boxes can be added/removed, they need to be named modifiers_box_x in order and there needs to be at least one!
-		
+
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_1"
 			position = { x = 35 y = 432 }
@@ -723,7 +930,7 @@ guiTypes = {
 			format = left
 			spacing = 7
 		}
-		
+
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_5"
 			position = { x = 35 y = 520 }
@@ -750,8 +957,657 @@ guiTypes = {
 			clicksound = close_window
 		}
 
-		### -----------
 
+		##############
+		# CUSTOM GUI #
+		##############
+
+		guiButtonType = {
+			name = "racial_pop_menu"
+			position = { x = 457 y = 584 }
+			quadTextureSprite ="GFX_racial_tolerance_button"
+			scale = 0.8
+			scripted = yes
+		}
+
+		guiButtonType = {
+			name = "racial_mil_menu"
+			position = { x = 584 y = 584 }
+			quadTextureSprite ="GFX_racial_mil_button"
+			scale = 0.8
+			scripted = yes
+		}
+
+		#  Raj rework
+		windowType = { # Raj screen
+			name = "raj_window_screen"
+			position = { x = 660 y = 0 }
+			moveable = 1
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+
+			iconType = {
+				name = "raj_bg_ui"
+				position = { x = 0 y = 36 }
+				quadTextureSprite = "GFX_raj_bg"
+			}
+
+			instantTextBoxType = {
+				position = { x = 142 y = 74 }
+				name = "raj_text_banner"
+				font = "vic_18"
+				borderSize = { x = 0 y = 0 }
+				maxWidth = 180
+				maxHeight = 38
+				text = "The Harimraj"
+				orientation = "CENTER"
+				format = center
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				position = { x = 74 y = 142 }
+				name = "raj_text_cohesion"
+				font = "vic_29"
+				borderSize = { x = 0 y = 0 }
+				maxWidth = 318
+				maxHeight = 38
+				text = ""
+				orientation = "CENTER"
+				format = left
+				scripted = yes
+			}
+
+			windowType = {
+				name = "raj_nw_window"
+				position = { x = 26 y = 204 }
+				moveable = 1
+				Orientation = "UPPER_LEFT"
+
+				instantTextBoxType = {
+					name = "raj_text_vizier_mandates"
+					position = { x = 42 y = 56 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = ""
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "raj_shield_vizier"
+					position = { x = 0 y = 60 }
+					scripted = yes
+					quadTextureSprite = "GFX_shield_small"
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_raja_mandates"
+					position = { x = 42 y = -4 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = ""
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+					scripted = yes
+				}
+
+				guiButtonType = {
+					name = "raj_shield_raja"
+					position = { x = 0 y = 0 }
+					scripted = yes
+					quadTextureSprite = "GFX_shield_small"
+				}
+			}
+
+			windowType = {
+				name = "raj_ne_window"
+				position = { x = 258 y = 193 }
+				moveable = 1
+				Orientation = "UPPER_LEFT"
+
+				guiButtonType = {
+					name = "raj_mandate_vizier_logistical_focus"
+					position = { x = 0 y = 60 }
+					quadTextureSprite = "GFX_raj_mandate_vizier_logistical_focus"
+					scripted = yes
+				}
+				iconType = {
+					name = "raj_mandate_vizier_logistical_focus_active"
+					position = { x = 0 y = 60 }
+					quadTextureSprite = "GFX_raj_mandate_vizier_logistical_focus"
+					scripted = yes
+				}
+				# iconType = {
+				# 	name = "raj_mandate_vizier_logistical_focus_active_tick"
+				# 	position = { x = 228 y = 228 }
+				# 	quadTextureSprite = "GFX_raj_yes_no"
+				# 	scripted = yes
+				# }
+				guiButtonType = {
+					name = "raj_mandate_vizier_prabhi_recruitment"
+					position = { x = 60 y = 60 }
+					quadTextureSprite = "GFX_raj_mandate_vizier_prabhi_recruitment"
+					scripted = yes
+				}
+				iconType = {
+					name = "raj_mandate_vizier_prabhi_recruitment_active"
+					position = { x = 60 y = 60 }
+					quadTextureSprite = "GFX_raj_mandate_vizier_prabhi_recruitment"
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "raj_mandate_vizier_imperial_drills"
+					position = { x = 120 y = 60 }
+					quadTextureSprite = "GFX_raj_mandate_vizier_imperial_drills"
+					scripted = yes
+				}
+				iconType = {
+					name = "raj_mandate_vizier_imperial_drills_active"
+					position = { x = 120 y = 60 }
+					quadTextureSprite = "GFX_raj_mandate_vizier_imperial_drills"
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "raj_mandate_raja_imperial_tribute"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_raj_mandate_raja_imperial_tribute"
+					scripted = yes
+				}
+				iconType = {
+					name = "raj_mandate_raja_imperial_tribute_active"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_raj_mandate_raja_imperial_tribute"
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "raj_mandate_raja_declaration_of_harmony"
+					position = { x = 60 y = 0 }
+					quadTextureSprite = "GFX_raj_mandate_raja_declaration_of_harmony"
+					scripted = yes
+				}
+				iconType = {
+					name = "raj_mandate_raja_declaration_of_harmony_active"
+					position = { x = 60 y = 0 }
+					quadTextureSprite = "GFX_raj_mandate_raja_declaration_of_harmony"
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "raj_mandate_raja_land_redistribution"
+					position = { x = 120 y = 0 }
+					quadTextureSprite = "GFX_raj_mandate_raja_land_redistribution"
+					scripted = yes
+				}
+				# iconType = {
+				# 	name = "raj_mandate_raja_land_redistribution_active"
+				# 	position = { x = 120 y = 0 }
+				# 	quadTextureSprite = "GFX_raj_mandate_raja_land_redistribution"
+				# 	scripted = yes
+				# }
+			}
+
+			iconType = {
+				name = "raj_separator"
+				position = { x = 79 y = 307 }
+				quadTextureSprite = "GFX_raj_separator"
+			}
+
+			windowType = {
+				name = "raj_sw_window_subjects"
+				position = { x = 0 y = 0 }
+				moveable = 1
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+
+				iconType = {
+					name = "raj_objective_background"
+					position = { x = 12 y = 36 }
+					quadTextureSprite = "GFX_raj_empty"
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_objectives"
+					position = { x = 48 y = 362 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_OBJECTIVES"
+					maxWidth = 156
+					maxHeight = 38
+					format = left
+				}
+
+				guiButtonType = {
+					name = "raj_objective_issue_challenge"
+					position = { x = 36 y = 546 }
+					quadTextureSprite = "GFX_raj_objective_issue_challenge"
+					buttonText = "RAJ_ISSUE_CHALLENGE"
+					buttonFont = "vic_18s"
+					scripted = yes
+				}
+
+				windowType = { # Prabhi objectives
+					name = "raj_window_objective_prabhi"
+					position = { x = 52 y = 360 }
+					moveable = 0
+					Orientation = "UPPER_LEFT"
+					scripted = yes
+
+					guiButtonType = {
+						name = "raj_objective_prabhi_1"
+						position = { x = -6 y = 41 }
+						quadTextureSprite = "GFX_raj_objective_prabhi_1"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_prabhi_2"
+						position = { x = 73 y = 40 }
+						quadTextureSprite ="GFX_raj_objective_prabhi_2"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_prabhi_3"
+						position = { x = -7 y = 101 }
+						quadTextureSprite = "GFX_raj_objective_prabhi_3"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_prabhi_4"
+						position = { x = 90 y = 119 }
+						quadTextureSprite = "GFX_raj_objective_prabhi_4"
+						scripted = yes
+					}
+				}
+
+				windowType = { # senapti objectives
+					name = "raj_window_objective_senapti"
+					position = { x = 52 y = 360 }
+					moveable = 0
+					Orientation = "UPPER_LEFT"
+					scripted = yes
+
+					guiButtonType = {
+						name = "raj_objective_senapti_1"
+						position = { x = -6 y = 41 }
+						quadTextureSprite = "GFX_raj_objective_senapti_1"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_senapti_2"
+						position = { x = 74 y = 40 }
+						quadTextureSprite ="GFX_raj_objective_senapti_2"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_senapti_3"
+						position = { x = -7 y = 102 }
+						quadTextureSprite = "GFX_raj_objective_senapti_3"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_senapti_4"
+						position = { x = 74 y = 100 }
+						quadTextureSprite = "GFX_raj_objective_senapti_4"
+						scripted = yes
+					}
+				}
+
+				windowType = { # vizier objectives
+					name = "raj_window_objective_vizier"
+					position = { x = 52 y = 360 }
+					moveable = 0
+					Orientation = "UPPER_LEFT"
+					scripted = yes
+
+					guiButtonType = {
+						name = "raj_objective_vizier_1"
+						position = { x = -6 y = 40 }
+						quadTextureSprite = "GFX_raj_objective_vizier_1"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_vizier_2"
+						position = { x = 74 y = 37 }
+						quadTextureSprite ="GFX_raj_objective_vizier_2"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_vizier_3"
+						position = { x = 8 y = 119 }
+						quadTextureSprite = "GFX_raj_objective_vizier_3"
+						scripted = yes
+					}
+
+					guiButtonType = {
+						name = "raj_objective_vizier_4"
+						position = { x = 74 y = 101 }
+						quadTextureSprite = "GFX_raj_objective_vizier_4"
+						scripted = yes
+					}
+				}
+			}
+
+			guiButtonType = {
+				name = "raj_shield"
+				position = { x = 36 y = 360 }
+				scripted = yes
+				quadTextureSprite = "GFX_shield_fancy"
+			}
+
+			windowType = { # Privileges
+				name = "raj_window_se_screen"
+				position = { x = 259 y = 361 }
+				moveable = 0
+				Orientation = "UPPER_LEFT"
+
+				instantTextBoxType = {
+					name = "raj_text_privileges"
+					position = { x = 18 y = 1 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_PRIVILEGES"
+					maxWidth = 120
+					maxHeight = 38
+					format = left
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_privileges_internal_diplomacy"
+					position = { x = -7 y = 36 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_PRIVILEGES_INTERNAL_DIPLOMACY"
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+				}
+
+				iconType = {
+					name = "raj_text_privileges_internal_diplomacy_yes_no"
+					position = { x = 150 y = 32 }
+					quadTextureSprite = "GFX_raj_yes_no"
+					scripted = yes
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_privileges_external_diplomacy"
+					position = { x = -7 y = 67 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_PRIVILEGES_EXTERNAL_DIPLOMACY"
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+				}
+
+				iconType = {
+					name = "raj_text_privileges_external_diplomacy_yes_no"
+					position = { x = 150 y = 64 }
+					quadTextureSprite = "GFX_raj_yes_no"
+					scripted = yes
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_privileges_raja_wars"
+					position = { x = -7 y = 98 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_PRIVILEGES_RAJA_WARS"
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+				}
+
+				iconType = {
+					name = "raj_text_privileges_raja_wars_yes_no"
+					position = { x = 150 y = 95 }
+					quadTextureSprite = "GFX_raj_yes_no"
+					scripted = yes
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_privileges_mandates"
+					position = { x = -7 y = 127 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_PRIVILEGES_MANDATES"
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+				}
+
+				iconType = {
+					name = "raj_text_privileges_mandates_yes_no"
+					position = { x = 150 y = 125 }
+					quadTextureSprite = "GFX_raj_yes_no"
+					scripted = yes
+				}
+
+				instantTextBoxType = {
+					name = "raj_text_privileges_cohesion"
+					position = { x = -7 y = 158 }
+					font = "vic_18s"
+					borderSize = {x = 0 y = 0}
+					text = "RAJ_PRIVILEGES_COHESION"
+					maxWidth = 150
+					maxHeight = 38
+					format = left
+				}
+
+				iconType = {
+					name = "raj_text_privileges_cohesion_yes_no"
+					position = { x = 150 y = 155 }
+					quadTextureSprite = "GFX_raj_yes_no"
+					scripted = yes
+				}
+			}
+		}
+
+		###########################
+		# TAG-SPECIFIC CUSTOM GUI #
+		##########################$
+
+		# ALLCLAN
+
+		iconType = {
+			name = "gob_background_ui"
+			position = { x = 660 y = 84 }
+			quadTextureSprite = "GFX_allclan_gov_background"
+			scripted = yes
+		}
+
+		guiButtonType = {
+			name = "gob_1"
+			position = { x = 731 y = 216 }
+			quadTextureSprite = "GFX_allclan_button_1"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "gob_2"
+			position = { x = 858 y = 214 }
+			quadTextureSprite = "GFX_allclan_button_2"
+			scripted = yes
+		}
+		guiButtonType = {
+			name = "gob_3"
+			position = { x = 988 y = 215 }
+			quadTextureSprite = "GFX_allclan_button_3"
+			scripted = yes
+		}
+
+		#HARPYLEN
+
+		iconType = {
+			name = "harpy_queendom_ui"
+			position = { x = 76 y = 389 }
+			scripted = yes
+			spriteType = image_harpy_queendom_ui
+			orientation = UPPER_LEFT
+		}
+
+		guiButtonType = {
+			name = "harpylen_button_1"
+			position = { x = 58 y = 278 }
+			quadTextureSprite = "GFX_harpylen_queendom_claim_button_1"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "harpylen_button_2"
+			position = { x = 180 y = 278 }
+			quadTextureSprite = "GFX_harpylen_queendom_claim_button_2"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "harpylen_button_3"
+			position = { x = 300 y = 278 }
+			quadTextureSprite = "GFX_harpylen_queendom_claim_button_3"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		#Effelai Gov Buttons
+
+		guiButtonType = {
+			name = "effelai_button_1"
+			position = { x = 58 y = 278 }
+			quadTextureSprite = "GFX_effelai_government_spear_button"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "effelai_button_2"
+			position = { x = 180 y = 278 }
+			quadTextureSprite = "GFX_effelai_government_sapling_button"
+			scripted = yes
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "effelai_button_3"
+			position = { x = 300 y = 278 }
+			quadTextureSprite = "GFX_effelai_government_fist_button"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		#Konolkhatep Buttons
+
+		guiButtonType = {
+			name = "konolkhatep_governors"
+			position = { x = 89 y = 280 }
+			quadTextureSprite = "GFX_konolkhatep_governors"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "konolkhatep_projects"
+			position = { x = 83 y = 340 }
+			quadTextureSprite = "GFX_konolkhatep_projects"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "konolkhatep_horutep"
+			position = { x = 170 y = 276 }
+			quadTextureSprite = "GFX_konolkhatep_horutep"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "konolkhatep_legions"
+			position = { x = 311 y = 276 }
+			quadTextureSprite = "GFX_konolkhatep_legions"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "konolkhatep_medasi"
+			position = { x = 311 y = 329 }
+			quadTextureSprite = "GFX_konolkhatep_medasi"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		#Taychendi Vainglory Buttons
+
+		guiButtonType = {
+			name = "taychendi_vainglory_spoils_of_war"
+			position = { x = 38 y = 367 }
+			quadTextureSprite = "GFX_taychendi_vainglory_spoils_of_war"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "taychendi_vainglory_swords_to_plowshares"
+			position = { x = 110 y = 367 }
+			quadTextureSprite = "GFX_taychendi_vainglory_swords_to_plowshares"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "taychendi_vainglory_settling_veterans"
+			position = { x = 181 y = 367 }
+			quadTextureSprite = "GFX_taychendi_vainglory_settling_veterans"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "taychendi_vainglory_building_greatness"
+			position = { x = 254 y = 367 }
+			quadTextureSprite = "GFX_taychendi_vainglory_building_greatness"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		guiButtonType = {
+			name = "taychendi_vainglory_taychend_in_bloom"
+			position = { x = 325 y = 367 }
+			quadTextureSprite = "GFX_taychendi_vainglory_taychend_in_bloom"
+			scripted = yes
+			clicksound = back_click
+		}
+
+		# guiButtonType = {
+		# 	name = "corinsfield_paranoia_be_good_to_your_neighbour"
+		# 	position = { x = 66 y = 348 }
+		# 	quadTextureSprite = "GFX_corinsfield_paranoia_be_good_to_your_neighbour"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+		#
+		# guiButtonType = {
+		# 	name = "corinsfield_paranoia_trust_no_one"
+		# 	position = { x = 176 y = 348 }
+		# 	quadTextureSprite = "GFX_corinsfield_paranoia_trust_no_one"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
+		#
+		# guiButtonType = {
+		# 	name = "corinsfield_paranoia_witch_hunt"
+		# 	position = { x = 287 y = 348 }
+		# 	quadTextureSprite = "GFX_corinsfield_paranoia_witch_hunt"
+		# 	scripted = yes
+		# 	clicksound = back_click
+		# }
 
 		### MODIFIER VIEW
 		windowType = {
@@ -773,7 +1629,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 			}
-			
+
 			iconType =
 			{
 				name ="modifiers_box_bg"
@@ -855,7 +1711,7 @@ guiTypes = {
 			spriteType = "GFX_monarchists"
 			position = { x= 305 y = 6 }
 			frame = 1
-	}
+		}
 		iconType = {
 			name ="current_value_icon"
 			spriteType = "GFX_war_overview_indicator"
@@ -872,7 +1728,7 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			format = centre
 		}
-		}
+	}
 
 	################################################################################################
 	## --- The special governments with interactions and powers. They will be added to "specific_governments_list" from code
@@ -891,9 +1747,9 @@ guiTypes = {
 		smoothListboxType = {
 			name = "government_interaction_list"
 			position = { x = 0 y = 0 }
-		backGround =""
-		size = { x = 360 y = 120 }
-		Orientation = "UPPER_LEFT"
+			backGround =""
+			size = { x = 360 y = 120 }
+			Orientation = "UPPER_LEFT"
 			horizontal = 1
 			spacing = 0
 			borderSize = { x = 0 y = 0 }
