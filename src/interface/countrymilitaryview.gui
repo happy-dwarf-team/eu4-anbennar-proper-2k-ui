@@ -4,36 +4,36 @@ guiTypes = {
 
 	windowType = {
 		name = "leader_list_entry"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=432 y= 43 }
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 432 y = 43 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = no
 
 
 		guiButtonType =
 		{
-			name ="leader_banner2"
+			name = "leader_banner2"
 			quadTextureSprite = "GFX_military_view_leader_button"
-			position = { x= 3 y = 0 }
+			position = { x = 3 y = 0 }
 		}
 
 		guiButtonType =
 		{
-			name ="leader_types"
+			name = "leader_types"
 			quadTextureSprite = "GFX_leader_types"
-			position = { x= 6 y = 3 }
+			position = { x = 6 y = 3 }
 			scale = 0.75
 		}
 
 		iconType =
 		{
-			name ="leader_gender"
+			name = "leader_gender"
 			spriteType = "GFX_gender_icon"
-			position = { x= 40 y = 5 }
+			position = { x = 40 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -42,7 +42,7 @@ guiTypes = {
 			position = { x = 65 y = 5 }
 			textureFile = ""
 			font = "coyote_12b"
-			borderSize = {x = 0 y = 0 }
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 168
 			maxHeight = 24
@@ -51,19 +51,19 @@ guiTypes = {
 
 		iconType =
 		{
-			name ="leader_personality"
+			name = "leader_personality"
 			spriteType = "GFX_idea_unknown"
-			position = { x= 39 y = 21 }
+			position = { x = 39 y = 21 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.3
 		}
 
 		instantTextBoxType = {
 			name = "leader_assignment"
-			position = { x = 65 y =21 }
+			position = { x = 65 y = 21 }
 			textureFile = ""
 			font = "coyote_12b"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 168
 			maxHeight = 24
@@ -72,76 +72,76 @@ guiTypes = {
 
 		##### CODER REMOVE
 		iconType = {
-			name ="leader_fire"
+			name = "leader_fire"
 			spriteType = "GFX_stars_small"
-			position = { x= 227 y = 9 }
+			position = { x = 227 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
 		##### CODER REMOVE
 		iconType = {
-			name ="leader_shock"
+			name = "leader_shock"
 			spriteType = "GFX_stars_small"
-			position = { x= 252 y = 9 }
+			position = { x = 252 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
 		##### CODER REMOVE
 		iconType = {
-			name ="leader_maneuever"
+			name = "leader_maneuever"
 			spriteType = "GFX_stars_small"
-			position = { x= 278 y = 9 }
+			position = { x = 278 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
 		##### CODER REMOVE
 		iconType = {
-			name ="leader_siege"
+			name = "leader_siege"
 			spriteType = "GFX_stars_small"
-			position = { x= 302 y = 9 }
+			position = { x = 302 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
 
 
 		guiButtonType = {
-			name ="leader_dismiss"
+			name = "leader_dismiss"
 			quadTextureSprite = "GFX_dismiss_leader"
-			position = { x= 339 y = 5 }
+			position = { x = 339 y = 5 }
 		}
 
 		guiButtonType = {
-			name ="leader_detach"
+			name = "leader_detach"
 			quadTextureSprite = "GFX_detach_leader"
-			position = { x= 371 y = 5 }
+			position = { x = 371 y = 5 }
 		}
 	}
 
 	### REMOVE
 	windowType = {
 		name = "unit_list_item"
-		backGround =""
-		position = { x=0 y=0 }
-		size = { x=600 y=48 }
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 600 y = 48 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
-		verticalBorder= ""
+		verticalBorder = ""
 		fullScreen = no
 
 		guiButtonType = {
 			name = "goto_unit"
-			position = { x=18 y =-9}
-			spriteType ="GFX_nation_decisions_banner"
+			position = { x = 18 y = -9 }
+			spriteType = "GFX_nation_decisions_banner"
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
-			tooltipText =""
+			tooltipText = ""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 		}
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 30 y =0 }
+			position = { x = 30 y = 0 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "name"
 			maxWidth = 153
 			maxHeight = 39
@@ -150,10 +150,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "size"
-			position = { x = 144 y =0 }
+			position = { x = 144 y = 0 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "size"
 			maxWidth = 115
 			maxHeight = 39
@@ -162,10 +162,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "morale"
-			position = { x = 204 y =0 }
+			position = { x = 204 y = 0 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "morale"
 			maxWidth = 77
 			maxHeight = 39
@@ -174,10 +174,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "location"
-			position = { x = 276 y =0 }
+			position = { x = 276 y = 0 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "location"
 			maxWidth = 115
 			maxHeight = 39
@@ -186,29 +186,29 @@ guiTypes = {
 
 		iconType =
 		{
-			name ="unit_type"
+			name = "unit_type"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 360 y = -18 }
+			position = { x = 360 y = -18 }
 			Orientation = "UPPER_LEFT"
 
 		}
 
 		guiButtonType = {
 			name = "has_leader"
-			position = { x=456 y =6}
-			spriteType ="GFX_has_leader_status"
+			position = { x = 456 y = 6 }
+			spriteType = "GFX_has_leader_status"
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
-			tooltipText =""
+			tooltipText = ""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 		}
 
 		iconType =
 		{
-			name ="status"
+			name = "status"
 			spriteType = "GFX_unit_status"
-			position = { x= 522 y = -6 }
+			position = { x = 522 y = -6 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -217,20 +217,20 @@ guiTypes = {
 	### MILITARY VIEW
 	windowType = {
 		name = "countrymilitaryview"
-		position = { x=0 y=168 }
+		position = { x = 0 y = 168 }
 		#position = { x=-720 y=168 }
-		show_position = { x=0 y =168 }
-		hide_position = { x=-720 y =168 }
+		show_position = { x = 0 y = 168 }
+		hide_position = { x = -720 y = 168 }
 		animation_type = "decelerated"
 		animation_time = 10
-		size = { x=1229 y=720 }
+		size = { x = 1229 y = 720 }
 		moveable = 0
 		Orientation = "UPPER_LEFT"
 		upsound = tab_military
 
 		iconType =
 		{
-			name ="background"
+			name = "background"
 			if_resolution = {
 				max_height = 867
 				spriteType = "GFX_country_military_view_bg"
@@ -244,12 +244,12 @@ guiTypes = {
 				min_height = 1048
 				spriteType = "GFX_country_military_view_bg_huge"
 			}
-			position = { x= -9 y = -12 }
+			position = { x = -9 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType =
 		{
-			name ="CoCbackground"
+			name = "CoCbackground"
 			if_resolution = {
 				max_height = 867
 				spriteType = "GFX_country_military_view_bg_ap"
@@ -263,14 +263,14 @@ guiTypes = {
 				min_height = 1048
 				spriteType = "GFX_country_military_view_bg_ap_huge"
 			}
-			position = { x= -9 y = -12 }
+			position = { x = -9 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "close_button"
 			position = { x = 617 y = -1 }
-			quadTextureSprite ="GFX_closebutton2"
+			quadTextureSprite = "GFX_closebutton2"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			clicksound = close_window
@@ -278,10 +278,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "window_title"
-			position = { x = 18 y =95 }
+			position = { x = 18 y = 95 }
 			textureFile = ""
 			font = "vic_36"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "HEADER_MILITARY"
 			maxWidth = 615
 			maxHeight = 39
@@ -291,10 +291,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "unit_types_label"
-			position = { x = 57 y =138 }
+			position = { x = 57 y = 138 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "Unit typ"
 			maxWidth = 279
 			maxHeight = 29
@@ -305,46 +305,46 @@ guiTypes = {
 		### cost, power, fire, shock, amount ICONS.
 
 		iconType = {
-			name ="icon_cost"
+			name = "icon_cost"
 			spriteType = "GFX_icon_gold_font_medium"
-			position = { x= 348 y = 137 }
+			position = { x = 348 y = 137 }
 			scale = 0.9
 			hint_tag = "hint_unitbasecost"
 		}
 		iconType = {
-			name ="icon_power"
+			name = "icon_power"
 			spriteType = "GFX_icon_power"
-			position = { x= 411 y = 136 }
+			position = { x = 411 y = 136 }
 			scale = 0.85
 			hint_tag = "hint_combatpower"
 		}
 		iconType = {
-			name ="icon_fire_mod"
+			name = "icon_fire_mod"
 			spriteType = "GFX_icon_fire"
-			position = { x= 472 y = 136 }
+			position = { x = 472 y = 136 }
 			scale = 0.85
 			hint_tag = "hint_firemod"
 		}
 		iconType = {
-			name ="icon_shock_mod"
+			name = "icon_shock_mod"
 			spriteType = "GFX_icon_shock"
-			position = { x= 522 y = 136 }
+			position = { x = 522 y = 136 }
 			scale = 0.85
 			hint_tag = "hint_shockmod"
 		}
 		iconType = {
-			name ="icon_amount"
+			name = "icon_amount"
 			spriteType = "GFX_icon_amount"
-			position = { x= 569 y = 133 }
+			position = { x = 569 y = 133 }
 		}
 
 
 		instantTextBoxType = {
 			name = "naval_unit_types_label"
-			position = { x = 56 y =243 }
+			position = { x = 56 y = 243 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "WESTERN_NAVAL_TECH"
 			maxWidth = 279
 			maxHeight = 29
@@ -355,37 +355,37 @@ guiTypes = {
 		### power, cannons, hullsize, amount ICONS.
 
 		iconType = {
-			name ="icon_cost_naval"
+			name = "icon_cost_naval"
 			spriteType = "GFX_icon_gold_font_medium"
-			position = { x= 348 y = 243 }
+			position = { x = 348 y = 243 }
 			scale = 0.9
 			hint_tag = "hint_unitbasecost"
 		}
 		iconType = {
-			name ="icon_power_naval"
+			name = "icon_power_naval"
 			spriteType = "GFX_icon_power"
-			position = { x= 411 y = 242 }
+			position = { x = 411 y = 242 }
 			scale = 0.85
 			hint_tag = "hint_combatpower"
 		}
 		iconType = {
-			name ="icon_cannons"
+			name = "icon_cannons"
 			spriteType = "GFX_icon_ship_cannons"
-			position = { x= 471 y = 242 }
+			position = { x = 471 y = 242 }
 			scale = 0.85
 			hint_tag = "hint_cannons"
 		}
 		iconType = {
-			name ="icon_hullsize"
+			name = "icon_hullsize"
 			spriteType = "GFX_icon_hull_size"
-			position = { x= 521 y = 242 }
+			position = { x = 521 y = 242 }
 			scale = 0.85
 			hint_tag = "hint_hullsize"
 		}
 		iconType = {
-			name ="icon_amount_naval"
+			name = "icon_amount_naval"
 			spriteType = "GFX_icon_amount"
-			position = { x= 569 y = 239 }
+			position = { x = 569 y = 239 }
 
 		}
 
@@ -394,26 +394,26 @@ guiTypes = {
 		### INFANTRY
 		iconType =
 		{
-			name ="unit_type_infantry"
+			name = "unit_type_infantry"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 34 y = 156 }
+			position = { x = 34 y = 156 }
 			scale = 0.60
 			hint_tag = "hint_infantry"
 		}
 		guiButtonType = {
 			name = "infantry_type_button"
-			position = { x=69 y =163}
-			quadTextureSprite ="GFX_military_view_change_unit"
+			position = { x = 69 y = 163 }
+			quadTextureSprite = "GFX_military_view_change_unit"
 			buttonFont = "vic_18"
 			hint_tag = "hint_preferredunit"
 			clicksound = preferred_unit
 		}
 		instantTextBoxType = {
 			name = "infantry_cost"
-			position = { x = 339 y = 167  }
+			position = { x = 339 y = 167 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 42
 			maxHeight = 24
@@ -422,10 +422,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "infantry_power"
-			position = { x = 390 y =167  }
+			position = { x = 390 y = 167 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "todo"
 			maxWidth = 63
 			maxHeight = 24
@@ -434,10 +434,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "infantry_fire"
-			position = { x = 456 y =167  }
+			position = { x = 456 y = 167 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -446,10 +446,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "infantry_shock"
-			position = { x = 507 y =167  }
+			position = { x = 507 y = 167 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -458,11 +458,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "infantry_count"
-			position = { x = 565 y =167  }
+			position = { x = 565 y = 167 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -475,26 +475,26 @@ guiTypes = {
 		### CAVALRY
 		iconType =
 		{
-			name ="unit_type_cavalry"
+			name = "unit_type_cavalry"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 33 y = 185 }
+			position = { x = 33 y = 185 }
 			scale = 0.60
 			hint_tag = "hint_cavalry"
 		}
 		guiButtonType = {
 			name = "cavalry_type_button"
-			position = { x=69 y =188}
-			quadTextureSprite ="GFX_military_view_change_unit"
+			position = { x = 69 y = 188 }
+			quadTextureSprite = "GFX_military_view_change_unit"
 			buttonFont = "vic_18"
 			hint_tag = "hint_preferredunit"
 			clicksound = preferred_unit
 		}
 		instantTextBoxType = {
 			name = "cavalry_cost"
-			position = { x = 343 y = 192  }
+			position = { x = 343 y = 192 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 39
 			maxHeight = 24
@@ -503,10 +503,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "cavalry_power"
-			position = { x = 390 y =192  }
+			position = { x = 390 y = 192 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "-100%"
 			maxWidth = 63
 			maxHeight = 24
@@ -515,10 +515,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "cavalry_fire"
-			position = { x = 456 y =192  }
+			position = { x = 456 y = 192 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -527,10 +527,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "cavalry_shock"
-			position = { x = 507 y =192  }
+			position = { x = 507 y = 192 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -539,11 +539,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "cavalry_count"
-			position = { x = 565 y =192  }
+			position = { x = 565 y = 192 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -555,26 +555,26 @@ guiTypes = {
 		### ARTILLERY
 		iconType =
 		{
-			name ="unit_type_artillery"
+			name = "unit_type_artillery"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 33 y = 210 }
+			position = { x = 33 y = 210 }
 			scale = 0.60
 			hint_tag = "hint_artillery"
 		}
 		guiButtonType = {
 			name = "artillery_type_button"
-			position = { x=69 y =213}
-			quadTextureSprite ="GFX_military_view_change_unit"
+			position = { x = 69 y = 213 }
+			quadTextureSprite = "GFX_military_view_change_unit"
 			buttonFont = "vic_18"
 			hint_tag = "hint_preferredunit"
 			clicksound = preferred_unit
 		}
 		instantTextBoxType = {
 			name = "artillery_cost"
-			position = { x = 331 y = 217  }
+			position = { x = 331 y = 217 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 51
 			maxHeight = 24
@@ -583,10 +583,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "artillery_power"
-			position = { x = 390 y =217  }
+			position = { x = 390 y = 217 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "-100%"
 			maxWidth = 63
 			maxHeight = 24
@@ -595,10 +595,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "artillery_fire"
-			position = { x = 456 y =217  }
+			position = { x = 456 y = 217 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -607,10 +607,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "artillery_shock"
-			position = { x = 507 y =217  }
+			position = { x = 507 y = 217 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -619,11 +619,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "artillery_count"
-			position = { x = 565 y =217  }
+			position = { x = 565 y = 217 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -635,19 +635,19 @@ guiTypes = {
 		### BIG SHIPS
 		iconType =
 		{
-			name ="unit_type_bigship"
+			name = "unit_type_bigship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 33 y = 265 }
+			position = { x = 33 y = 265 }
 			scale = 0.60
 			hint_tag = "hint_heavyships"
 		}
 		instantTextBoxType = {
 			name = "ship1_type_label"
-			position = { x = 68 y =273  }
+			position = { x = 68 y = 273 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 264
 			maxHeight = 24
@@ -655,10 +655,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship1_cost"
-			position = { x = 343 y = 273  }
+			position = { x = 343 y = 273 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 39
 			maxHeight = 24
@@ -667,10 +667,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship1_power"
-			position = { x = 390 y =273  }
+			position = { x = 390 y = 273 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "-100%"
 			maxWidth = 63
 			maxHeight = 24
@@ -679,10 +679,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship1_fire"
-			position = { x = 456 y =273  }
+			position = { x = 456 y = 273 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -691,10 +691,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship1_shock"
-			position = { x = 507 y =273  }
+			position = { x = 507 y = 273 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -703,11 +703,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship1_count"
-			position = { x = 565 y =273  }
+			position = { x = 565 y = 273 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -719,19 +719,19 @@ guiTypes = {
 		### LIGHT SHIPS
 		iconType =
 		{
-			name ="unit_type_smallship"
+			name = "unit_type_smallship"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 33 y = 289 }
+			position = { x = 33 y = 289 }
 			scale = 0.60
 			hint_tag = "hint_lightships"
 		}
 		instantTextBoxType = {
 			name = "ship2_type_label"
-			position = { x = 68 y =298  }
+			position = { x = 68 y = 298 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 264
 			maxHeight = 24
@@ -739,10 +739,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship2_cost"
-			position = { x = 343 y = 298  }
+			position = { x = 343 y = 298 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 39
 			maxHeight = 24
@@ -751,10 +751,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship2_power"
-			position = { x = 390 y =298  }
+			position = { x = 390 y = 298 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "-100%"
 			maxWidth = 63
 			maxHeight = 24
@@ -763,10 +763,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship2_fire"
-			position = { x = 456 y =298  }
+			position = { x = 456 y = 298 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -775,10 +775,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship2_shock"
-			position = { x = 507 y =298  }
+			position = { x = 507 y = 298 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -787,11 +787,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship2_count"
-			position = { x = 565 y =298  }
+			position = { x = 565 y = 298 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -805,20 +805,20 @@ guiTypes = {
 
 		iconType =
 		{
-			name ="unit_type_galley"
+			name = "unit_type_galley"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 33 y = 313 }
+			position = { x = 33 y = 313 }
 			scale = 0.60
 			hint_tag = "hint_galleys"
 		}
 
 		instantTextBoxType = {
 			name = "ship3_type_label"
-			position = { x = 68 y =323  }
+			position = { x = 68 y = 323 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 264
 			maxHeight = 24
@@ -829,7 +829,7 @@ guiTypes = {
 			position = { x = 343 y = 323 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 39
 			maxHeight = 24
@@ -838,10 +838,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship3_power"
-			position = { x = 390 y =323  }
+			position = { x = 390 y = 323 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "-100%"
 			maxWidth = 63
 			maxHeight = 24
@@ -850,10 +850,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship3_fire"
-			position = { x = 456 y =323  }
+			position = { x = 456 y = 323 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -862,10 +862,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship3_shock"
-			position = { x = 507 y =323  }
+			position = { x = 507 y = 323 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -874,11 +874,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship3_count"
-			position = { x = 565 y =323  }
+			position = { x = 565 y = 323 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -891,19 +891,19 @@ guiTypes = {
 		### TRANSPORT
 		iconType =
 		{
-			name ="unit_type_transport"
+			name = "unit_type_transport"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 33 y = 339 }
+			position = { x = 33 y = 339 }
 			scale = 0.60
 			hint_tag = "hint_transports"
 		}
 		instantTextBoxType = {
 			name = "ship4_type_label"
-			position = { x = 68 y =348  }
+			position = { x = 68 y = 348 }
 			format = centre
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 264
 			maxHeight = 24
@@ -914,7 +914,7 @@ guiTypes = {
 			position = { x = 343 y = 348 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "137"
 			maxWidth = 39
 			maxHeight = 24
@@ -923,10 +923,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship4_power"
-			position = { x = 390 y =348  }
+			position = { x = 390 y = 348 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "-100%"
 			maxWidth = 63
 			maxHeight = 24
@@ -935,10 +935,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship4_fire"
-			position = { x = 456 y =348  }
+			position = { x = 456 y = 348 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -947,10 +947,10 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship4_shock"
-			position = { x = 507 y =348  }
+			position = { x = 507 y = 348 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 48
 			maxHeight = 24
@@ -959,11 +959,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "ship4_count"
-			position = { x = 565 y =348  }
+			position = { x = 565 y = 348 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 36
 			maxHeight = 24
@@ -976,18 +976,18 @@ guiTypes = {
 			name = "button_recruit_general"
 			if_resolution = {
 				max_height = 867
-				position = { x=249 y =559 }
+				position = { x = 249 y = 559 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=249 y =780 }
+				position = { x = 249 y = 780 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=249 y =996 }
+				position = { x = 249 y = 996 }
 			}
-			quadTextureSprite ="GFX_recruit_general"
+			quadTextureSprite = "GFX_recruit_general"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
 			shortcut = "z"
@@ -997,18 +997,18 @@ guiTypes = {
 			name = "button_recruit_conquistador"
 			if_resolution = {
 				max_height = 867
-				position = { x=312 y =559 }
+				position = { x = 312 y = 559 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=312 y =780 }
+				position = { x = 312 y = 780 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=312 y =996 }
+				position = { x = 312 y = 996 }
 			}
-			quadTextureSprite ="GFX_recruit_conquistador"
+			quadTextureSprite = "GFX_recruit_conquistador"
 			clicksound = hire_conquistador
 			hint_tag = "hint_expconq"
 			shortcut = "x"
@@ -1018,18 +1018,18 @@ guiTypes = {
 			name = "button_recruit_admiral"
 			if_resolution = {
 				max_height = 867
-				position = { x=375 y =559 }
+				position = { x = 375 y = 559 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=375 y =780 }
+				position = { x = 375 y = 780 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=375 y =996 }
+				position = { x = 375 y = 996 }
 			}
-			quadTextureSprite ="GFX_recruit_admiral"
+			quadTextureSprite = "GFX_recruit_admiral"
 			clicksound = hire_admiral
 			hint_tag = "hint_leaders"
 		}
@@ -1038,18 +1038,18 @@ guiTypes = {
 			name = "button_recruit_explorer"
 			if_resolution = {
 				max_height = 867
-				position = { x=437 y =559 }
+				position = { x = 437 y = 559 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=437 y =780 }
+				position = { x = 437 y = 780 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=437 y =996 }
+				position = { x = 437 y = 996 }
 			}
-			quadTextureSprite ="GFX_recruit_explorer"
+			quadTextureSprite = "GFX_recruit_explorer"
 			clicksound = hire_explorer
 			hint_tag = "hint_expconq"
 			shortcut = "v"
@@ -1059,18 +1059,18 @@ guiTypes = {
 			name = "button_makerulergeneral"
 			if_resolution = {
 				max_height = 867
-				position = { x=499 y =559 }
+				position = { x = 499 y = 559 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=499 y =780 }
+				position = { x = 499 y = 780 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=499 y =996 }
+				position = { x = 499 y = 996 }
 			}
-			quadTextureSprite ="GFX_convert_ruler_to_general"
+			quadTextureSprite = "GFX_convert_ruler_to_general"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
 			scripted = yes
@@ -1090,7 +1090,7 @@ guiTypes = {
 				min_height = 1048
 				position = { x = 499 y = 996 }
 			}
-			quadTextureSprite ="GFX_convert_ruler_to_war_wizard"
+			quadTextureSprite = "GFX_convert_ruler_to_war_wizard"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
 			scripted = yes
@@ -1111,7 +1111,7 @@ guiTypes = {
 				min_height = 1048
 				position = { x = 499 y = 996 }
 			}
-			quadTextureSprite ="GFX_convert_ruler_to_planetouched_commander"
+			quadTextureSprite = "GFX_convert_ruler_to_planetouched_commander"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
 			scripted = yes
@@ -1121,18 +1121,18 @@ guiTypes = {
 			name = "button_makeconsortgeneral"
 			if_resolution = {
 				max_height = 867
-				position = { x=499 y =559 }
+				position = { x = 499 y = 559 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x=499 y =780 }
+				position = { x = 499 y = 780 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=499 y =996 }
+				position = { x = 499 y = 996 }
 			}
-			quadTextureSprite ="GFX_convert_consort_to_general"
+			quadTextureSprite = "GFX_convert_consort_to_general"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
 		}
@@ -1140,19 +1140,19 @@ guiTypes = {
 		guiButtonType = {
 			name = "button_makeheirgeneral"
 			if_resolution = {
-            max_height = 867
-			position = { x=561 y =559 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=561 y =780 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=561 y =996 }
+				max_height = 867
+				position = { x = 561 y = 559 }
 			}
-			quadTextureSprite ="GFX_convert_heir_to_general"
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 561 y = 780 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 561 y = 996 }
+			}
+			quadTextureSprite = "GFX_convert_heir_to_general"
 			clicksound = hire_general
 			hint_tag = "hint_leaders"
 		}
@@ -1160,21 +1160,21 @@ guiTypes = {
 		### leader list
 		windowType = {
 			name = "leaderlist_window"
-			backGround=""
-			position = { x=0 y=-119 }
-			size = { x=1229 y=120 }
+			backGround = ""
+			position = { x = 0 y = -119 }
+			size = { x = 1229 y = 120 }
 			moveable = 0
 			dontRender = ""
-			horizontalBorder= ""
-			verticalBorder= ""
+			horizontalBorder = ""
+			verticalBorder = ""
 			fullScreen = yes
 
 			instantTextBoxType = {
 				name = "army_label"
-				position = { x = 284 y =499 }
+				position = { x = 284 y = 499 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 0 y = 0 }
+				borderSize = { x = 0 y = 0 }
 				text = ""
 				maxWidth = 153
 				maxHeight = 24
@@ -1184,10 +1184,10 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "navy_label"
-				position = { x = 410 y =499 }
+				position = { x = 410 y = 499 }
 				textureFile = ""
 				font = "vic_18"
-				borderSize = {x = 0 y = 0 }
+				borderSize = { x = 0 y = 0 }
 				text = ""
 				maxWidth = 153
 				maxHeight = 24
@@ -1196,78 +1196,78 @@ guiTypes = {
 			}
 
 			guiButtonType = {
-				name ="icon_leader_fire"
+				name = "icon_leader_fire"
 				spriteType = "GFX_military_view_icon_fire"
-				position = { x= 475 y = 527 }
+				position = { x = 475 y = 527 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_leaderfire"
 			}
 			guiButtonType = {
-				name ="icon_leader_shock"
+				name = "icon_leader_shock"
 				spriteType = "GFX_military_view_icon_shock"
-				position = { x= 501 y = 527 }
+				position = { x = 501 y = 527 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_leadershock"
 			}
 			guiButtonType = {
-				name ="icon_leader_maneuver"
+				name = "icon_leader_maneuver"
 				spriteType = "GFX_military_view_icon_maneuver"
-				position = { x= 526 y = 527 }
+				position = { x = 526 y = 527 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_leadermaneuver"
 			}
 			guiButtonType = {
-				name ="icon_leader_siege"
+				name = "icon_leader_siege"
 				spriteType = "GFX_military_view_icon_siege"
-				position = { x= 551 y = 527 }
+				position = { x = 551 y = 527 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_leadersiege"
 			}
 
 			listboxType =
 			{
-				name ="leaderlist"
+				name = "leaderlist"
 				position = { x = 240 y = 547 }
-				backGround=""
+				backGround = ""
 				if_resolution = {
-				max_height = 867
-				size = { x=399 y =129}
+					max_height = 867
+					size = { x = 399 y = 129 }
 				}
 				if_resolution = {
-				min_height = 868
-				max_height = 1047
-				size = { x=399 y =345}
+					min_height = 868
+					max_height = 1047
+					size = { x = 399 y = 345 }
 				}
 				if_resolution = {
-				min_height = 1048
-				size = { x=399 y =561}
+					min_height = 1048
+					size = { x = 399 y = 561 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
-				borderSize = {x = 0 y = 0}
+				borderSize = { x = 0 y = 0 }
 			}
 		}
 
-		guiButtonType =	{
+		guiButtonType = {
 			name = "naval_doctrine_button"
-			quadTextureSprite= "GFX_naval_doctrine_icons_small"
+			quadTextureSprite = "GFX_naval_doctrine_icons_small"
 			frame = 1
-			position = { x=33 y =235 }
+			position = { x = 33 y = 235 }
 		}
 
 		### Discipline, Land, Naval Morale and Military tactics
 
 
 		iconType = {
-			name ="army_tradition_icon"
-			spriteType= "GFX_icon_army_tradition"
-			position = { x= 25 y = 378 }
+			name = "army_tradition_icon"
+			spriteType = "GFX_icon_army_tradition"
+			position = { x = 25 y = 378 }
 		}
 		instantTextBoxType = {
 			name = "army_tradition_label"
-			position = { x = 63 y =385 }
+			position = { x = 63 y = 385 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "army_tradition"
@@ -1278,7 +1278,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "army_tradition_value"
-			position = { x = 25 y =383 }
+			position = { x = 25 y = 383 }
 			textureFile = ""
 			font = "vic_18"
 			#			borderSize = {x = 5 y = 5}
@@ -1290,14 +1290,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="land_morale_icon"
-			spriteType= "GFX_icon_land_morale"
-			position = { x= 18 y = 407 }
+			name = "land_morale_icon"
+			spriteType = "GFX_icon_land_morale"
+			position = { x = 18 y = 407 }
 			scale = 0.6
 		}
 		instantTextBoxType = {
 			name = "land_morale_label"
-			position = { x = 63 y =420 }
+			position = { x = 63 y = 420 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "LEDGER_LAND_MORALE"
@@ -1308,7 +1308,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "land_morale_value"
-			position = { x = 25 y =419 }
+			position = { x = 25 y = 419 }
 			textureFile = ""
 			font = "vic_18"
 			#			borderSize = {x = 5 y = 5}
@@ -1319,14 +1319,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="land_support_limit_icon"
-			spriteType= "GFX_land_forcelimit"
-			position = { x= 18 y = 443 }
+			name = "land_support_limit_icon"
+			spriteType = "GFX_land_forcelimit"
+			position = { x = 18 y = 443 }
 			scale = 0.6
 		}
 		instantTextBoxType = {
 			name = "land_support_limit_label"
-			position = { x = 63 y =456 }
+			position = { x = 63 y = 456 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "MVIEW_MAXIMUM"
@@ -1337,7 +1337,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "land_support_limit_value"
-			position = { x = 25 y =455 }
+			position = { x = 25 y = 455 }
 			textureFile = ""
 			font = "vic_18"
 			#			borderSize = {x = 5 y = 5}
@@ -1349,14 +1349,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="icon_military_tactics"
-			spriteType= "GFX_icon_military_tactics"
-			position = { x= 27 y = 488 }
+			name = "icon_military_tactics"
+			spriteType = "GFX_icon_military_tactics"
+			position = { x = 27 y = 488 }
 			hint_tag = "hint_miltac"
 		}
 		instantTextBoxType = {
 			name = "military_tactics_label"
-			position = { x = 63 y =492 }
+			position = { x = 63 y = 492 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "MILITARY_TACTICS"
@@ -1378,15 +1378,15 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="discipline_icon"
-			spriteType= "GFX_icon_discipline"
-			position = { x= 23 y = 519}
+			name = "discipline_icon"
+			spriteType = "GFX_icon_discipline"
+			position = { x = 23 y = 519 }
 			hint_tag = "hint_discipline"
 			scale = 0.8
 		}
 		instantTextBoxType = {
 			name = "discipline_label"
-			position = { x = 63 y =528 }
+			position = { x = 63 y = 528 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "DISCIPLINE"
@@ -1409,14 +1409,14 @@ guiTypes = {
 
 		iconType =
 		{
-			name ="defensiveness_icon"
-			spriteType= "GFX_icon_mil_defensiveness"
-			position = { x= 27 y = 560 }
+			name = "defensiveness_icon"
+			spriteType = "GFX_icon_mil_defensiveness"
+			position = { x = 27 y = 560 }
 			hint_tag = "hint_fortdefense"
 		}
 		instantTextBoxType = {
 			name = "defensiveness_label"
-			position = { x = 63 y =564 }
+			position = { x = 63 y = 564 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "DEFENSIVENESS"
@@ -1438,14 +1438,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="siegeability_icon"
-			spriteType= "GFX_siege_ability_icon"
-			position = { x= 22 y = 590 }
+			name = "siegeability_icon"
+			spriteType = "GFX_siege_ability_icon"
+			position = { x = 22 y = 590 }
 			hint_tag = "hint_leadersiege"
 		}
 		instantTextBoxType = {
 			name = "siegeability_label"
-			position = { x = 63 y =600 }
+			position = { x = 63 y = 600 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "MIL_SIEGEABILITY"
@@ -1467,14 +1467,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="combat_width_icon"
-			spriteType= "GFX_icon_combat_width"
-			position = { x= 27 y = 631 }
+			name = "combat_width_icon"
+			spriteType = "GFX_icon_combat_width"
+			position = { x = 27 y = 631 }
 			hint_tag = "hint_combatwidth"
 		}
 		instantTextBoxType = {
 			name = "combat_width_label"
-			position = { x = 63 y =636 }
+			position = { x = 63 y = 636 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "HINT_COMBATWIDTH_TITLE"
@@ -1496,14 +1496,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="cavalry_ratio_icon"
-			spriteType= "GFX_cavalry_ratio_icon"
-			position = { x= 25 y = 667 }
+			name = "cavalry_ratio_icon"
+			spriteType = "GFX_cavalry_ratio_icon"
+			position = { x = 25 y = 667 }
 			scale = 0.8
 		}
 		instantTextBoxType = {
 			name = "cavalry_ratio_value" #this is label
-			position = { x = 63 y =672 }
+			position = { x = 63 y = 672 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "MODIFIER_CAV_TO_INF_RATIO"
@@ -1525,14 +1525,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="navy_tradition_icon"
-			spriteType= "GFX_navy_tradition"
-			position = { x= 18 y = 697 }
+			name = "navy_tradition_icon"
+			spriteType = "GFX_navy_tradition"
+			position = { x = 18 y = 697 }
 			scale = 0.6
 		}
 		instantTextBoxType = {
 			name = "navy_tradition_label"
-			position = { x = 63 y =710 }
+			position = { x = 63 y = 710 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "navy_tradition"
@@ -1543,7 +1543,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "navy_tradition_value"
-			position = { x = 25 y =709 }
+			position = { x = 25 y = 709 }
 			textureFile = ""
 			font = "vic_18"
 			#			borderSize = {x = 5 y = 5}
@@ -1555,14 +1555,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="naval_morale_icon"
-			spriteType= "GFX_naval_morale"
-			position = { x= 18 y = 733 }
+			name = "naval_morale_icon"
+			spriteType = "GFX_naval_morale"
+			position = { x = 18 y = 733 }
 			scale = 0.6
 		}
 		instantTextBoxType = {
 			name = "naval_morale_label"
-			position = { x = 63 y =746 }
+			position = { x = 63 y = 746 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "LEDGER_NAVAL_MORALE"
@@ -1573,7 +1573,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "naval_morale_value"
-			position = { x = 25 y =745 }
+			position = { x = 25 y = 745 }
 			textureFile = ""
 			font = "vic_18"
 			#			borderSize = {x = 5 y = 5}
@@ -1584,14 +1584,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="naval_support_limit_icon"
-			spriteType= "GFX_naval_forcelimit"
-			position = { x= 19 y = 769 }
+			name = "naval_support_limit_icon"
+			spriteType = "GFX_naval_forcelimit"
+			position = { x = 19 y = 769 }
 			scale = 0.6
 		}
 		instantTextBoxType = {
 			name = "naval_support_limit_label"
-			position = { x = 63 y =782 }
+			position = { x = 63 y = 782 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "MVIEW_MAXIMUM"
@@ -1602,7 +1602,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "naval_support_limit_value"
-			position = { x = 25 y =781 }
+			position = { x = 25 y = 781 }
 			textureFile = ""
 			font = "vic_18"
 			#			borderSize = {x = 5 y = 5}
@@ -1613,14 +1613,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="ship_durability_icon"
-			spriteType= "GFX_ship_durability"
-			position = { x= 18 y = 805 }
+			name = "ship_durability_icon"
+			spriteType = "GFX_ship_durability"
+			position = { x = 18 y = 805 }
 			scale = 0.6
 		}
 		instantTextBoxType = {
 			name = "ship_durability_label"
-			position = { x = 63 y =818 }
+			position = { x = 63 y = 818 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "MODIFIER_SHIP_DURABILITY"
@@ -1642,14 +1642,14 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="naval_engagement_icon"
-			spriteType= "GFX_engagement_width_icon"
-			position = { x= 27 y = 852 }
+			name = "naval_engagement_icon"
+			spriteType = "GFX_engagement_width_icon"
+			position = { x = 27 y = 852 }
 			scale = 0.8
 		}
 		instantTextBoxType = {
 			name = "naval_engagement_label"
-			position = { x = 63 y =854 }
+			position = { x = 63 y = 854 }
 			textureFile = ""
 			font = "coyote_12b"
 			text = "NAVAL_ENGAGEMENT_WIDTH"
@@ -1671,89 +1671,86 @@ guiTypes = {
 		}
 
 
-
-
-
-		guiButtonType =	{
+		guiButtonType = {
 			name = "mothball_all"
-			quadTextureSprite= "GFX_mothball_all_forts_button"
+			quadTextureSprite = "GFX_mothball_all_forts_button"
 
 			if_resolution = {
-            max_height = 867
-			position = { x=72 y =609 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=13 y =613 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=15 y =889 }
+				max_height = 867
+				position = { x = 72 y = 609 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 13 y = 613 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 15 y = 889 }
 			}
 
 		}
 
-		guiButtonType =	{
+		guiButtonType = {
 			name = "activate_all"
-			quadTextureSprite= "GFX_activate_all_forts_button"
+			quadTextureSprite = "GFX_activate_all_forts_button"
 
 			if_resolution = {
-            max_height = 867
-			position = { x=129 y =609 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=69 y =613 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=72 y =889 }
+				max_height = 867
+				position = { x = 129 y = 609 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 69 y = 613 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 72 y = 889 }
 			}
 
 		}
-		guiButtonType =	{
+		guiButtonType = {
 			name = "slacken_button"
-			quadTextureSprite= "GFX_slacken_button"
+			quadTextureSprite = "GFX_slacken_button"
 
 			if_resolution = {
-            max_height = 867
-			position = { x=249 y =609 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=186 y =613 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=186 y =889 }
+				max_height = 867
+				position = { x = 249 y = 609 }
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 186 y = 613 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 186 y = 889 }
 			}
 
 		}
 
 		iconType = {
-			name ="mothball_icon"
-			spriteType= "GFX_active_forts_icon"
+			name = "mothball_icon"
+			spriteType = "GFX_active_forts_icon"
 			if_resolution = {
 				max_height = 867
-			position = { x=189 y =609 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=126 y =613 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=142 y =891 }
+				position = { x = 189 y = 609 }
 			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 126 y = 613 }
 			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 142 y = 891 }
+			}
+		}
 
 		instantTextBoxType = {
 			name = "mothball_label"
-			position = { x=109 y =919 }
+			position = { x = 109 y = 919 }
 			textureFile = ""
 			font = "vic_18"
 			text = "99/99 Forts Active"
@@ -1765,23 +1762,23 @@ guiTypes = {
 
 
 		guiButtonType = {
-			name ="automatic_full_maintenance_checkbox"
+			name = "automatic_full_maintenance_checkbox"
 			if_resolution = {
-            max_height = 867
-			position = { x=297 y =617 }
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=15 y =672 }
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=16 y =949 }
+				max_height = 867
+				position = { x = 297 y = 617 }
 			}
-			quadTextureSprite ="GFX_checkbox_gold_24"
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 15 y = 672 }
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 16 y = 949 }
+			}
+			quadTextureSprite = "GFX_checkbox_gold_24"
 			tooltip = ""
-			tooltipText =""
+			tooltipText = ""
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			frame = 2
@@ -1790,27 +1787,27 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "automatic_full_maintenance_label"
 			if_resolution = {
-            max_height = 867
-			position = { x=321 y =615 }
-			maxWidth = 360
-			maxHeight = 48
-            }
-            if_resolution = {
-			min_height = 868
-			max_height = 1047
-			position = { x=39 y =672 }
-			maxWidth = 197
-			maxHeight = 144
-            }
-            if_resolution = {
-			min_height = 1048
-			position = { x=44 y =948 }
-			maxWidth = 197
-			maxHeight = 144
+				max_height = 867
+				position = { x = 321 y = 615 }
+				maxWidth = 360
+				maxHeight = 48
+			}
+			if_resolution = {
+				min_height = 868
+				max_height = 1047
+				position = { x = 39 y = 672 }
+				maxWidth = 197
+				maxHeight = 144
+			}
+			if_resolution = {
+				min_height = 1048
+				position = { x = 44 y = 948 }
+				maxWidth = 197
+				maxHeight = 144
 			}
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 5 y = 5}
+			borderSize = { x = 5 y = 5 }
 			text = "AUTOMATIC_MAINTENANCE"
 			format = left
 			fixedsize = yes
@@ -1818,32 +1815,32 @@ guiTypes = {
 
 		windowType = {
 			name = "army_professionalism"
-			backGround =""
-			position = { x=39 y=115 }
-			size = { x=336 y=19 } # Most of the rest of the military view will move down by the vertical size of this window if Cradle is enabled
+			backGround = ""
+			position = { x = 39 y = 115 }
+			size = { x = 336 y = 19 } # Most of the rest of the military view will move down by the vertical size of this window if Cradle is enabled
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
 
 			iconType = {
-				name ="army_professionalism_progress"
+				name = "army_professionalism_progress"
 				spriteType = "GFX_army_professionalism_bar"
-				position = { x= 19 y = 5 }
+				position = { x = 19 y = 5 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			iconType = {
-				name ="army_professionalism_progress_frame"
+				name = "army_professionalism_progress_frame"
 				spriteType = "GFX_army_professionalism_bar_frame"
-				position = { x= -24 y = -29 }
+				position = { x = -24 y = -29 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			iconType = {
-				name ="army_professionalism_icon"
+				name = "army_professionalism_icon"
 				spriteType = "GFX_army_professionalism_icon"
-				position = { x= -17 y = -19 }
+				position = { x = -17 y = -19 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -1854,69 +1851,69 @@ guiTypes = {
 	### UNIT SELECT WINDOW
 	windowType = {
 		name = "domesticpanel_unit_select"
-		backGround=""
-		position = { x=0 y=168 }
-		size = { x=1229 y=120 }
+		backGround = ""
+		position = { x = 0 y = 168 }
+		size = { x = 1229 y = 120 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = yes
 
 		iconType = {
-			name ="domesticpanel_overlay"
+			name = "domesticpanel_overlay"
 			spriteType = "GFX_court_view_select_advisor_bg"
-			position = { x= -9 y = -11 }
+			position = { x = -9 y = -11 }
 		}
 
 		iconType = {
-			name ="military_view_unit_bg"
+			name = "military_view_unit_bg"
 			spriteType = "GFX_military_view_unit_bg"
-			position = { x= 45 y = 254 }
+			position = { x = 45 y = 254 }
 		}
 
 		instantTextBoxType = {
-				name = "description"
-				position = { x = 84 y =165 }
-				format = centre
-				font = "vic_22"
-				maxWidth = 504
-				maxHeight = 39
-				Orientation = "UPPER_LEFT"
-				text = "SELECT_INFANTRY_TYPE"
-				format = centre
-			}
+			name = "description"
+			position = { x = 84 y = 165 }
+			format = centre
+			font = "vic_22"
+			maxWidth = 504
+			maxHeight = 39
+			Orientation = "UPPER_LEFT"
+			text = "SELECT_INFANTRY_TYPE"
+			format = centre
+		}
 
 		iconType = {
-			name ="icon_fire"
+			name = "icon_fire"
 			spriteType = "GFX_icon_fire"
-			position = { x= 420 y = 213 }
+			position = { x = 420 y = 213 }
 			hint_tag = "hint_fire"
 		}
 		iconType = {
-			name ="icon_shock"
+			name = "icon_shock"
 			spriteType = "GFX_icon_shock"
-			position = { x= 463 y = 214 }
+			position = { x = 463 y = 214 }
 			hint_tag = "hint_shock"
 		}
 		iconType = {
-			name ="icon_morale"
+			name = "icon_morale"
 			spriteType = "GFX_icon_morale"
-			position = { x= 509 y = 216 }
+			position = { x = 509 y = 216 }
 			hint_tag = "hint_unitmorale"
 		}
 
 		iconType =
 		{
-			name ="icon_tech"
+			name = "icon_tech"
 			spriteType = "GFX_icon_powers_military_tech"
-			position = { x= 552 y = 216 }
+			position = { x = 552 y = 216 }
 			hint_tag = "hint_technology"
 		}
 
 		checkboxType = {
 			name = "show_outdated_checkbox"
-			position = { x= 53 y = 213 }
+			position = { x = 53 y = 213 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 
@@ -1925,7 +1922,7 @@ guiTypes = {
 			position = { x = 95 y = 222 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "MILVIEW_SHOW_OUTDATED_UNITS"
 			maxWidth = 192
 			maxHeight = 24
@@ -1935,49 +1932,49 @@ guiTypes = {
 
 		listboxType =
 		{
-			name ="domesticpanel_unit_select_list"
-			position = { x=45 y =258}
-			backGround=""
-			size = { x=552 y =780}
+			name = "domesticpanel_unit_select_list"
+			position = { x = 45 y = 258 }
+			backGround = ""
+			size = { x = 552 y = 780 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 		}
 
 		guiButtonType = {
-				name = "back_button"
-				position = { x=285 y =1038}
-				quadTextureSprite ="GFX_standard_button_71"
-				tooltip = ""
-				tooltipText =""
-				delayedTooltipText = ""
-				buttonText = "DOMESTIC_BACK"
-				buttonFont = "vic_18"
-				clicksound = back_click
-				shortcut = "ESCAPE"
-			}
+			name = "back_button"
+			position = { x = 285 y = 1038 }
+			quadTextureSprite = "GFX_standard_button_71"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			buttonText = "DOMESTIC_BACK"
+			buttonFont = "vic_18"
+			clicksound = back_click
+			shortcut = "ESCAPE"
+		}
 
 	}
 
 	### unit selection entry
 	windowType = {
 		name = "domesticpanel_unit_selection_entry"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=180 y= 41 }
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 180 y = 41 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = no
 
 		guiButtonType =
 		{
-			name ="unit_selection_button"
-			quadTextureSprite= "GFX_military_view_select_unit"
-			position = { x= 10 y = 0 }
+			name = "unit_selection_button"
+			quadTextureSprite = "GFX_military_view_select_unit"
+			position = { x = 10 y = 0 }
 			clicksound = preferred_unit
 		}
 
@@ -1987,7 +1984,7 @@ guiTypes = {
 			format = left
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 300
 			maxHeight = 24
@@ -1999,65 +1996,65 @@ guiTypes = {
 
 		iconType =
 		{
-			name ="power_offensive"
+			name = "power_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 330 y = -3 }
+			position = { x = 330 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType =
 		{
-			name ="power_defensive"
+			name = "power_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 330 y = 13 }
+			position = { x = 330 y = 13 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType =
 		{
-			name ="fire_offensive"
+			name = "fire_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 373 y = -3 }
+			position = { x = 373 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType =
 		{
-			name ="fire_defensive"
+			name = "fire_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 373 y = 13 }
+			position = { x = 373 y = 13 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType =
 		{
-			name ="shock_offensive"
+			name = "shock_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 417 y = -3 }
+			position = { x = 417 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 
 
 		iconType =
 		{
-			name ="shock_defensive"
+			name = "shock_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 417 y = 13 }
+			position = { x = 417 y = 13 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType =
 		{
-			name ="morale_offensive"
+			name = "morale_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
-			position = { x= 459 y = -3 }
+			position = { x = 459 y = -3 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType =
 		{
-			name ="morale_defensive"
+			name = "morale_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
-			position = { x= 459 y = 13 }
+			position = { x = 459 y = 13 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -2067,7 +2064,7 @@ guiTypes = {
 			format = centre
 			textureFile = ""
 			font = "vic_22"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 			text = "24"
 			maxWidth = 48
 			maxHeight = 29
@@ -2079,74 +2076,74 @@ guiTypes = {
 	### Naval Doctrine selection window
 	windowType = {
 		name = "domesticpanel_naval_doctrine_select"
-		backGround=""
-		position = { x=0 y=149 }
-		size = { x=1229 y=90 }
+		backGround = ""
+		position = { x = 0 y = 149 }
+		size = { x = 1229 y = 90 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = yes
 
 		iconType = {
-			name ="domesticpanel_overlay"
+			name = "domesticpanel_overlay"
 			spriteType = "GFX_naval_doctrine_bg_overlay"
-			position = { x= 9 y = 255 }
+			position = { x = 9 y = 255 }
 		}
 
 		instantTextBoxType = {
-				name = "description"
-				position = { x = 66 y =265 }
-				format = centre
-				font = "vic_22"
-				maxWidth = 504
-				maxHeight = 39
-				Orientation = "UPPER_LEFT"
-				text = "SELECT_NAVAL_DOCTRINE_HEADER"
-				format = centre
-			}
+			name = "description"
+			position = { x = 66 y = 265 }
+			format = centre
+			font = "vic_22"
+			maxWidth = 504
+			maxHeight = 39
+			Orientation = "UPPER_LEFT"
+			text = "SELECT_NAVAL_DOCTRINE_HEADER"
+			format = centre
+		}
 
 		listboxType =
 		{
-			name ="domesticpanel_naval_doctrine_select_list"
-			position = { x=78 y =249}
-			backGround=""
-			size = { x=600 y=0}
+			name = "domesticpanel_naval_doctrine_select_list"
+			position = { x = 78 y = 249 }
+			backGround = ""
+			size = { x = 600 y = 0 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 1
 			spacing = 0
-			borderSize = {x = 0 y = 0}
+			borderSize = { x = 0 y = 0 }
 		}
 
 		guiButtonType = {
-				name = "back_button"
-				position = { x=24 y =313}
-				quadTextureSprite ="GFX_select_mission_back_button"
-				tooltip = ""
-				tooltipText =""
-				delayedTooltipText = ""
-				clicksound = back_click
-				shortcut = "ESCAPE"
-			}
+			name = "back_button"
+			position = { x = 24 y = 313 }
+			quadTextureSprite = "GFX_select_mission_back_button"
+			tooltip = ""
+			tooltipText = ""
+			delayedTooltipText = ""
+			clicksound = back_click
+			shortcut = "ESCAPE"
+		}
 	}
 
 	### Naval Doctrine selection entry
 	windowType = {
 		name = "domesticpanel_naval_doctrine_selection_entry"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=102 y= 41 }
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 102 y = 41 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = no
 
 		guiButtonType =
 		{
-			name ="naval_doctrine_selection_button"
-			quadTextureSprite= "GFX_naval_doctrine_icons"
-			position = { x= 36 y = 48 }
+			name = "naval_doctrine_selection_button"
+			quadTextureSprite = "GFX_naval_doctrine_icons"
+			position = { x = 36 y = 48 }
 			clicksound = preferred_unit
 		}
 	}
