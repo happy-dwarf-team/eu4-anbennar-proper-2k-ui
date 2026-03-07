@@ -939,9 +939,28 @@ guiTypes = {
 			format = left
 			spacing = 7
 		}
+
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_6"
 			position = { x = 334 y = 520 }
+			size = { x = 310 y = 64 }
+			Orientation = "UPPER_LEFT"
+			format = left
+			spacing = 7
+		}
+
+		OverlappingElementsBoxType = {
+			name = "modifiers_box_7"
+			position = { x = 35 y = 564 }
+			size = { x = 310 y = 64 }
+			Orientation = "UPPER_LEFT"
+			format = left
+			spacing = 7
+		}
+
+		OverlappingElementsBoxType = {
+			name = "modifiers_box_8"
+			position = { x = 334 y = 564 }
 			size = { x = 310 y = 64 }
 			Orientation = "UPPER_LEFT"
 			format = left
