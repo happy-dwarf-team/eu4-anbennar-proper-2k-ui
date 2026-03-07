@@ -2,7 +2,7 @@ guiTypes = {
 
 	windowType = {
 		name = "celestial_window"
-		position = { x=-713 y=-503 }	
+		position = { x=-713 y=-503 }
 		size = { x=900 y=900 }
 		moveable = 1
 		dontRender = ""
@@ -31,7 +31,7 @@ guiTypes = {
 			maxWidth = 701
 			maxHeight = 39
 		}
-		
+
 		instantTextBoxType = {
 			name = "emperor_label"
 			position = { x = 565 y = 317 }
@@ -56,34 +56,34 @@ guiTypes = {
 			maxHeight = 39
 			format = centre
 		}
-		
+
 		instantTextBoxType = {
 			name = "influence_value"
 			position = { x = 756 y = 181 }#was y148
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 120
-			maxHeight = 39	
+			maxHeight = 39
 			format = centre
 			hint_tag = "hint_imperialauthority"
 		}
-		
+
 		instantTextBoxType = {
 			name = "influence_growth"
 			position = { x = 756 y = 225 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
-			text = "0.00"	
+			text = "0.00"
 			maxWidth = 120
-			maxHeight = 39	
+			maxHeight = 39
 			format = centre
 			hint_tag = "hint_imperialauthority"
 		}
 
-		guiButtonType = 
+		guiButtonType =
 		{
 			name ="emperor_shield"
 			quadTextureSprite = "GFX_shield_thin"
@@ -94,12 +94,12 @@ guiTypes = {
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 		}
-			
+
 		iconType =
 		{
 			name ="benefits_icon"
 			spriteType = "GFX_emperor_of_china_icon"
-			position = { x= 548 y = 258 }
+			position = { x= 552 y = 258 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -107,17 +107,17 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_celestial_more_dip_actions_icon"
-			position = { x= 547 y = 174 }
+			position = { x= 550 y = 175 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name = "meritocracy_icon"
-			spriteType ="GFX_icon_legitimacy"	
+			spriteType ="GFX_icon_legitimacy"
 			position = { x= 760 y = 279 }
 			frame = 5
-		}		
-		
+		}
+
 		instantTextBoxType = {
 			name = "meritocracy_value"
 			position = { x = 793 y = 283 }
@@ -177,7 +177,7 @@ guiTypes = {
 			maxHeight = 39
 			format = centre
 		}
-		
+
 		listboxType =  {
 			name ="decree_listbox"
 			position = { x = 180 y = 159 }
@@ -201,7 +201,7 @@ guiTypes = {
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 25 y = 25}
 		}
-			
+
 		guiButtonType = {
 			name = "close_button"
 			position = { x= 1260 y = 85}
@@ -228,9 +228,9 @@ guiTypes = {
 	}
 
 	positionType = {
-			name = "tributary_shield_offset"
-			position = { x = 36 y = 41 } #was 31 51
-		}
+		name = "tributary_shield_offset"
+		position = { x = 36 y = 41 } #was 31 51
+	}
 
 	### Decree Entry
 	windowType = {
@@ -266,15 +266,15 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x= 260 y = 9 }
 			scale = 0.9
-		}		
-		
+		}
+
 	}
 
 	### Decision Entry
 	windowType = {
 		name = "celestial_decision_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=360 y= 41 }
 		moveable = 0
 		dontRender = ""
@@ -285,23 +285,23 @@ guiTypes = {
 		guiButtonType = {
 			name = "select_button"
 			position = { x=0 y =-17}
-			quadTextureSprite ="GFX_reform_button"	
+			quadTextureSprite ="GFX_reform_button"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = ""
-		}		
+		}
 
 		iconType = {
 			name = "mutualy_exclusive_reforms"
-			spriteType ="GFX_mutualy_exclusive_reforms"	
+			spriteType ="GFX_mutualy_exclusive_reforms"
 			position = { x= -2 y = -16 }
 			scale = 0.90
 		}
 
 		iconType = {
 			name = "enacted_decision"
-			spriteType ="GFX_enacted_reform_icon"	
+			spriteType ="GFX_enacted_reform_icon"
 			position = { x= 7 y = -7 }
 		}
 
@@ -310,7 +310,7 @@ guiTypes = {
 			name = "title"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 197
+			maxWidth = 297
 			maxHeight = 24
 			text = ""
 			format = left
