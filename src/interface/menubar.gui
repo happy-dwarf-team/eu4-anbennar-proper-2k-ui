@@ -192,7 +192,7 @@ guiTypes = {
 	windowType = {
 		name = "menu"
 		backGround=""
-		position = { x= -274 y = -315 }	
+		position = { x= -269 y = -315 }
 		size = { x=567 y = 629 }
 		moveable = 0
 		dontRender = ""
@@ -1662,7 +1662,7 @@ guiTypes = {
 	
 		windowType = {
 			name = "message_window_container"
-			position = { x = -297 y = -575 }
+			position = { x = -297 y = -589 }
 			#show_position = { x= -240 y = -600 }
 			#hide_position = { x= 12 y = -600 }	
 			animation_type = "decelerated"
@@ -2135,13 +2135,13 @@ guiTypes = {
 	{
 		name ="minimap_pic"
 		spriteType = "GFX_minimap"
-		position = { x= -329 y = -155 }
+		position = { x= -333 y = -174 }
 		Orientation = "UPPER_LEFT"
 	}
 
 	positionType = {
 		name = "minimap_size"
-		position = { x= 268 y=98 }
+		position = { x= 324 y=120 }
 	}
 		
 	windowType = {

@@ -128,20 +128,20 @@ guiTypes = {
 		guiButtonType = {
 			name = "category_button_geographical"
 			quadTextureSprite = "GFX_mapmode_category_button_geographical"
-			position = { x = -69 y = -222 }
+			position = { x = -69 y = -221 }
 			Orientation = "LOWER_RIGHT"
 		}
 
 		guiButtonType = {
 			name = "category_button_economical"
 			quadTextureSprite = "GFX_mapmode_category_button_economical"
-			position = { x = -111 y = -222 }
+			position = { x = -111 y = -221 }
 			Orientation = "LOWER_RIGHT"
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_1"
-			position = { x = -321 y = -254 }
+			position = { x = -321 y = -253 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -156,7 +156,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "custom_mapmode_2"
-			position = { x = -281 y = -254 }
+			position = { x = -281 y = -253 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -171,7 +171,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "custom_mapmode_3"
-			position = { x = -240 y = -254 }
+			position = { x = -240 y = -253 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -186,7 +186,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "custom_mapmode_4"
-			position = { x = -199 y = -254 }
+			position = { x = -199 y = -253 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -201,7 +201,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "custom_mapmode_5"
-			position = { x = -159 y = -254 }
+			position = { x = -159 y = -253 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
