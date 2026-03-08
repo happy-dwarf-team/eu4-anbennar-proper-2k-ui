@@ -125,7 +125,7 @@ guiTypes = {
 
 		overlappingElementsBoxType = {
 			name = "dlc_icons_list"
-			position = { x = 24 y = 663 }
+			position = { x = 4000 y = 663 }
 			size = { x = 1056 y = 48 }
 			orientation = "UPPER_LEFT"
 			format = center
@@ -159,7 +159,7 @@ guiTypes = {
 				position = { x= -90 y= 120 }
 				font = "vic_22"
 				maxWidth = 1032
-				maxHeight = 396
+				maxHeight = 464
 				scrollbartype = "standardtext_slider"
 			}
 		
@@ -191,7 +191,7 @@ guiTypes = {
 				position = { x= -90 y= 120 }
 				font = "vic_22"
 				maxWidth = 1032
-				maxHeight = 396
+				maxHeight = 464
 				scrollbartype = "standardtext_slider"
 			}
 		}
@@ -223,7 +223,7 @@ guiTypes = {
 				position = { x= -90 y= 120 }
 				font = "vic_22"
 				maxWidth = 1032
-				maxHeight = 396
+				maxHeight = 464
 				scrollbartype = "standardtext_slider"
 			}
 		}
@@ -254,7 +254,7 @@ guiTypes = {
 				position = { x= -90 y= 120 }
 				font = "vic_22"
 				maxWidth = 1032
-				maxHeight = 396
+				maxHeight = 464
 				scrollbartype = "standardtext_slider"
 			}
 		}
