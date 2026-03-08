@@ -6,14 +6,14 @@ guiTypes = {
 		moveable = 0
 		#position = { x = 600 y = 600 }
 		
-		iconType =
-		{
-			name ="minimap_bg_border"
-			spriteType = "GFX_minimap_bg_border"
-			position = { x= -338 y = -178 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}				  
+		# iconType =
+		# {
+		# 	name ="minimap_bg_border"
+		# 	spriteType = "GFX_minimap_bg_border"
+		# 	position = { x= -338 y = -178 }
+		# 	Orientation = "UPPER_LEFT"
+		# 	alwaystransparent = yes
+		# }
 		# Find more mapmodes in mapmode_more.gui.
 		guiButtonType = {
 			name = "zoom_in"
@@ -34,7 +34,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "history_button"
-			position = { x = -234 y = -43 }
+			position = { x = -186 y = -43 }
 			quadTextureSprite ="GFX_history_button02"
 			buttonFont = "Main_14_black"
 			Orientation = "LOWER_RIGHT"
@@ -42,7 +42,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "menubar_modifiers_button"
-			position = { x = -186 y = -43 }
+			position = { x = -398 y = -74 }
 			quadTextureSprite ="GFX_triggered_modifiers_button"
 			buttonFont = "Main_14_black"
 			clicksound = click
@@ -51,7 +51,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "menu_button"
-			position = { x = -331 y = -43 }
+			position = { x = -283 y = -43 }
 			quadTextureSprite ="GFX_menu_button"
 			buttonFont = "Main_14_black"
 
@@ -60,7 +60,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "ledger_button"
-			position = { x = -283 y = -43 }
+			position = { x = -235 y = -43 }
 			quadTextureSprite ="GFX_ledger_button"
 			buttonFont = "Main_14_black"
 
@@ -91,7 +91,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "closebutton"
-			position = { x = -363 y = -40 }
+			position = { x = -319 y = -40 }
 			quadTextureSprite ="GFX_closelog_button"
 			tooltip = ""
 			tooltipText =""
@@ -101,11 +101,12 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "<"
+			scale = 1.04
 		}
 
 		guiButtonType = {
 			name = "OPENbutton"
-			position = { x = -363 y = -40 }
+			position = { x = -319 y = -40 }
 			quadTextureSprite ="GFX_openlog_button"
 			tooltip = ""
 			tooltipText =""
@@ -115,6 +116,7 @@ guiTypes = {
 
 			shortcut = "<"
 			Orientation = "LOWER_RIGHT"
+			scale = 1.04
 		}
 		
 		guiButtonType = {
