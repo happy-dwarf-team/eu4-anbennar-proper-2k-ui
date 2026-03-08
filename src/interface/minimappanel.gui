@@ -5,15 +5,7 @@ guiTypes = {
 		Orientation = "LOWER_RIGHT"
 		moveable = 0
 		#position = { x = 600 y = 600 }
-		
-		# iconType =
-		# {
-		# 	name ="minimap_bg_border"
-		# 	spriteType = "GFX_minimap_bg_border"
-		# 	position = { x= -338 y = -178 }
-		# 	Orientation = "UPPER_LEFT"
-		# 	alwaystransparent = yes
-		# }
+
 		# Find more mapmodes in mapmode_more.gui.
 		guiButtonType = {
 			name = "zoom_in"
@@ -34,15 +26,15 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "history_button"
-			position = { x = -186 y = -43 }
+			position = { x = -187 y = -43 }	#anbennar
 			quadTextureSprite ="GFX_history_button02"
 			buttonFont = "Main_14_black"
 			Orientation = "LOWER_RIGHT"
 		}
-		
+
 		guiButtonType = {
 			name = "menubar_modifiers_button"
-			position = { x = -398 y = -74 }
+			position = { x = -398 y = -74 }	#anbennar
 			quadTextureSprite ="GFX_triggered_modifiers_button"
 			buttonFont = "Main_14_black"
 			clicksound = click
@@ -51,7 +43,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "menu_button"
-			position = { x = -283 y = -43 }
+			position = { x = -287 y = -43 }	#anbennar
 			quadTextureSprite ="GFX_menu_button"
 			buttonFont = "Main_14_black"
 
@@ -60,17 +52,17 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "ledger_button"
-			position = { x = -235 y = -43 }
+			position = { x = -237 y = -43 }	#anbennar
 			quadTextureSprite ="GFX_ledger_button"
 			buttonFont = "Main_14_black"
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "l"
 		}
-		
+
 		guiButtonType = {
 			name = "button_goto"
-			position = { x = -139 y = -43 }
+			position = { x = -139 y = -43 }	#anbennar
 			quadTextureSprite ="GFX_button_goto"
 			buttonFont = "Main_14_black"
 			shortcut = "f"
@@ -81,7 +73,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "button_pick_shortcut"
-			position = { x = -89 y = -42 }
+			position = { x = -87 y = -42 }
 			quadTextureSprite ="GFX_hotkey_button"
 			pdx_tooltip = "ASSIGN_HOTKEY_TITLE"
 			buttonFont = "Main_14_black"
@@ -116,40 +108,39 @@ guiTypes = {
 
 			shortcut = "<"
 			Orientation = "LOWER_RIGHT"
-			scale = 1.04
 		}
-		
+
 		guiButtonType = {
 			name = "category_button_political"
 			quadTextureSprite = "GFX_mapmode_category_button_political"
-			position = { x= -111 y = -238 }
+			position = { x = -111 y = -254 }
 			Orientation = "LOWER_RIGHT"
-		}	
-		
+		}
+
 		guiButtonType = {
 			name = "category_button_map"
 			quadTextureSprite = "GFX_mapmode_category_button_map"
-			position = { x= -69 y = -238 }
+			position = { x = -69 y = -254 }
 			Orientation = "LOWER_RIGHT"
-		}	
+		}
 
 		guiButtonType = {
 			name = "category_button_geographical"
 			quadTextureSprite = "GFX_mapmode_category_button_geographical"
-			position = { x= -69 y = -205 }
+			position = { x = -69 y = -222 }
 			Orientation = "LOWER_RIGHT"
-		}	
+		}
 
 		guiButtonType = {
 			name = "category_button_economical"
 			quadTextureSprite = "GFX_mapmode_category_button_economical"
-			position = { x= -111 y = -205 }
+			position = { x = -111 y = -222 }
 			Orientation = "LOWER_RIGHT"
-		}	
+		}
 
 		guiButtonType = {
 			name = "custom_mapmode_1"
-			position = { x = -321 y = -238 }
+			position = { x = -321 y = -254 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -158,13 +149,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "q"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_2"
-			position = { x = -281 y = -238 }
+			position = { x = -281 y = -254 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -173,13 +164,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "w"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_3"
-			position = { x = -240 y = -238 }
+			position = { x = -240 y = -254 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -188,13 +179,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "e"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_4"
-			position = { x = -199 y = -238 }
+			position = { x = -199 y = -254 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -203,13 +194,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "r"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_5"
-			position = { x = -159 y = -238 }
+			position = { x = -159 y = -254 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -218,13 +209,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "t"
-			
+
 			clicksound = click
 		}
-		
+
 		guiButtonType = {
 			name = "custom_mapmode_6"
-			position = { x = -321 y = -202 }
+			position = { x = -321 y = -220 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -233,13 +224,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "y"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_7"
-			position = { x = -281 y = -202 }
+			position = { x = -281 y = -220 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -248,13 +239,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "u"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_8"
-			position = { x = -240 y = -202 }
+			position = { x = -240 y = -220 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -263,13 +254,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "i"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_9"
-			position = { x = -199 y = -202 }
+			position = { x = -199 y = -220 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -278,13 +269,13 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "o"
-			
+
 			clicksound = click
 		}
 
 		guiButtonType = {
 			name = "custom_mapmode_10"
-			position = { x = -159 y = -202 }
+			position = { x = -159 y = -220 }
 			quadTextureSprite ="GFX_mapmode_notselected"
 			tooltip = ""
 			tooltipText =""
@@ -293,10 +284,10 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			shortcut = "p"
-			
+
 			clicksound = click
 		}
-		
+
 		guiButtonType = {
 			name = "custom_mapmode_overlay"
 			position = { x = -321 y = -259 }
@@ -304,25 +295,25 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 		}
-		
+
 		windowType = {
 			name = "mapmode_list_window"
 			backGround=""
-			position = { x=-351 y=-601 }	
-			size = { x=339 y=291 }
+			position = { x = -351 y = -614 }
+			size = { x = 339 y = 291 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
 			verticalBorder= ""
 			fullScreen = no
-		
+
 			iconType = {
 				name ="bg"
 				spriteType = "GFX_subject_actions_bg"
-				position = { x= 0 y = 0 }
+				position = { x = 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
-			
+
 			instantTextBoxType = {
 				name = "category_title"
 				position = { x = 18 y = 12 }
@@ -335,7 +326,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				fixedsize = yes
 				alwaystransparent = yes
-			}		
+			}
 
 			smoothListboxType = {
 				name = "list"
@@ -348,7 +339,7 @@ guiTypes = {
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
 			}
-			
+
 			guiButtonType = {
 				name = "close_button"
 				position = { x = -7 y = -13 }
@@ -359,7 +350,7 @@ guiTypes = {
 			}
 		}
 	}
-	
+
 	### MAP MODE ITEM ###
 	windowType = {
 		name = "mapmode_item"
@@ -370,7 +361,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType =
 		{
@@ -379,7 +370,7 @@ guiTypes = {
 			position = { x = 12 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		guiButtonType =
 		{
 			name ="remove_mapmode_button"
@@ -393,7 +384,7 @@ guiTypes = {
 			format = left
 			textureFile = ""
 			font = "vic_22"
-			borderSize = { x = 0 y = 0 }	
+			borderSize = { x = 0 y = 0 }
 			maxWidth = 240
 			maxHeight = 39	
 			Orientation = "UPPER_LEFT"
@@ -401,7 +392,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	windowType = {
 		name = "add_mapmode_item"
 		backGround=""
@@ -411,7 +402,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType =
 		{
