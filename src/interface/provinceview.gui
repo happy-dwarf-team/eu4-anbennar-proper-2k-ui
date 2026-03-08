@@ -745,12 +745,12 @@ guiTypes = {
 				shortcut = "c" #added
 			}
 
-			# guiButtonType = {
-			# 	name = "dig_deeper_capital"
-			# 	position = { x = 539 y = 77 }
-			# 	quadTextureSprite = "GFX_dig_deeper_button"
-			# 	scripted = yes
-			# }
+			guiButtonType = {
+				name = "dig_deeper_capital"
+				position = { x = 539 y = 77 }
+				quadTextureSprite = "GFX_dig_deeper_button"
+				scripted = yes
+			}
 
 			iconType = {
 				name = "diggy_diggy_estimate"
@@ -802,7 +802,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "diggy_cost_text_label"
-				position = { x = 78 y = 10 }
+				position = { x = 93 y = 10 }
 				borderSize = {x = 2 y = 2}
 				alwaystransparent = yes
 				scripted = yes
@@ -810,7 +810,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "diggy_cost_text"
-				position = { x = 108 y = 10 }
+				position = { x = 128 y = 10 }
 				borderSize = {x = 2 y = 2}
 				format = centre
 				alwaystransparent = yes
@@ -819,7 +819,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "diggy_time_text_label"
-				position = { x = 78 y = 38 }
+				position = { x = 93 y = 38 }
 				borderSize = {x = 2 y = 2}
 				alwaystransparent = yes
 				scripted = yes
@@ -835,7 +835,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "diggy_time_text"
-				position = { x = 108 y = 38 }
+				position = { x = 128 y = 38 }
 				borderSize = {x = 2 y = 2}
 				format = centre
 				alwaystransparent = yes
