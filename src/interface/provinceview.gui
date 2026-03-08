@@ -572,9 +572,15 @@ guiTypes = {
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 
+			#Anbennar
+			iconType = {
+				name = "add_parliament_forbidden"
+				quadTextureSprite = "GFX_add_parliament_forbidden_icon"
+				position = { x = 138 y = -80 }
+				scripted = yes
+			}
+
 			### Core
-
-
 			iconType =
 			{
 				name ="tax_base_icon"
@@ -737,6 +743,117 @@ guiTypes = {
 				position = { x= 407 y = 76 }
 				quadTextureSprite ="GFX_checkbox_settlement_growth"
 				shortcut = "c" #added
+			}
+
+			# guiButtonType = {
+			# 	name = "dig_deeper_capital"
+			# 	position = { x = 539 y = 77 }
+			# 	quadTextureSprite = "GFX_dig_deeper_button"
+			# 	scripted = yes
+			# }
+
+			iconType = {
+				name = "diggy_diggy_estimate"
+				spriteType = "GFX_diggydiggyestimate"
+				position = { x = 65 y = -32 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "diggy_diggy_bar_fill_1"
+				spriteType = "GFX_diggy_bar_fill_left"
+				position = { x = 318 y = 47 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "diggy_diggy_bar_fill_2"
+				spriteType = "GFX_diggy_bar_fill"
+				position = { x = 358 y = 47 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "diggy_diggy_bar_fill_3"
+				spriteType = "GFX_diggy_bar_fill"
+				position = { x = 400 y = 47 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "diggy_diggy_bar_fill_4"
+				spriteType = "GFX_diggy_bar_fill"
+				position = { x = 442 y = 47 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "diggy_diggy_bar_fill_5"
+				spriteType = "GFX_diggy_bar_fill_right"
+				position = { x = 482 y = 47 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "diggy_cost_text_label"
+				position = { x = 78 y = 10 }
+				borderSize = {x = 2 y = 2}
+				alwaystransparent = yes
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "diggy_cost_text"
+				position = { x = 108 y = 10 }
+				borderSize = {x = 2 y = 2}
+				format = centre
+				alwaystransparent = yes
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "diggy_time_text_label"
+				position = { x = 78 y = 38 }
+				borderSize = {x = 2 y = 2}
+				alwaystransparent = yes
+				scripted = yes
+			}
+
+			iconType = {
+				name = "diggy_diggy_bar_label"
+				spriteType = "GFX_diggy_diggy_bar_label"
+				position = { x = 318 y = 47 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "diggy_time_text"
+				position = { x = 108 y = 38 }
+				borderSize = {x = 2 y = 2}
+				format = centre
+				alwaystransparent = yes
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "diggy_diggy_go"
+				position = { x = 312 y = 12 }
+				quadTextureSprite = "GFX_diggydiggygo"
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "diggy_diggy_repair"
+				position = { x = 312 y = 12 }
+				quadTextureSprite = "GFX_diggydiggyrepair"
+				scripted = yes
 			}
 
 			guiButtonType =
@@ -2601,7 +2718,161 @@ guiTypes = {
 				buttonText = "RESTORE_BUILDINGS_TEXT"
 				buttonFont = "vic_18"
 			}
+
+			guiButtonType = {
+				name = "province_button_button"
+				position = { x = 574 y = 233}
+				quadTextureSprite ="GFX_province_button_interface_tab"
+				scripted = yes
+			}
+
+			#Province button UI - building UI closed
+			windowType = {
+				name = "province_button_window_closed"
+				position = { x = 583 y = 224 }
+				size = { x = 72 y = 240 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+
+				iconType = { #Background
+					name ="GFX_province_button_frame_bg_vertical"
+					spriteType = "GFX_province_button_frame_bg_vertical"
+					position = { x = 10 y = 11 }
+				}
+				guiButtonType = { #Close button
+					name = "province_button_close_button"
+					position = { x = 62 y = -11 }
+					quadTextureSprite ="GFX_closebutton2"
+					clicksound = close_window
+					scripted = yes
+				}
+				### New Province UI buttons must be added here below the previous ones in the right slot
+				#Slot 1 - Continent wide button
+				guiButtonType = { #Generic
+					name = "GFX_province_button_dummy_1"
+					quadTextureSprite = "GFX_province_button_dummy1"
+					position = { x = 26 y = 49 }
+					scripted = yes
+				}
+				guiButtonType = { #Sedentarization
+					name = "sedentarization_make_outpost"
+					quadTextureSprite = "GFX_settle_tribe_button"
+					position = { x = 26 y = 49 }
+					scripted = yes
+				}
+				guiButtonType = { #Merfolk Settlements
+					name = "merfolk_settlement_button"
+					quadTextureSprite = "merfolk_button"
+					position = { x = 26 y = 49 }
+					scripted = yes
+				}
+
+				#Slot 2 - Province type button
+				guiButtonType = { #Generic
+					name = "GFX_province_button_dummy_2"
+					quadTextureSprite = "province_button_dummy2"
+					position = { x = 26 y = 103 }
+					scripted = yes
+				}
+				guiButtonType = { #Holds
+					name = "dig_deeper_capital"
+					position = { x = 26 y = 103 }
+					quadTextureSprite = "GFX_dig_deeper_button"
+					scripted = yes
+				}
+				guiButtonType = { #Ebonsteel
+					name = "ebonsteel_expand_infra_button"
+					position = { x = 26 y = 103 }
+					quadTextureSprite = "ebonsteel_button"
+					scripted = yes
+				}
+
+				#Slot 3 - Religion specific button
+				guiButtonType = { #Generic
+					name = "GFX_province_button_dummy_3"
+					quadTextureSprite = "GFX_change_religion_button"
+					position = { x = 26 y = 157 }
+					scripted = yes
+				}
+				guiButtonType = { #Transmutative Path
+					name = "transmutative_path_infuse_chi_button"
+					position = { x = 26 y = 157 }
+					quadTextureSprite = "chi_wellspring_button"
+					scripted = yes
+				}
+
+				#Slot 4 - Culture specific button
+				guiButtonType = { #Generic
+					name = "GFX_province_button_dummy_4"
+					quadTextureSprite = "GFX_promote_button"
+					position = { x = 31 y = 216 }
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "harpy_roost_button"
+					position = { x = 26 y = 211 }
+					quadTextureSprite = "GFX_harpy_roost_button"
+					scripted = yes
+				}
+				guiButtonType = { #Deepwoods Rangers
+					name = "deepwoods_rangers_button"
+					quadTextureSprite = "ranger_camp_button"
+					position = { x = 26 y = 214 }
+					scripted = yes
+				}
+
+				#Slot 5 - Tag specific button
+				guiButtonType = { #Generic
+					name = "GFX_province_button_dummy_5"
+					quadTextureSprite = "GFX_make_state_button"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+				guiButtonType = { #Khatalashya
+					name = "khatalashya_province_button"
+					quadTextureSprite = "khatalashya_province_button_space_colony"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+				guiButtonType = { #Arawkelin Deforestation
+					name = "arawkelin_deforestation_button"
+					quadTextureSprite = "deforestation_button"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+				guiButtonType = { #Xanzerbexis Wyvern Farm
+					name = "A49_create_wyvern_farm_button"
+					quadTextureSprite = "GFX_settle_tribe_button"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "chaqway_markets_button"
+					quadTextureSprite = "trademod_button"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+				guiButtonType = { #Verne
+					name = "verne_port_of_adventure_button"
+					quadTextureSprite = "port_of_adventure_button"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+				guiButtonType = { #Karshyr Aquaculture
+					name = "S15_aquaculture_button"
+					position = { x = 26 y = 265 }
+					quadTextureSprite = "aquaculture_button"
+					scripted = yes
+				}
+				guiButtonType = {
+					name = "celmaldor_trade_league_investment"
+					quadTextureSprite = "trademod_button"
+					position = { x = 26 y = 265 }
+					scripted = yes
+				}
+			}
 		}
+
 
 		## State Window
 		windowType = {
@@ -6684,6 +6955,23 @@ guiTypes = {
 		instantTextBoxType={
 			name = "furnace_cost"
 			position = {x = 326 y = 564 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 153
+			maxHeight = 21
+			text = "2000¤"
+		}
+
+		#Anbennar
+		checkboxType = {
+			name = "build_mage_tower"
+			position = { x = 383 y = 504 }
+			quadTextureSprite = "GFX_furnace"
+		}
+
+		instantTextBoxType={
+			name = "mage_tower_cost"
+			position = {x = 388 y = 564 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 153
