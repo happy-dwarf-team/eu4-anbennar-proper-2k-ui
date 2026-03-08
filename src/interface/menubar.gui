@@ -1787,21 +1787,21 @@ guiTypes = {
 			{
 				name ="menubar_floating_bg_1"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -435 y = -43 }
+				position = { x= -453 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 			iconType =
 			{
 				name ="menubar_floating_bg_2"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -489 y = -43 }
+				position = { x= -507 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 			iconType =
 			{
 				name ="menubar_floating_bg_3"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -543 y = -43 }
+				position = { x= -561 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 
@@ -1809,7 +1809,7 @@ guiTypes = {
 			{
 				name ="menubar_floating_bg_4"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -597 y = -43 }
+				position = { x= -615 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 			
@@ -1817,34 +1817,34 @@ guiTypes = {
 			{
 				name ="menubar_floating_bg_5"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -651 y = -43 }
+				position = { x= -669 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}		
 			iconType =
 			{
 				name ="menubar_floating_bg_6"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -717 y = -43 }
+				position = { x= -735 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 			iconType =
 			{
 				name ="menubar_floating_bg_7"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -783 y = -43 }
+				position = { x= -801 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 			iconType =
 			{
 				name ="menubar_floating_bg_8"
 				spriteType = "GFX_menubar_floating_bg"
-				position = { x= -849 y = -43 }
+				position = { x= -867 y = -43 }
 				Orientation = "LOWER_RIGHT"
 			}
 			
 			instantTextBoxType = {
 				name = "floating_number_1"
-				position = { x = -437 y = -21 }
+				position = { x = -455 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1857,7 +1857,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "floating_number_2"
-				position = { x = -491 y = -21 }
+				position = { x = -509 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1871,7 +1871,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "floating_number_3"
-				position = { x = -545 y = -21 }
+				position = { x = -563 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1884,7 +1884,7 @@ guiTypes = {
 			}		
 			instantTextBoxType = {
 				name = "floating_number_4"
-				position = { x = -599 y = -21 }
+				position = { x = -617 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1897,7 +1897,7 @@ guiTypes = {
 			}	
 			instantTextBoxType = {
 				name = "floating_number_5"
-				position = { x = -657 y = -21 }
+				position = { x = -675 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1910,7 +1910,7 @@ guiTypes = {
 			}		
 			instantTextBoxType = {
 				name = "floating_number_6"
-				position = { x = -715 y = -21 }
+				position = { x = -733 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1923,7 +1923,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "floating_number_7"
-				position = { x = -773 y = -21 }
+				position = { x = -791 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1936,7 +1936,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "floating_number_8"
-				position = { x = -831 y = -21 }
+				position = { x = -849 y = -21 }
 				
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1950,7 +1950,7 @@ guiTypes = {
 	 
 			guiButtonType = {
 				name = "f_button_1"
-				position = { x = -432 y = -69 }
+				position = { x = -450 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -1963,7 +1963,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "f_button_2"
-				position = { x = -486 y = -69 }
+				position = { x = -504 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -1978,14 +1978,14 @@ guiTypes = {
 			{
 				name ="hre_strip_glow"
 				spriteType = "GFX_hre_strip_glow"
-				position = { x= -487 y = -69 }
+				position = { x= -505 y = -69 }
 				Orientation = "LOWER_RIGHT"
 			}			
 			
 			# Can be moved using the positionType "revolution_flag_offset"
 			guiButtonType = {
 				name = "f_button_3"
-				position = { x = -540 y = -69 }
+				position = { x = -558 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -1998,7 +1998,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "f_button_4"
-				position = { x = -594 y = -69 }
+				position = { x = -612 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -2011,7 +2011,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "f_button_5"
-				position = { x = -648 y = -69 }
+				position = { x = -666 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -2024,7 +2024,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "f_button_6"
-				position = { x = -702 y = -69 }
+				position = { x = -720 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -2037,7 +2037,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "f_button_7"
-				position = { x = -756 y = -69 }
+				position = { x = -774 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
@@ -2050,7 +2050,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "f_button_8"
-				position = { x = -810 y = -69 }
+				position = { x = -828 y = -69 }
 				quadTextureSprite ="GFX_menubar_floating_strip"
 				tooltip = ""
 				tooltipText =""
