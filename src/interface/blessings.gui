@@ -93,7 +93,7 @@ guiTypes = {
 			name ="holy_site_listbox"
 			position = { x = 132 y = 291 }
 			backGround=""
-			size = { x = 597 y = 576}
+			size = { x = 597 y = 476}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
@@ -148,7 +148,7 @@ guiTypes = {
 				name ="blessing_listbox"
 				position = { x = 138 y = 153 }
 				backGround=""
-				size = { x = 597 y = 696}
+				size = { x = 597 y = 616}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1
@@ -203,7 +203,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType= {
-			position = { x = 261 y = 8}
+			position = { x = 290 y = 8}
 			name = "title"
 			font = "vic_22s"
 			borderSize = {x = 0 y = 0}	
@@ -218,7 +218,7 @@ guiTypes = {
 			name = "control"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 234
+			maxWidth = 280
 			maxHeight = 24
 			text = "Controlled by Polandball"	
 			format = left
@@ -229,7 +229,7 @@ guiTypes = {
 			name = "religion"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 234
+			maxWidth = 250
 			maxHeight = 24
 			text = "Pastafarian"	
 			format = left
@@ -251,7 +251,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "goto_button"
-			position = { x=483 y = 51}
+			position = { x=483 y = 64}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "GOTO"
 			buttonFont = "vic_18"
@@ -261,7 +261,7 @@ guiTypes = {
 		{
 			name ="countryshield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 509 y = -1 }
+			position = { x= 248 y = -1 }
 			Orientation = "UPPER_LEFT"
 			clicksound = click
 		}
@@ -314,6 +314,7 @@ guiTypes = {
 			name = "copts_blessing_title_banner"
 			spriteType ="GFX_copts_blessing_title_banner"	
 			position = { x = -6 y = 6 }
+			scale = 1.1
 		}	
 		
 		iconType =
@@ -325,11 +326,11 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			position = { x = 37 y = 8}
+			position = { x = 37 y = 10}
 			name = "title"
-			font = "vic_22s"
+			font = "vic_18s"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 437
+			maxWidth = 450
 			maxHeight = 24
 			text = "Da Blessing"	
 			format = left
@@ -348,7 +349,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "select_button"
-			position = { x=492 y = 6}
+			position = { x=492 y = 52}
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
