@@ -3076,7 +3076,7 @@ guiTypes = {
 
 		iconType =
 		{
-			name = "button1_icon"
+			name ="button1"
 			quadTextureSprite = "GFX_idea_economic_ideas"
 			position = { x= -30 y = 0 }
 			Orientation = "UPPER_LEFT"
@@ -3094,7 +3094,7 @@ guiTypes = {
 		
 		iconType =
 		{
-			name ="button2_icon"
+			name ="button2"
 			quadTextureSprite = "GFX_idea_economic_ideas"
 			position = { x= 25 y = 0 }
 			Orientation = "UPPER_LEFT"
