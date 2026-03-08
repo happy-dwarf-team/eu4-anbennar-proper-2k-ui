@@ -34,11 +34,12 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "menubar_modifiers_button"
-			position = { x = -398 y = -74 }	#anbennar
+			position = { x = -398 y = -75 }	#anbennar
 			quadTextureSprite ="GFX_triggered_modifiers_button"
 			buttonFont = "Main_14_black"
 			clicksound = click
 			Orientation = "LOWER_RIGHT"
+			scale = 1.02
 		}
 
 		guiButtonType = {
