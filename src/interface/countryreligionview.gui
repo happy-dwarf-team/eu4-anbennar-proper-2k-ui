@@ -261,7 +261,7 @@ guiTypes = {
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
-		fixedsize = yes
+		# fixedsize = yes
 
 		iconType =
 		{
@@ -4869,7 +4869,7 @@ guiTypes = {
 	windowType = {
 		name = "countryreligionview_aspectitem_devouring_path"
 		backGround =""
-		position = { x = 12 y = -36 }
+		position = { x = 12 y = -25 }
 		size = { x = 60 y = 55 }
 		moveable = 0
 		dontRender = ""
@@ -4880,28 +4880,29 @@ guiTypes = {
 		{
 			name ="aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x = 14 y = -17 }	#anbennar, x was 43
+			position = { x = -60 y = -20 }	#anbennar, x was 43
 		}
 
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x = -83 y = 7 }		#anbennar, x was -42
-			font = "vic_18"
+			position = { x = 16 y = -10 }		#anbennar, x was -42
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 118					#anbennar, x was 102
+			maxWidth = 388					#anbennar, x was 102
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
+			# vertical_alignment = centre
 		}
 
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 85 y = -2 }	#anbennar, x was 98
-			font = "vic_18"
+			position = { x = 16 y = 7 }	#anbennar, x was 98
+			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 336					#anbennar, x was 206
+			maxWidth = 388					#anbennar, x was 206
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
