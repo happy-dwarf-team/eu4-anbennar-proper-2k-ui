@@ -12,6 +12,11 @@ tags={
 dependencies={
 	"Anbennar: A Fantasy Total Conversion"
 	"Proper 2K UI Enhanced"
+	"Anbennar - Dwarven Monuments"
+	"Anbennar - Cannorian Monuments"
+	"Anbennar - Haless & Aelantir Monuments"
+	"Sarhal Monuments - Anbennar submod"
+	"Taychend Monuments - Anbennar Submode"
 }
 name="Anbennar - Proper 2K UI"
 supported_version="v1.37.*.*"
