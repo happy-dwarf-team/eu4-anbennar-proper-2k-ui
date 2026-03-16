@@ -1,14 +1,14 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "jaddari_desert_legion_bar"
-		size = { x = 360 y = 14 }
+		size = { x = 363 y = 15 }
 		moveable = 0
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_jaddari_desert_legion_bar"
-			position = { x = 46 y = -116 }
+			position = { x = 46 y = -117 }
 		}	
 
 		# Progressbar Frame
@@ -16,14 +16,14 @@ guiTypes = {
 			name = "frame_background"
 			spriteType = "GFX_jaddari_desert_legion_bar_frame"
 			alwaystransparent = yes
-			position = { x = 8 y = -119 }
+			position = { x = 8 y = -120 }
 		}
 	}
 	
 	# Interactions, copied from government_interaction_type but we want a different size than default
 	windowType = {
 		name = "jaddari_desert_legion_button"
-		size = { x = 120 y = 118 }
+		size = { x = 121 y = 119 }
 		position = { x = 8 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -49,14 +49,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 24 y = 92 }
+			position = { x = 24 y = 93 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 7 y = 89 }
+			position = { x = 7 y = 90 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

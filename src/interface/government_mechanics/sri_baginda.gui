@@ -1,28 +1,28 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "sri_baginda"
-		size = { x = 300 y = 20 }
+		size = { x = 363 y = 24 }
 		moveable = 0
 	
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_single_government_power_bar"
-			position = { x = 35 y = 3 }
+			position = { x = 42 y = 4 }
 		
 		}
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_single_government_power_bar_frame"
-			position = { x = 24 y = 0 }
+			position = { x = 29 y = 0 }
 			alwaystransparent = yes
 		}
 	}
 
 	windowType = {
 		name = "sri_baginda_button"
-		size = { x = 82 y = 82 }
-		position = { x = 7 y = 1 }
+		size = { x = 99 y = 99 }
+		position = { x = 8 y = 1 }
 		backGround = ""
 		moveable = 0
 		dontRender = ""
@@ -46,14 +46,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 27 y = 0 }
+			position = { x = 33 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 19 y = 0 }
+			position = { x = 23 y = 0 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

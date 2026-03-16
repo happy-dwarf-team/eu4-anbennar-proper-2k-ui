@@ -1,25 +1,25 @@
 guiTypes = {
 	windowType = {
-		name = "corinsfield_paranoia_bar"
-		size = { x = 286 y = 1 }
+		name = "command_korashi_bar"
+		size = { x = 363 y = 24 }
 		moveable = 0
 
 		iconType = {
 			name = "government_power_bar"
-			spriteType = "GFX_corinsfield_paranoia_bar"
-			position = { x = 48 y = -96 }
+			spriteType = "GFX_single_government_power_bar"
+			position = { x = 51 y = 4 }
 		}
 
 		iconType = {
 			name = "frame_background"
-			spriteType = "GFX_corinsfield_paranoia_bar_frame"
+			spriteType = "GFX_single_government_power_bar_frame"
+			position = { x = 38 y = 0 }
 			alwaystransparent = yes
-			position = { x = 48 y = -96 }
 		}
 	}
 	windowType = {
-		name = "corinsfield_paranoia_button_left"
-		size = { x = 136 y = 146 }
+		name = "command_korashi_button_left"
+		size = { x = 136 y = 109 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -31,7 +31,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM"
-			position = { x = 11 y = 73 }
+			position = { x = 12 y = 10 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""
@@ -57,8 +57,8 @@ guiTypes = {
 
 	}
 	windowType = {
-		name = "corinsfield_paranoia_button"
-		size = { x = 113 y = 146 }
+		name = "command_korashi_button"
+		size = { x = 111 y = 109 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -70,7 +70,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM"
-			position = { x = 0 y = 73 }
+			position = { x = 0 y = 10 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""

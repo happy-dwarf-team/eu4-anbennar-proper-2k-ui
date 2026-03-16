@@ -194,7 +194,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/ottoman_decadence/ottoman_decadence_active.dds"
 		textureFile2 = "gfx/interface/government_mechanics/ottoman_decadence/ottoman_decadence_pasive.dds"
-		size = { x = 329 y = 132 }
+		size = { x = 332 y = 133 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -241,7 +241,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/russian_modernization/russian_modernization_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/russian_modernization/russian_modernization_progress_bar_empty.dds"
-		size = { x = 321 y = 24 }
+		size = { x = 323 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -281,7 +281,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/hessian_militarization/hessian_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/hessian_militarization/hessian_progress_bar_empty.dds"
-		size = { x = 312 y = 23 }
+		size = { x = 315 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -403,7 +403,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/prussian_militarization/prussian_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/prussian_militarization/prussian_progress_bar_empty.dds"
-		size = { x = 312 y = 24 }
+		size = { x = 315 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -463,7 +463,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/parliament_vs_monarchy/parliament_vs_monarchy_progressbar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/parliament_vs_monarchy/parliament_vs_monarchy_progressbar_frame.dds"
-		size = { x = 279 y = 24 }
+		size = { x = 281 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -481,7 +481,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/end_time/end_time_active.dds"
 		textureFile2 = "gfx/interface/government_mechanics/end_time/end_time_pasive.dds"
-		size = { x = 329 y = 132 }
+		size = { x = 332 y = 133 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -536,7 +536,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/egyptian_westernization/egyptian_westernization_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/egyptian_westernization/egyptian_westernization_progress_bar_empty.dds"
-		size = { x = 297 y = 24 }
+		size = { x = 300 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -595,10 +595,10 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/zoroastrian_three_flames/the_three_royal_fires_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/zoroastrian_three_flames/the_three_royal_fires_progress_bar_empty.dds"
-		size = { x = 237 y = 17 }
+		size = { x = 224 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
-
+	}
+	
 	# 22 Arabic Trade Influence
 	spriteType = {
 		name = "GFX_arabic_trade_influence_bg"
@@ -628,7 +628,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/russian_modernization/russian_modernization_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/russian_modernization/russian_modernization_progress_bar_empty.dds"
-		size = { x = 320 y = 20 }
+		size = { x = 315 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 	# 23 Cultural Disunity
@@ -644,7 +644,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/russian_modernization/russian_modernization_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/russian_modernization/russian_modernization_progress_bar_empty.dds"
-		size = { x = 310 y = 20 }
+		size = { x = 315 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	# 24 Council of Ten
@@ -676,7 +676,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/council_of_ten/single_government_power_bar_red.dds"
 		textureFile2 = "gfx/interface/government_mechanics/council_of_ten/single_government_power_empty.dds"
-		size = { x = 280 y = 21 }
+		size = { x = 284 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 	# 25 Blood Gathering
@@ -708,7 +708,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/blood_gathering/aztec_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/blood_gathering/aztec_progress_bar_empty.dds"
-		size = { x = 270 y = 18 }
+		size = { x = 266 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
 	# 26 Divine Authority
@@ -740,7 +740,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/divine_authority/inca_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/divine_authority/inca_progress_bar_empty.dds"
-		size = { x = 270 y = 18 }
+		size = { x = 278 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -787,7 +787,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/effelai_attuned/effelai_government_progressbar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/effelai_attuned/effelai_government_progressbar_empty.dds"
-		size = { x = 224 y = 11 }
+		size = { x = 271 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -834,7 +834,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/harpylen_queendom/harpylen_queendom_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/harpylen_queendom/harpylen_queendom_bar_empty.dds"
-		size = { x = 257 y = 27 }
+		size = { x = 311 y = 33 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
+	}
 }

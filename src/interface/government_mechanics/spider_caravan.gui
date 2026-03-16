@@ -1,14 +1,14 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "spider_caravan_preparation"
-		size = { x = 300 y = 12 }
+		size = { x = 363 y = 15 }
 		moveable = 0
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_spider_caravan_preparation"
-			position = { x = 35 y = -1 }
+			position = { x = 42 y = -1 }
 		}	
 
 		# Progressbar Frame
@@ -23,7 +23,7 @@ guiTypes = {
 	# Interactions, copied from government_interaction_type but we want a different size than default
 	windowType = {
 		name = "spider_caravan_button"
-		size = { x = 100 y = 88 }
+		size = { x = 121 y = 106 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -49,14 +49,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 20 y = 77 }
+			position = { x = 24 y = 93 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 6 y = 74 }
+			position = { x = 7 y = 90 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
