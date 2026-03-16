@@ -327,7 +327,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_ruler"
-			position = { x = 74  y = 206 }
+			position = { x = 73  y = 206 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -350,9 +350,18 @@ guiTypes = {
 
 		iconType =
 		{
+			name ="ruler_adm_icon"
+			spriteType = "GFX_icon_powers_administrative_w_bg"
+			position = { x= 50 y = 238 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ruler"
+		}
+
+		iconType =
+		{
 			name = "ruler_race_icon"
 			spriteType = "GFX_ruler_race_icon"
-			position = { x = 46 y = 210 }
+			position = { x = 45 y = 210 }
 			Orientation = "UPPER_LEFT"
 			scripted = yes
 		}
@@ -361,19 +370,10 @@ guiTypes = {
 		{
 			name = "ruler_is_mage_icon"
 			spriteType = "GFX_icon_magic_small"
-			position = { x = 56 y = 218 }
+			position = { x = 60 y = 220 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 			scripted = yes
-		}
-
-		iconType =
-		{
-			name ="ruler_adm_icon"
-			spriteType = "GFX_icon_powers_administrative_w_bg"
-			position = { x= 50 y = 238 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
@@ -433,14 +433,14 @@ guiTypes = {
 		# End of ruler statas
 
 		# Raj cohesion display
-
+		
 		instantTextBoxType = {
-			position = { x = 180 y = 275 }
+			position = { x = 127 y = 272 }
 			name = "raj_text_cohesion_diplo"
 			font = "vic_18"
 			borderSize = { x = 0 y = 0 }
-			maxWidth = 240
-			maxHeight = 32
+			maxWidth = 242
+			maxHeight = 39
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = left

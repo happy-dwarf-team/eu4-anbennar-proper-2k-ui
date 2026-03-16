@@ -2,7 +2,7 @@ guitypes = {
     # GUI for Sudebnik/Oprichina/Streltsy
 	windowType = {
 		name = "russian_mechanics_interaction_gui"
-		size = { x = 120 y = 108 }
+		size = { x = 121 y = 109 }
 		backGround = ""
 		moveable = 0
 		dontRender = ""
@@ -13,7 +13,7 @@ guitypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM" #placeholder so we don't get an assert - you have to set something - but this will be overridden by the interaction's icon
-			position = { x = 5 y = -10 }
+			position = { x = 5 y = 0 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""
@@ -27,14 +27,14 @@ guitypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 15 y = 81 }
+			position = { x = 17 y = 85 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 0 y = 79 }
+			position = { x = 0 y = 80 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

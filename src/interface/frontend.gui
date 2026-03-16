@@ -1214,7 +1214,7 @@ guiTypes = {
 
 				listboxType = {
 					name = "enabled_dlc_list_1"
-					position = { x = 472 y = 48 }
+					position = { x = -1320 y = 48 }
 					size = { x = 48 y = 1060 }
 					orientation = "UPPER_LEFT"
 					horizontal = 0
@@ -1223,7 +1223,7 @@ guiTypes = {
 
 				listboxType = {
 					name = "enabled_dlc_list_0"
-					position = { x = 472 y = 48 }
+					position = { x = -1320 y = 48 }
 					size = { x = 48 y = 1060 }
 					orientation = "UPPER_LEFT"
 					horizontal = 0
@@ -1331,8 +1331,8 @@ guiTypes = {
 				windowType = {
 					name ="datewidget"
 					backGround=""
-					position = { x = -360 y = 481}	#anbennar
-					size = { x = 240 y = 240}
+					position = { x=-9999 y =485}	#anbennar
+					size = { x=242 y =242}
 					moveable = 0
 					dontRender = ""
 					horizontalBorder= ""
@@ -1346,7 +1346,7 @@ guiTypes = {
 					{
 						name ="selectdate_bg"
 						spriteType = "GFX_lobby_date_bg"
-						position = { x = -2400 y = 0 }
+						position = { x= -9999 y = -18 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -1519,7 +1519,7 @@ guiTypes = {
 					position = { x = -39 y = -53 }	#anbennar
 					quadTextureSprite ="anb_button_options"	#anbennar
 					buttonText = "Options"
-					buttonFont = "Main_14"
+					buttonFont = "vic_18"
 					Orientation = "LOWER_LEFT"
 					clicksound = click
 				}
@@ -1726,7 +1726,7 @@ guiTypes = {
 				{
 					name ="right_sidepanel"
 					spriteType = "GFX_anb_lobby_right_bg"
-					position = { x = -319 y = 19 }
+					position = { x = -319 y = 24 }
 					Orientation = "UPPER_RIGHT"
 				}
 
@@ -1734,13 +1734,13 @@ guiTypes = {
 				{
 					name ="ironman_icon"
 					spriteType = "GFX_ironman_icon"
-					position = { x = -240 y = 36 }
+					position = { x = -240 y = 41 }
 					Orientation = "UPPER_RIGHT"
 				}
 
 				instantTextBoxType = {
 					name = "ironman_label"
-					position = { x = -204 y = 50 }
+					position = { x = -204 y = 55 }
 					font = "vic_22"
 					text = "FE_IRONMAN"
 					maxWidth = 192
@@ -1753,7 +1753,7 @@ guiTypes = {
 				windowType = {
 					name ="multiplayer"
 					backGround=""
-					position = { x = -283 y = 48}
+					position = { x = -283 y = 53}
 					size = { x = 240 y = 408}
 					moveable = 0
 					dontRender = ""
@@ -1913,7 +1913,7 @@ guiTypes = {
 				windowType = {
 					name ="singleplayer"
 					backGround=""
-					position = { x = -283 y = 48}
+					position = { x = -283 y = 53}
 					size = { x = 240 y = 408}
 					moveable = 0
 					dontRender = ""

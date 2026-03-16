@@ -2,7 +2,7 @@ guiTypes = {
 	# Interactions, copied from government_interaction_type but we want a different size than default
 	windowType = {
 		name = "phoenix_estate_button"
-		size = { x = 120 y = 103 }
+		size = { x = 121 y = 104 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -28,14 +28,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 24 y = 92 }
+			position = { x = 24 y = 93 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 7 y = 89 }
+			position = { x = 7 y = 90 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

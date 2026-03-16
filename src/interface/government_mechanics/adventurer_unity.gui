@@ -1,7 +1,7 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type, visible as the interaction specifies this, has cost_type specified to the power, and the power doesn't have a UI
 		name = "adventurer_unity_gov_mech"
-		size = { x = 300 y = 110 }
+		size = { x = 363 y = 133 }
 		backGround = ""
 		moveable = 0
 		dontRender = ""
@@ -11,14 +11,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_hessian_militarization_power_bar"
-			position = { x = 24 y = 70 }
+			position = { x = 29 y = 85 }
 		}	
 
 		# Frame
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_adventurer_bar_frame"
-			position = { x = 8 y = 21 }
+			position = { x = 10 y = 25 }
 			alwaystransparent = yes
 		}	
 
@@ -26,7 +26,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_adventurer_unity_button"
-			position = { x = 250 y = 15 }
+			position = { x = 303 y = 18 }
 			buttonFont = "vic_18"
 			Orientation = "UPPER_LEFT"
 			clicksound = back_click
