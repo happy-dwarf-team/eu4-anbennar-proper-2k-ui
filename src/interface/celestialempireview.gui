@@ -2,7 +2,7 @@ guiTypes = {
 
 	windowType = {
 		name = "celestial_window"
-		position = { x=-713 y=-503 }
+		position = { x=-468 y=-444}	#modified for anbennar
 		size = { x=900 y=900 }
 		moveable = 1
 		dontRender = ""
@@ -10,96 +10,97 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
+		
 		upsound = celestial_empire
 		downsound = ""
-
+		
 		iconType =
 		{
 			name ="celestial_bg"
 			spriteType = "GFX_eoc_bg_dom"
-			position = { x= 79 y = 21 }
+			position = { x= 79 y = 22 }
 		}
 
 		instantTextBoxType = {
 			name = "celestial_label"
-			position = { x = 355 y = 72 }
+			position = { x = 91 y = 70 }
 			format = centre
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 5 y = 5}
 			text = "CELESTIAL_CELESTIAL"
 			maxWidth = 701
-			maxHeight = 39
+			maxHeight = 38
 		}
-
+		
 		instantTextBoxType = {
 			name = "emperor_label"
-			position = { x = 565 y = 317 }
+			position = { x = 185 y = 317 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "CELESTIAL_EMPEROR"
 			maxWidth = 288
-			maxHeight = 39
+			maxHeight = 38
 			format = centre
 		}
 
 		#### AUTHORITY
 		instantTextBoxType = {
 			name = "influence_label"
-			position = { x = 585 y = 116 }
+			position = { x = 197 y = 116 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
 			text = "CELESTIAL_MANDATE"
 			maxWidth = 240
-			maxHeight = 39
+			maxHeight = 38
 			format = centre
 		}
-
+		
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x = 756 y = 181 }#was y148
+			position = { x = 370 y = 178 }
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
-			text = ""
+			text = ""	
 			maxWidth = 120
-			maxHeight = 39
+			maxHeight = 38	
 			format = centre
 			hint_tag = "hint_imperialauthority"
 		}
-
+		
 		instantTextBoxType = {
 			name = "influence_growth"
-			position = { x = 756 y = 225 }
+			position = { x = 370 y = 226 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
-			text = "0.00"
+			text = "0.00"	
 			maxWidth = 120
-			maxHeight = 39
+			maxHeight = 38	
 			format = centre
 			hint_tag = "hint_imperialauthority"
 		}
 
-		guiButtonType =
+		guiButtonType = 
 		{
 			name ="emperor_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 655 y = 163 }
+			position = { x= 274 y = 163 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 		}
-
+			
 		iconType =
 		{
 			name ="benefits_icon"
 			spriteType = "GFX_emperor_of_china_icon"
-			position = { x= 552 y = 258 }
+			position = { x= 162 y = 258 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -107,104 +108,104 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_celestial_more_dip_actions_icon"
-			position = { x= 550 y = 175 }
+			position = { x= 161 y = 174 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name = "meritocracy_icon"
-			spriteType ="GFX_icon_legitimacy"
-			position = { x= 760 y = 279 }
+			spriteType ="GFX_icon_legitimacy"	
+			position = { x= 377 y = 278 }
 			frame = 5
-		}
-
+		}		
+		
 		instantTextBoxType = {
 			name = "meritocracy_value"
-			position = { x = 793 y = 283 }
+			position = { x = 437 y = 283 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 5 y = 0}
 			text = "100"
 			maxWidth = 77
-			maxHeight = 39
-			format = right
+			maxHeight = 38
+			format = center
 		}
 
 		instantTextBoxType = {
 			name = "decree_label"
-			position = { x = 244 y = 116 }
+			position = { x = 221 y = 379 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
 			text = "CELESTIAL_DECREES"
-			maxWidth = 207
-			maxHeight = 39
+			maxWidth = 206
+			maxHeight = 38
 			format = centre
 		}
 
 		instantTextBoxType = {
 			name = "tributary_label"
-			position = { x = 602 y = 384 }
+			position = { x = 533 y = 116 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
 			text = "CELESTIAL_TRIBUTARIES"
-			maxWidth = 207
-			maxHeight = 39
+			maxWidth = 206
+			maxHeight = 38
 			format = centre
 		}
 
 		listboxType =  {
 			name ="tributary_shield_box"
-			position = { x = 544 y = 432 } # was 507 163
+			position = { x = 508 y = 163 }
 			backGround=""
-			size = { x = 324 y = 207 }
+			size = { x = 252 y = 206 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
-			borderSize = {x = 12 y = 12 }
+			borderSize = {x = 12 y = 12}
 		}
 
 		#### REFORM DECISIONS
 		instantTextBoxType = {
 			name = "decisions_label"
-			position = { x = 978 y = 116 }
+			position = { x = 552 y = 379 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 0}
 			text = "CELESTIAL_DECISIONS"
 			maxWidth = 173
-			maxHeight = 39
+			maxHeight = 38
 			format = centre
 		}
-
+		
 		listboxType =  {
 			name ="decree_listbox"
-			position = { x = 180 y = 159 }
+			position = { x = 166 y = 420 }	#anbennar was 124,350
 			backGround=""
-			size = { x = 324 y = 713 }
+			size = { x = 324 y = 492 } #anbennar was 270,340
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 6 y = 6}
 		}
-
+			
 		listboxType =  {
 			name ="decisions_listbox"
-			position = { x = 880 y = 158 }
-			backGround=""
-			size = { x = 340 y = 712 }
+			position = { x = 504 y = 434 }
+			backGround = ""
+			size = { x = 245 y = 456 } #anbennar was 204,340
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 25 y = 25}
+			borderSize = {x = 6 y = 6}
 		}
-
+			
 		guiButtonType = {
 			name = "close_button"
-			position = { x= 1260 y = 85}
+			position = { x= 792 y = 72}
 			quadTextureSprite ="GFX_closebutton2"
 			tooltip = ""
 			tooltipText =""
@@ -228,16 +229,16 @@ guiTypes = {
 	}
 
 	positionType = {
-		name = "tributary_shield_offset"
-		position = { x = 36 y = 41 } #was 31 51
-	}
+			name = "tributary_shield_offset"
+			position = { x = 31 y = 50 }
+		}
 
 	### Decree Entry
 	windowType = {
 		name = "celestial_decree_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=306 y=59 }
+		size = { x=306 y=58 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -247,7 +248,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "select_button"
 			quadTextureSprite ="GFX_decree_button"
-			position = { x= 0 y=-5 }
+			position = { x=0 y=0 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "decree_title"
 			buttonFont = "vic_18_black"
@@ -257,24 +258,22 @@ guiTypes = {
 			name = "decree_button_seal"
 			spriteType ="GFX_decree_button_seal"
 			alwaystransparent = yes
-			position = { x= 242 y = 0 }
-			scale = 0.92
+			position = { x= 223 y = 2 }
 		}
 		iconType = {
 			name = "decree_button_check"
 			spriteType ="GFX_decree_button_check"
 			alwaystransparent = yes
-			position = { x= 260 y = 9 }
-			scale = 0.9
-		}
-
+			position = { x= 240 y = 12 }
+		}		
+		
 	}
 
 	### Decision Entry
 	windowType = {
 		name = "celestial_decision_entry"
 		backGround=""
-		position = { x=0 y=0 }
+		position = { x=0 y=0 }	
 		size = { x=360 y= 41 }
 		moveable = 0
 		dontRender = ""
@@ -285,32 +284,31 @@ guiTypes = {
 		guiButtonType = {
 			name = "select_button"
 			position = { x=0 y =-17}
-			quadTextureSprite ="GFX_reform_button"
+			quadTextureSprite ="GFX_reform_button"	
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = ""
-		}
-
-		iconType = {
-			name = "mutualy_exclusive_reforms"
-			spriteType ="GFX_mutualy_exclusive_reforms"
-			position = { x= -2 y = -16 }
-			scale = 0.90
-		}
-
+		}		
+		
 		iconType = {
 			name = "enacted_decision"
-			spriteType ="GFX_enacted_reform_icon"
+			spriteType ="GFX_enacted_reform_icon"	
 			position = { x= 7 y = -7 }
+		}
+		
+		iconType = { #1.36
+			name = "mutualy_exclusive_reforms"
+			spriteType ="GFX_mutualy_exclusive_reforms"	
+			position = { x= -5 y = -18 }
 		}
 
 		instantTextBoxType= {
-			position = { x= 45 y = -7}
+			position = { x= 34 y = -7}
 			name = "title"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 297
+			maxWidth = 197
 			maxHeight = 24
 			text = ""
 			format = left

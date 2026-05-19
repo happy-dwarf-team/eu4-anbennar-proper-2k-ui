@@ -38,6 +38,8 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+
+
 		iconType =
 		{
 			name ="background"
@@ -73,6 +75,14 @@ guiTypes = {
 			name ="government_mechanics_bg"
 			spriteType = "GFX_government_mechanics_bg"
 			position = { x= 76 y = 220 }
+			scripted = yes
+		}
+
+		#Mykx Government Mechanic Background
+		iconType = {
+			name ="mykx_scourge_of_the_seas_board"
+			spriteType = "GFX_mykx_scourge_of_the_seas_frame"
+			position = { x = 24 y = 270 }
 			scripted = yes
 		}
 
@@ -124,61 +134,67 @@ guiTypes = {
 		}
 
 		#Gronstunad Gov Mechanic
-        iconType = {
-            name = "gronstunad_authority_bg"
-            position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_gronstunad_authority_bg"
-            scripted = yes
-        }
+		windowType = {
+			name = "gronstunad_authority_window"
+			position = { x = 0 y = 0 }
+			scripted = yes
 
-        #Gronstunad Crown Gems
-        iconType = {
-            name = "gronstunad_authority_gem_peridot"
-            position = { x= 174 y = 295 } # +115/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_peridot"
-            scripted = yes
-        }
+            iconType = {
+                name = "gronstunad_authority_bg"
+                position = { x = 76 y = 220 }
+                quadTextureSprite = "GFX_gronstunad_authority_bg"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "gronstunad_authority_gem_granite"
-            position = { x= 186 y = 295 } # +125/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_granite"
-            scripted = yes
-        }
+            #Gronstunad Crown Gems
+            iconType = {
+                name = "gronstunad_authority_gem_peridot"
+                position = { x= 174 y = 295 } # +115/+15
+                quadTextureSprite = "GFX_gronstunad_authority_gem_peridot"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "gronstunad_authority_gem_emerald"
-            position = { x= 198 y = 289 } # +135/+10
-            quadTextureSprite = "GFX_gronstunad_authority_gem_emerald"
-            scripted = yes
-        }
+            iconType = {
+                name = "gronstunad_authority_gem_granite"
+                position = { x= 186 y = 295 } # +125/+15
+                quadTextureSprite = "GFX_gronstunad_authority_gem_granite"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "gronstunad_authority_gem_jade"
-            position = { x= 217 y = 289 } # +150/+10
-            quadTextureSprite = "GFX_gronstunad_authority_gem_jade"
-            scripted = yes
-        }
+            iconType = {
+                name = "gronstunad_authority_gem_emerald"
+                position = { x= 198 y = 289 } # +135/+10
+                quadTextureSprite = "GFX_gronstunad_authority_gem_emerald"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "gronstunad_authority_gem_damestear"
-            position = { x= 235 y = 289 } # +165/+10
-            quadTextureSprite = "GFX_gronstunad_authority_gem_damestear"
-            scripted = yes
-        }
+            iconType = {
+                name = "gronstunad_authority_gem_jade"
+                position = { x= 217 y = 289 } # +150/+10
+                quadTextureSprite = "GFX_gronstunad_authority_gem_jade"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "gronstunad_authority_gem_amethyst"
-            position = { x= 247 y = 295 } # +175/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_amethyst"
-            scripted = yes
-        }
+            iconType = {
+                name = "gronstunad_authority_gem_damestear"
+                position = { x= 235 y = 289 } # +165/+10
+                quadTextureSprite = "GFX_gronstunad_authority_gem_damestear"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "gronstunad_authority_gem_amber"
-            position = { x= 265 y = 295 } # +190/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_amber"
-            scripted = yes
+            iconType = {
+                name = "gronstunad_authority_gem_amethyst"
+                position = { x= 247 y = 295 } # +175/+15
+                quadTextureSprite = "GFX_gronstunad_authority_gem_amethyst"
+                scripted = yes
+            }
+
+            iconType = {
+                name = "gronstunad_authority_gem_amber"
+                position = { x= 265 y = 295 } # +190/+15
+                quadTextureSprite = "GFX_gronstunad_authority_gem_amber"
+                scripted = yes
+            }
         }
 
 		#Konolkhatep Gov Mechanic
@@ -192,12 +208,46 @@ guiTypes = {
 
 		#Taychendi Vainglory
 
-        iconType = {
-            name = "taychendi_vainglory_bg"
-            position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_taychendi_vainglory_bg"
-            scripted = yes
-        }
+		iconType = {
+			name = "taychendi_vainglory_bg"
+			position = { x = 76 y = 220 }
+			quadTextureSprite = "GFX_taychendi_vainglory_bg"
+			scripted = yes
+		}
+
+		#Yezel Mora Misery gov mechanic backgrounds
+
+		#This one has multiple frames, appears at all 3 tiers, and needs to be behind so it doesn't interfere with tooltips
+		iconType = {
+			name = "yezel_mora_misery_alignment_icon"
+			position = { x = 104 y = 331 } #82 62 from top left of background frame
+			quadTextureSprite = "GFX_yezel_mora_misery_alignment_icon_strip"
+			scripted = yes
+		}
+
+		#This background is here instead of misery_mechanic.gui so I can easily place it in an arbitrary position without
+		#the default gov mechanic frames getting in the way. It's also too big.
+
+		iconType = {
+			name = "yezel_mora_misery_bg_t1"
+			position = { x = 6 y = 257 } #Abosulte 5, 354
+			quadTextureSprite = "GFX_yezel_mora_misery_bg_t1"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "yezel_mora_misery_bg_t2"
+			position = { x = 6 y = 257 } #Abosulte 5, 354
+			quadTextureSprite = "GFX_yezel_mora_misery_bg_t2"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "yezel_mora_misery_bg_t3"
+			position = { x = 6 y = 257 } #Abosulte 5, 354
+			quadTextureSprite = "GFX_yezel_mora_misery_bg_t3"
+			scripted = yes
+		}
 
 		#Khugra Gov Mechanic
         iconType = {
@@ -209,33 +259,40 @@ guiTypes = {
 
 		#Corinsfield Gov Mechanic
 
-        iconType = {
-            name = "corinsfield_paranoia_bg"
-            position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_bg"
-            scripted = yes
-        }
+		windowType = {
+			name = "corinsfield_paranoia_window"
+			position = { x = 0 y = 0 }
+			scripted = yes
+			Orientation = "UPPER_LEFT"
 
-        iconType = {
-            name = "corinsfield_paranoia_chicken_1"
-            position = { x= 167 y = 264 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_1"
-            scripted = yes
-        }
+            iconType = {
+                name = "corinsfield_paranoia_bg"
+                position = { x = 76 y = 220 }
+                quadTextureSprite = "GFX_corinsfield_paranoia_bg"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "corinsfield_paranoia_chicken_2"
-            position = { x= 137 y = 264 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_2"
-            scripted = yes
-        }
+            iconType = {
+                name = "corinsfield_paranoia_chicken_1"
+                position = { x= 167 y = 264 }
+                quadTextureSprite = "GFX_corinsfield_paranoia_chicken_1"
+                scripted = yes
+            }
 
-        iconType = {
-            name = "corinsfield_paranoia_chicken_3"
-            position = { x= 131 y = 264 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_3"
-            scripted = yes
-        }
+            iconType = {
+                name = "corinsfield_paranoia_chicken_2"
+                position = { x= 137 y = 264 }
+                quadTextureSprite = "GFX_corinsfield_paranoia_chicken_2"
+                scripted = yes
+            }
+
+            iconType = {
+                name = "corinsfield_paranoia_chicken_3"
+                position = { x = 131 y = 264 }
+                quadTextureSprite = "GFX_corinsfield_paranoia_chicken_3"
+                scripted = yes
+            }
+		}
 
 		#Wyvernheart Gov Mechanic
         iconType = {
@@ -260,6 +317,32 @@ guiTypes = {
             quadTextureSprite = "GFX_vacyntassi_temple_authority_bg"
             scripted = yes
         }
+
+		#Badakhan Gov Mechanic
+		iconType = {
+			name = "badakhan_orcish_soul_bg"
+			position = { x = 10 y = 262 }
+			quadTextureSprite = "GFX_badakhan_orcish_soul_bg"
+			scripted = yes
+		}
+
+		#Lelanan Gov Mechanic
+
+		iconType = {
+			name = "lelanan_bg"
+			position = { x = 30 y = 270 }
+			quadTextureSprite = "GFX_lelanan_bg"
+			scripted = yes
+		}
+
+		#Sri Baginda
+
+		iconType = {
+			name = "sri_baginda_authority_bg"
+			position = { x = 66 y = 275 }
+			quadTextureSprite = "GFX_sri_baginda_authority_background"
+			scripted = yes
+		}
 
 		### ------- Government -------
 
@@ -600,8 +683,8 @@ guiTypes = {
 				font = "vic_22"
 				#borderSize = { x = 60 y = 240 }
 				text = ""
-				maxWidth = 240
-				maxHeight = 240
+				maxWidth = 200
+				maxHeight = 200
 				alwaystransparent = yes
 				scripted = yes
 			}
