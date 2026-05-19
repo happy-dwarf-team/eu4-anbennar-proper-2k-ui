@@ -136,8 +136,8 @@ guiTypes = {
 		#Gronstunad Gov Mechanic
 		windowType = {
 			name = "gronstunad_authority_window"
-			position = { x = 0 y = 0 }
-			scripted = yes
+            position = { x = 0 y = 0 }
+            scripted = yes
 
             iconType = {
                 name = "gronstunad_authority_bg"
@@ -149,42 +149,42 @@ guiTypes = {
             #Gronstunad Crown Gems
             iconType = {
                 name = "gronstunad_authority_gem_peridot"
-                position = { x= 174 y = 295 } # +115/+15
+                position = { x = 174 y = 295 } # +115/+15
                 quadTextureSprite = "GFX_gronstunad_authority_gem_peridot"
                 scripted = yes
             }
 
             iconType = {
                 name = "gronstunad_authority_gem_granite"
-                position = { x= 186 y = 295 } # +125/+15
+                position = { x = 186 y = 295 } # +125/+15
                 quadTextureSprite = "GFX_gronstunad_authority_gem_granite"
                 scripted = yes
             }
 
             iconType = {
                 name = "gronstunad_authority_gem_emerald"
-                position = { x= 198 y = 289 } # +135/+10
+                position = { x = 198 y = 289 } # +135/+10
                 quadTextureSprite = "GFX_gronstunad_authority_gem_emerald"
                 scripted = yes
             }
 
             iconType = {
                 name = "gronstunad_authority_gem_jade"
-                position = { x= 217 y = 289 } # +150/+10
+                position = { x = 217 y = 289 } # +150/+10
                 quadTextureSprite = "GFX_gronstunad_authority_gem_jade"
                 scripted = yes
             }
 
             iconType = {
                 name = "gronstunad_authority_gem_damestear"
-                position = { x= 235 y = 289 } # +165/+10
+                position = { x = 235 y = 289 } # +165/+10
                 quadTextureSprite = "GFX_gronstunad_authority_gem_damestear"
                 scripted = yes
             }
 
             iconType = {
                 name = "gronstunad_authority_gem_amethyst"
-                position = { x= 247 y = 295 } # +175/+15
+                position = { x = 247 y = 295 } # +175/+15
                 quadTextureSprite = "GFX_gronstunad_authority_gem_amethyst"
                 scripted = yes
             }
