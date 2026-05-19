@@ -19,7 +19,7 @@ spriteTypes = {
 
 		textureFile1 = "gfx//interface//custom_gui//raj//vizier_influence_left_progressbar.dds"
 		textureFile2 = "gfx//interface//custom_gui//raj//transparent.dds"
-		size = { x = 360 y = 25 }
+		size = { x = 390 y = 27 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -28,7 +28,7 @@ spriteTypes = {
 
 		textureFile1 = "gfx//interface//custom_gui//raj//transparent.dds"
 		textureFile2 = "gfx//interface//custom_gui//raj//vizier_influence_right_progressbar.dds"
-		size = { x = 360 y = 25 }
+		size = { x = 390 y = 27 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
