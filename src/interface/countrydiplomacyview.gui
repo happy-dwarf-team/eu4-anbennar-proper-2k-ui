@@ -1,23 +1,23 @@
 #Position constants
 #TODO: All values are default Anbennar, not adjusted for Proper 2k UI
-@custom_diplo_header_button_x = 11
-@custom_diplo_header_button_y = 8
-@custom_diplo_button_x = 15
-@custom_diplo_button_1_y = 36
-@custom_diplo_button_2_y = 62
-@custom_diplo_button_3_y = 88
-@custom_diplo_button_4_y = 114
-@custom_diplo_button_5_y = 140
-@custom_diplo_button_6_y = 166
-@custom_diplo_button_7_y = 192
-@custom_diplo_ai_accept_x = 188
-@custom_diplo_ai_accept_1_y = 41
-@custom_diplo_ai_accept_2_y = 67
-@custom_diplo_ai_accept_3_y = 93
-@custom_diplo_ai_accept_4_y = 119
-@custom_diplo_ai_accept_5_y = 145
-@custom_diplo_ai_accept_6_y = 171
-@custom_diplo_ai_accept_7_y = 197
+@custom_diplo_header_button_x = 13
+@custom_diplo_header_button_y = 10
+@custom_diplo_button_x = 18
+@custom_diplo_button_1_y = 43
+@custom_diplo_button_2_y = 74
+@custom_diplo_button_3_y = 106
+@custom_diplo_button_4_y = 137
+@custom_diplo_button_5_y = 168
+@custom_diplo_button_6_y = 199
+@custom_diplo_button_7_y = 230
+@custom_diplo_ai_accept_x = 226
+@custom_diplo_ai_accept_1_y = 49
+@custom_diplo_ai_accept_2_y = 80
+@custom_diplo_ai_accept_3_y = 112
+@custom_diplo_ai_accept_4_y = 143
+@custom_diplo_ai_accept_5_y = 174
+@custom_diplo_ai_accept_6_y = 205
+@custom_diplo_ai_accept_7_y = 236
 
 
 guiTypes = {
@@ -1455,15 +1455,15 @@ guiTypes = {
         iconType = {
 			name = "diplo_tab_divider"
 			spriteType = "GFX_diplo_tab_divider"
-			position = { x = 510 y = 301 }
-			# position = { x = 210 y = -40 } #Within "custom_diplomacy_window"
+			position = { x = 612 y = 361 }
+			# position = { x = 252 y = -48 } #Within "custom_diplomacy_window"
 			Orientation = "UPPER_LEFT"
 			# alwaystransparent = yes
 		}
 		#Custom Diplomatic Interactions UI
 		windowType = {
 			name = "custom_diplomacy_window"
-			position = { x = 300 y = 341 }
+			position = { x = 360 y = 409 }
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 			scripted = yes
@@ -1491,31 +1491,31 @@ guiTypes = {
 			iconType = {
 				name = "diplo_buttons_overlay"
 				spriteType = "GFX_diplo_buttons_overlay"
-				position = { x = 0 y = -47 }
+				position = { x = 0 y = -56 }
 				Orientation = "UPPER_LEFT"
 			}
 			guiButtonType = {
 				name = "diplomatic_actions_button_grey"
 				spriteType = "GFX_diplomatic_actions_button_grey"
-				position = { x = 60 y = -43 }
+				position = { x = 72 y = -52 }
 				alwaystransparent = yes
 			}
 			guiButtonType = {
 				name = "diplomatic_feedback_button_grey"
 				spriteType = "GFX_diplomatic_opinions_button_grey"
-				position = { x = 100 y = -43 }
+				position = { x = 120 y = -52 }
 				alwaystransparent = yes
 			}
 			guiButtonType = {
 				name = "diplomatic_opinions_button_grey"
 				spriteType = "GFX_diplomatic_feedback_button_grey"
-				position = { x = 140 y = -43 }
+				position = { x = 168 y = -52 }
 				alwaystransparent = yes
 				scripted = yes
 			}
 			guiButtonType = {
 				name = "custom_diplomacy_button_in_ui"
-				position = { x = 180 y = -43 }
+				position = { x = 216 y = -52 }
 				quadTextureSprite = "GFX_custom_diplomatic_actions_button"
 				clicksound = click
 				shortcut = "e"
@@ -1526,15 +1526,15 @@ guiTypes = {
 			guiButtonType = {
 				name = "custom_diplomacy_close"
 				spriteType = "GFX_invisible_button_tile"
-				size = { x = 182 y = 47 }
-				position = { x = 0 y = -47 }
+				size = { x = 218 y = 56 }
+				position = { x = 0 y = -56 }
 				Orientation = "UPPER_LEFT"
 				shortcut = "z" #This intercepts the z hotkey when the custom window is open to prevent UI shenannigans
 				scripted = yes
 			}
 			windowType = { #custom_diplomacy_categories_container
 				name = custom_diplomacy_header_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 				guiButtonType = {
@@ -1542,13 +1542,13 @@ guiTypes = {
 					spriteType = "GFX_list_button"
 					font = "vic_18"
 					frame = 1
-					position = { x = 11 y = 10 }
+					position = { x = 13 y = 12 }
 					Orientation = "UPPER_LEFT"
 					scripted = yes
 				}
 				instantTextBoxType = {
 					name = custom_diplomacy_header_back_text
-					position = { x = 17 y = 15 }
+					position = { x = 20 y = 18 }
 					font = "vic_18"
 					maxWidth = 191
 					maxHeight = 23
@@ -1564,14 +1564,14 @@ guiTypes = {
 			# guiButtonType = {
 			# 	name = "custom_diplomacy_left"
 			# 	spriteType = "GFX_arrow_left_big"
-			# 	position = { x = 2 y = 18 }
+			# 	position = { x = 2 y = 22 }
 			# 	Orientation = "UPPER_LEFT"
 			# 	scripted = yes
 			# }
 			guiButtonType = {
 				name = "custom_diplomacy_right"
 				spriteType = "GFX_arrow_right_big"
-				position = { x = 220 y = 18 }
+				position = { x = 264 y = 22 }
 				Orientation = "UPPER_LEFT"
 				scripted = yes
 			}
@@ -1579,11 +1579,11 @@ guiTypes = {
 			##############################################
 			###### Template for new diplo action lists ###
 			##############################################
-			
+
 			# For diplo action categories use "GFX_list_button", change x by -4
 			# GFX_diploaction_sub_buttons frame 1 is green, frame 2 is red (war dec)
 			# Frame 1 is default. The trigger condition failing makes it grey.
-			
+
 			# windowType = {
 				# name = custom_diplo_actions_container_1
 				# position = { x = 0 y = 0 }
@@ -1656,13 +1656,13 @@ guiTypes = {
 
 			windowType = { #custom_diplomacy_categories_container
 				name = custom_diplomacy_categories_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 				guiButtonType = {
 					name = custdip_general_button
 					quadTextureSprite = "GFX_list_button"
-					position = { x = 11 y = 10 }
+					position = { x = 13 y = 12 }
 					buttonText = custdip_general_button
 					buttonFont = "vic_18"
 					frame = 1
@@ -1671,7 +1671,7 @@ guiTypes = {
 				guiButtonType = {
 					name = custdip_government_button
 					quadTextureSprite = "GFX_list_button"
-					position = { x = 11 y = 36 }
+					position = { x = 13 y = 43 }
 					buttonText = custdip_government_button
 					buttonFont = "vic_18"
 					frame = 1
@@ -1680,7 +1680,7 @@ guiTypes = {
 				guiButtonType = {
 					name = custdip_religion_button
 					quadTextureSprite = "GFX_list_button"
-					position = { x = 11 y = 62 }
+					position = { x = 13 y = 74 }
 					buttonText = custdip_religion_button
 					buttonFont = "vic_18"
 					frame = 1
@@ -1689,7 +1689,7 @@ guiTypes = {
 				guiButtonType = {
 					name = custdip_cultural_button
 					quadTextureSprite = "GFX_list_button"
-					position = { x = 11 y = 88 }
+					position = { x = 13 y = 106 }
 					buttonText = custdip_cultural_button
 					buttonFont = "vic_18"
 					frame = 1
@@ -1698,7 +1698,7 @@ guiTypes = {
 				guiButtonType = {
 					name = custdip_estates_button
 					quadTextureSprite = "GFX_list_button"
-					position = { x = 11 y = 114 }
+					position = { x = 13 y = 137 }
 					buttonText = custdip_estates_button
 					buttonFont = "vic_18"
 					frame = 1
@@ -1707,7 +1707,7 @@ guiTypes = {
 				guiButtonType = {
 					name = custdip_unique_button
 					quadTextureSprite = "GFX_list_button"
-					position = { x = 11 y = 140 }
+					position = { x = 13 y = 168 }
 					buttonText = custdip_unique_button
 					buttonFont = "vic_18"
 					frame = 1
@@ -1716,7 +1716,7 @@ guiTypes = {
 				# guiButtonType = {
 					# name = "custom_category_6"
 					# quadTextureSprite = "GFX_list_button"
-					# position = { x = 11 y = 166 }
+					# position = { x = 13 y = 199 }
 					# buttonText = "Custom Dip. 6"
 					# buttonFont = "vic_18"
 					# frame = 1
@@ -1725,7 +1725,7 @@ guiTypes = {
 				# guiButtonType = {
 					# name = "custom_category_7"
 					# quadTextureSprite = "GFX_list_button"
-					# position = { x = 11 y = 192 }
+					# position = { x = 13 y = 230 }
 					# buttonText = "Custom Dip. 7"
 					# buttonFont = "vic_18"
 					# frame = 1
@@ -1735,14 +1735,14 @@ guiTypes = {
 
 			windowType = { #custom_diplomacy_general_container
 				name = custom_diplomacy_general_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 				windowType = { #General Container 1
 					name = custom_diplomacy_overlord_container
 					position = { x = 0 y = 0 }
 					scripted = yes
-					
+
 					guiButtonType = {
 						name = "cancel_autonomous_vassal"
 						quadTextureSprite = "GFX_diploaction_sub_buttons"
@@ -1765,7 +1765,7 @@ guiTypes = {
 			}
 			windowType = { #custom_diplomacy_government_container
 				name = custom_diplomacy_government_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 				windowType = { #raja raj_raja_global_target
@@ -1786,9 +1786,9 @@ guiTypes = {
 			}
 			windowType = { #custom_diplomacy_religion_container
 				name = custom_diplomacy_religion_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
-				
+
 				windowType = { #New Sun Cult
 					name = custom_diplomacy_religion_new_sun_cult
 					position = { x = 0 y = 0 }
@@ -1813,7 +1813,7 @@ guiTypes = {
 						scripted = yes
 					}
 				}
-				
+
 				windowType = { #Rinta Seekers
 					name = custom_diplomacy_religion_rinta_seekers
 					position = { x = 0 y = 0 }
@@ -1848,20 +1848,20 @@ guiTypes = {
 			}
 			windowType = { #custom_diplomacy_cultural_container
 				name = custom_diplomacy_cultural_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 			}
 			windowType = { #custom_diplomacy_estates_container
 				name = custom_diplomacy_estates_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 				windowType = { #Vampires container
 					name = custom_diplomacy_vampires_container
 					position = { x = 0 y = 0 }
 					scripted = yes
-					
+
 					guiButtonType = {
 						name = "vampire_spread_action"
 						quadTextureSprite = "GFX_diploaction_sub_buttons"
@@ -1902,7 +1902,7 @@ guiTypes = {
 			}
 			windowType = { #custom_diplomacy_unique_container
 				name = custom_diplomacy_unique_container
-				position = { x = 0 y = -11 }
+				position = { x = 0 y = -13 }
 				scripted = yes
 
 				#Special 'was_tag' windows go here
@@ -1910,7 +1910,7 @@ guiTypes = {
 					name = custom_diplomacy_Y20
 					position = { x = 0 y = 0 }
 					scripted = yes
-	
+
 					guiButtonType = {
 						name = "Y20_feiten_buy_skyport_rights"
 						quadTextureSprite = "GFX_diploaction_sub_buttons"
@@ -1934,7 +1934,7 @@ guiTypes = {
 					name = custom_diplomacy_Y10
 					position = { x = 0 y = 0 }
 					scripted = yes
-	
+
 					guiButtonType = {
 						name = "Y10_yingzhen_contract_killing_action"
 						quadTextureSprite = "GFX_diploaction_sub_buttons"
@@ -2358,7 +2358,7 @@ guiTypes = {
 					name = custom_diplomacy_F98
 					position = { x = 0 y = 0 }
 					scripted = yes
-					
+
 					guiButtonType = {
 						name = "F98_harpylen_encourage_migration_action"
 						quadTextureSprite = "GFX_diploaction_sub_buttons"
@@ -2383,7 +2383,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "show_custom_diplomacy" ##Jothell
-			position = { x = 480 y = 298 }
+			position = { x = 576 y = 358 }
 			quadTextureSprite = "GFX_custom_diplomatic_actions_button"
 			clicksound = click
 			shortcut = "e"

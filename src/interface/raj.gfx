@@ -16,19 +16,19 @@ spriteTypes = {
 
 	progressbartype = {
 		name = "GFX_raj_vizier_inf_L_bar"
-		
+
 		textureFile1 = "gfx//interface//custom_gui//raj//vizier_influence_left_progressbar.dds"
 		textureFile2 = "gfx//interface//custom_gui//raj//transparent.dds"
-		size = { x = 300 y = 21 }
+		size = { x = 360 y = 25 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
 	progressbartype = {
 		name = "GFX_raj_vizier_inf_R_bar"
-		
+
 		textureFile1 = "gfx//interface//custom_gui//raj//transparent.dds"
 		textureFile2 = "gfx//interface//custom_gui//raj//vizier_influence_right_progressbar.dds"
-		size = { x = 300 y = 21 }
+		size = { x = 360 y = 25 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -121,7 +121,7 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 		legacy_lazy_load = no
-	}	
+	}
 
 	spriteType = { # Relations with Raja.
 		name = "GFX_raj_objective_senapti_1"
@@ -153,7 +153,7 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 		legacy_lazy_load = no
-	}	
+	}
 
 	spriteType = { # Expand the Raj.
 		name = "GFX_raj_objective_vizier_1"
@@ -186,7 +186,7 @@ spriteTypes = {
 		transparencecheck = yes
 		legacy_lazy_load = no
 	}
-	
+
 	spriteType = { #<3 old menu art.
 		name = "GFX_raj_separator"
 		texturefile = "gfx/interface/custom_gui/raj/raj_separator.dds"
@@ -209,7 +209,7 @@ spriteTypes = {
 	#	colortwo = { 1.0 1.0 1.0 }
 	#	textureFile1 = "gfx/interface/government_mechanics/harpylen_queendom/harpylen_queendom_bar_full.dds"
 	#	textureFile2 = "gfx/interface/government_mechanics/harpylen_queendom/harpylen_queendom_bar_empty.dds"
-	#	size = { x = 257 y = 27 }
+	#	size = { x = 308 y = 32 }
 	#	effectFile = "gfx/FX/progress.lua"
 	#}
 }

@@ -253,7 +253,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx//interface//custom_gui//magic//magic_progressbar_marine_144x45.dds"
 		textureFile2 = "gfx//interface//custom_gui//magic//magic_progressbar_black_144x45.dds"
-		size = { x = 92 y = 30 }
+		size = { x = 110 y = 36 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	progressbartype = {
@@ -262,10 +262,10 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx//interface//custom_gui//magic//magic_progressbar_marine_144x45.dds"
 		textureFile2 = "gfx//interface//custom_gui//magic//magic_progressbar_black_144x45.dds"
-		size = { x = 144 y = 45 }
+		size = { x = 173 y = 54 }
 		effectFile = "gfx/FX/progress.lua"
 	}
-	
+
 	spriteType = {
 		name = "GFX_magic_progress_bar_frame_1"
 		texturefile = "gfx//interface//custom_gui//magic//magic_progress_bar_frame_1.dds"
@@ -295,7 +295,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx//interface//custom_gui//magic//progbar1_290x22.dds"
 		textureFile2 = "gfx//interface//custom_gui//magic//progbar2_290x22.dds"
-		size = { x = 290 y = 22 }
+		size = { x = 348 y = 26 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
@@ -320,7 +320,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx//interface//custom_gui//magic//projects_progressbar_full_200x11.dds"
 		textureFile2 = "gfx//interface//custom_gui//magic//projects_progressbar_empty_200x11.dds"
-		size = { x = 200 y = 11 }
+		size = { x = 240 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
@@ -330,9 +330,9 @@ spriteTypes = {
 
 	corneredTileSpriteType = {
 		name = "GFX_transparent_tiled_bg"
-		size= {x = 24 y = 24 }
+		size= {x = 29 y = 29 }
 		texturefile = "gfx//interface//transparency.tga"
-		# borderSize = { x=8 y=8 }
+		# borderSize = { x=10 y=10 }
 	}
 	spriteType = {
 		name = "GFX_banner_2_pointed_teal"
@@ -344,21 +344,21 @@ spriteTypes = {
 	}
 	corneredTileSpriteType = {
 		name = "GFX_shadowbox_tile"
-		size = { x = 97 y = 97 }
+		size = { x = 116 y = 116 }
 		texturefile = "gfx//interface//custom_gui//magic//shadowbox_tile.dds"
-		borderSize = { x = 7 y = 7 }
+		borderSize = { x = 8 y = 8 }
 	}
 	corneredTileSpriteType = {
 		name = "GFX_dark_text_shadow_tile"
-		size = { x = 23 y = 23 }
+		size = { x = 28 y = 28 }
 		texturefile = "gfx//interface//custom_gui//magic//dark_text_shadow_tile.dds"
 		borderSize = { x = 2 y = 2 }
 	}
 	corneredTileSpriteType = {
 		name = "GFX_light_outline_tile"
-		size = { x = 24 y = 24 }
+		size = { x = 29 y = 29 }
 		texturefile = "gfx//interface//custom_gui//magic//light_outline_tile.dds"
-		borderSize = { x = 5 y = 5 }
+		borderSize = { x = 6 y = 6 }
 	}
 	spriteType = {
 		name = "GFX_witch_king_text"
@@ -390,43 +390,43 @@ spriteTypes = {
 		name = "GFX_patron_approval_bar"
 		textureFile1 = "gfx//interface//custom_gui//magic//patron_approval_full_8.dds"
 		textureFile2 = "gfx//interface//custom_gui//magic//patron_approval_empty_8.dds"
-		size = { x = 170 y = 17 }
+		size = { x = 204 y = 20 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	corneredTileSpriteType = {
 		name = "GFX_horizontal_bar5"
-		size = { x = 14 y = 11 }
-		texturefile = "gfx//interface//missions//arrow_horizontal_tile.dds"
-		borderSize = { x = 0 y = 5 }
-	}
-	corneredTileSpriteType = {
-		name = "GFX_horizontal_bar6"
-		size = { x = 14 y = 11 }
+		size = { x = 17 y = 13 }
 		texturefile = "gfx//interface//missions//arrow_horizontal_tile.dds"
 		borderSize = { x = 0 y = 6 }
 	}
 	corneredTileSpriteType = {
+		name = "GFX_horizontal_bar6"
+		size = { x = 17 y = 13 }
+		texturefile = "gfx//interface//missions//arrow_horizontal_tile.dds"
+		borderSize = { x = 0 y = 7 }
+	}
+	corneredTileSpriteType = {
 		name = "GFX_horizontal_divider_bar_gold"
-		size = { x = 1024 y = 11 }
+		size = { x = 1229 y = 13 }
 		texturefile = "gfx//interface//custom_gui//racial//horizontal_bar_for_new_choose_idea_bg_1024x5.dds"
-		borderSize = { x = 30 y = 3 }
+		borderSize = { x = 36 y = 4 }
 	}
 	corneredTileSpriteType = {
 		name = "GFX_invisible_button_tile"
-		size = { x = 24 y = 24 }
+		size = { x = 29 y = 29 }
 		texturefile = "gfx//interface//transparency.tga"
-		borderSize = { x = 8 y = 8 }
+		borderSize = { x = 10 y = 10 }
 	}
 	corneredTileSpriteType = {
 		name = "GFX_dark_spacer_tile"
-		size = { x = 2 y = 174 }
+		size = { x = 2 y = 209 }
 		texturefile = "gfx//interface//custom_gui//racial//dark_spacer_2x174.dds"
 		borderSize = { x = 2 y = 2 }
 	}
 	corneredTileSpriteType = {
 		name = "GFX_vertical_line_tile"
-		size = { x = 4 y = 583 }
+		size = { x = 5 y = 700 }
 		texturefile = "gfx//interface//custom_gui//racial//shade_line_vertical_4x583.dds"
-		borderSize = { x = 4 y = 4 }
+		borderSize = { x = 5 y = 5 }
 	}
 }

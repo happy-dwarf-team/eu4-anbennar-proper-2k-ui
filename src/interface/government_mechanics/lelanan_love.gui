@@ -1,23 +1,23 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "lelanan_bar"
-		size = { x = 57 y = 61 }
+		size = { x = 68 y = 73 }
 		moveable = 0
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
-		iconType = { 
+		iconType = {
 			name = "government_power_bar"
 			spriteType = "GFX_lelanan_bar"
-			position = { x = 183 y = -12 }
+			position = { x = 220 y = -14 }
 			rotation = 1.5708
-		}	
+		}
 
 		# Progressbar Frame
 		iconType = {
 			name = "frame_background"
 			spriteType = "GFX_lelanan_bar_frame"
 			alwaystransparent = yes
-			position = { x = 180 y = -12 }
+			position = { x = 216 y = -14 }
 		}
 	}
 }

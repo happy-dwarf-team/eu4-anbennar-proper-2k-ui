@@ -1830,9 +1830,9 @@ spriteTypes = {
 	}
 	corneredTileSpriteType = {
 		name = "GFX_aPUI_shadowbox_tile"
-		size = { x = 97 y = 97 }
+		size = { x = 116 y = 116 }
 		texturefile = "gfx//interface//custom_gui//province_UI//shadowbox_tile.dds"
-		borderSize = { x = 7 y = 7 }
+		borderSize = { x = 8 y = 8 }
 	}
 	spriteType = {
 		name = "chi_wellspring_button"
@@ -2067,7 +2067,7 @@ spriteTypes = {
 		colortwo = { 0.8 0.8 0.8 }
 		textureFile1 = "gfx//interface//custom_gui//gene_pillars//gene_pillar_hp_greyscale.dds"
 		textureFile2 = "gfx//interface//custom_gui//gene_pillars//gene_pillar_hp_blank.dds"
-		size = { x = 180 y = 20 }
+		size = { x = 216 y = 24 }
 		effectFile = "gfx//FX//progress.lua"
 	}
 	progressbartype = {
@@ -2076,7 +2076,7 @@ spriteTypes = {
 		colortwo = { 0.8 0.8 0.8 }
 		textureFile1 = "gfx//interface//custom_gui//gene_pillars//gene_pillar_hp_red.dds"
 		textureFile2 = "gfx//interface//custom_gui//gene_pillars//gene_pillar_hp_blank.dds"
-		size = { x = 180 y = 20 }
+		size = { x = 216 y = 24 }
 		effectFile = "gfx//FX//progress.lua"
 	}
 	spriteType = {
@@ -2107,7 +2107,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx\\interface\\provinceView_progressbar_w92_h11_green.dds"
 		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_black.dds"
-		size = { x = 172 y = 13 }
+		size = { x = 206 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
@@ -2120,7 +2120,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx\\interface\\single_government_power_bar_green.dds" #1.35
 		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_black.dds"
-		size = { x = 160 y = 17 }
+		size = { x = 192 y = 20 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
@@ -2133,7 +2133,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\loot_bar.dds"
 		textureFile2 = "gfx\\interface\\loot_bar_bg.dds"
-		size = { x = 176 y = 21 }
+		size = { x = 211 y = 25 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {

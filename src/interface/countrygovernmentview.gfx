@@ -312,17 +312,16 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_mechanics//command_korashi//command_korashi_3.dds"
 	}
 
-    #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+    #TODO: VALUES MAY NOT BE ACCURATE
 	progressbartype = {
 		name = "GFX_command_korashi_bar"
 		color = { 1.0 0.0 0.0 }
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/command_korashi/command_korashi_progress_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/command_korashi/command_korashi_progress_bar_empty.dds"
-		size = { x = 230 y = 17 }
+		size = { x = 276 y = 20 }
 		effectFile = "gfx/FX/progress.lua"
 	}
-    #BACK TO PROPER 2K VALUES
 
 	spriteType = {
 		name = "GFX_command_korashi_bar_frame"
