@@ -339,8 +339,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = { x = 5 y = 5 }
 			text = "Magic"
-			maxWidth = 90
-			maxHeight = 28
+			maxWidth = 108
+			maxHeight = 34
 			format = center
 		}
 		instantTextBoxType = {#Spellbook
@@ -349,8 +349,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = { x = 5 y = 5 }
 			text = "Spellbook"
-			maxWidth = 90
-			maxHeight = 28
+			maxWidth = 108
+			maxHeight = 34
 			format = center
 			# alwaystransparent = yes
 		}
@@ -374,8 +374,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = { x = 5 y = 5 }
 			text = "Experience"
-			maxWidth = 90
-			maxHeight = 28
+			maxWidth = 108
+			maxHeight = 34
 			format = center
 			# alwaystransparent = yes
 		}
@@ -400,8 +400,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = { x = 5 y = 5 }
 			text = "Mana"
-			maxWidth = 90
-			maxHeight = 28
+			maxWidth = 108
+			maxHeight = 34
 			format = center
 			# alwaystransparent = yes
 		}
@@ -2686,15 +2686,15 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			scripted = yes
 			if_resolution = {
-				min_height = 1048
+				min_height = 1258
 				#Mechanim - Title(In Menu)
 				instantTextBoxType= {
 					position = { x=22 y =270}
 					name = "mechanim_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 340
-					maxHeight = 20
+					maxWidth = 408
+					maxHeight = 24
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -2706,8 +2706,8 @@ guiTypes = {
 					name = "gene_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 340
-					maxHeight = 20
+					maxWidth = 408
+					maxHeight = 24
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -2719,8 +2719,8 @@ guiTypes = {
 					name = "precursor_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 340
-					maxHeight = 20
+					maxWidth = 408
+					maxHeight = 24
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -2741,8 +2741,8 @@ guiTypes = {
 					name = "tier4_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 120
-					maxHeight = 40
+					maxWidth = 144
+					maxHeight = 48
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -3005,8 +3005,8 @@ guiTypes = {
 					name = "mechanim_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 340
-					maxHeight = 20
+					maxWidth = 408
+					maxHeight = 24
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -3018,8 +3018,8 @@ guiTypes = {
 					name = "gene_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 340
-					maxHeight = 20
+					maxWidth = 408
+					maxHeight = 24
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -3031,8 +3031,8 @@ guiTypes = {
 					name = "precursor_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 340
-					maxHeight = 20
+					maxWidth = 408
+					maxHeight = 24
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -3053,8 +3053,8 @@ guiTypes = {
 					name = "tier4_title_menu"
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
-					maxWidth = 120
-					maxHeight = 40
+					maxWidth = 144
+					maxHeight = 48
 					text = ""
 					orientation = "UPPER_LEFT"
 					scripted = yes
@@ -3317,7 +3317,7 @@ guiTypes = {
 			scripted = yes
 
 			if_resolution = {
-				min_height = 1048
+				min_height = 1258
 				guiButtonType = {
 					name = "insyaa_invention_tier4_menu"
 
@@ -3340,8 +3340,8 @@ guiTypes = {
 						name = "tier4_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3397,8 +3397,8 @@ guiTypes = {
 						name = "head_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3462,8 +3462,8 @@ guiTypes = {
 						name = "torso_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3527,8 +3527,8 @@ guiTypes = {
 						name = "chassis_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3593,8 +3593,8 @@ guiTypes = {
 						name = "arms_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3658,8 +3658,8 @@ guiTypes = {
 						name = "legs_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3727,8 +3727,8 @@ guiTypes = {
 						name = "tier4_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3784,8 +3784,8 @@ guiTypes = {
 						name = "head_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3849,8 +3849,8 @@ guiTypes = {
 						name = "torso_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3914,8 +3914,8 @@ guiTypes = {
 						name = "chassis_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -3980,8 +3980,8 @@ guiTypes = {
 						name = "arms_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -4045,8 +4045,8 @@ guiTypes = {
 						name = "legs_title_menu"
 						font = "vic_22"
 						borderSize = {x = 0 y = 0}
-						maxWidth = 340
-						maxHeight = 20
+						maxWidth = 408
+						maxHeight = 24
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -4221,8 +4221,8 @@ guiTypes = {
 			name = "insyaa_tab_menu"
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 340
-			maxHeight = 20
+			maxWidth = 408
+			maxHeight = 24
 			text = ""
 			orientation = "UPPER_LEFT"
 			scripted = yes

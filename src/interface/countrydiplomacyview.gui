@@ -1475,12 +1475,12 @@ guiTypes = {
 					spriteType = "GFX_diplo_interaction_overlay_small"
 				}
 				if_resolution = {
-					min_height = 868
+					min_height = 1042
 					max_height = 1047
 					spriteType = "GFX_diplo_interaction_overlay_large"
 				}
 				if_resolution = {
-					min_height = 1048
+					min_height = 1258
 					spriteType = "GFX_diplo_interaction_overlay_huge"
 				}
 				position = { x = 0 y = 0 }
@@ -1550,8 +1550,8 @@ guiTypes = {
 					name = custom_diplomacy_header_back_text
 					position = { x = 20 y = 18 }
 					font = "vic_18"
-					maxWidth = 191
-					maxHeight = 23
+					maxWidth = 229
+					maxHeight = 28
 					fixedsize = yes
 					text = custom_diplomacy_header_back_text
 					Orientation = "UPPER_LEFT"

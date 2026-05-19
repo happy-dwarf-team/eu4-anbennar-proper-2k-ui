@@ -600,8 +600,8 @@ guiTypes = {
 				font = "vic_22"
 				#borderSize = { x = 60 y = 240 }
 				text = ""
-				maxWidth = 200
-				maxHeight = 200
+				maxWidth = 240
+				maxHeight = 240
 				alwaystransparent = yes
 				scripted = yes
 			}
@@ -1200,8 +1200,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 125
-				maxHeight = 32
+				maxWidth = 150
+				maxHeight = 38
 				format = center
 				scripted = yes
 			}
@@ -1212,8 +1212,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Vizier Influence"
-				maxWidth = 125
-				maxHeight = 32
+				maxWidth = 150
+				maxHeight = 38
 				format = center
 				scripted = yes
 			}
@@ -1530,7 +1530,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = umbral_covenant_ui_title
 				position = { x = 0 y = 67 }
-				maxWidth = 328 #width of parent background
+				maxWidth = 394 #width of parent background
 				fixedsize = yes
 				text = "S90"
 				font = vic_22
@@ -1814,7 +1814,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = umbral_covenant_essence_textbox
 					position = { x = 154 y = 293 }
-					maxWidth = 53 #width of parent background
+					maxWidth = 64 #width of parent background
 					fixedsize = yes
 					font = vic_22
 					scripted = yes
@@ -2253,8 +2253,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 125
-				maxHeight = 32
+				maxWidth = 150
+				maxHeight = 38
 				format = center
 				scripted = yes
 			}

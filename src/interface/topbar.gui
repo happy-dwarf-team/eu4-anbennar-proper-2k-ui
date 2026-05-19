@@ -3730,7 +3730,7 @@ guiTypes = {
 			horizontalBorder = ""
 			scripted = yes
 			if_resolution = {
-				min_height = 865
+				min_height = 1038
 				backGround = "achievement_window_bg"
 
 				# Topbar origin is (0,-1)
@@ -3757,7 +3757,7 @@ guiTypes = {
 				spriteType = "GFX_achievement_menu_bg"
 				Orientation = "CENTER"
 				if_resolution = {
-					min_height = 865
+					min_height = 1038
 					position = { x = 0 y = 0 }
 				}
 				if_resolution = {
@@ -3775,7 +3775,7 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 				}
 				if_resolution = {
-					min_height = 865
+					min_height = 1038
 					position = { x = 0 y = -6000 }
 				}
 			}
@@ -3798,15 +3798,15 @@ guiTypes = {
 				borderSize = {x = 5 y = 5}
 				if_resolution = {
 					max_height = 864
-					maxWidth = 613
+					maxWidth = 736
 					position = { x = 0 y = 5 }
 				}
 				if_resolution = {
-					min_height = 865
-					maxWidth = 1193
+					min_height = 1038
+					maxWidth = 1432
 					position = { x = 0 y = 12 }
 				}
-				maxHeight = 32
+				maxHeight = 38
 				format = centre
 			}
 
@@ -3820,7 +3820,7 @@ guiTypes = {
 					position = { x = 12000 y = 12000 }
 				}
 				if_resolution = {
-					min_height = 865
+					min_height = 1038
 					position = { x = 0 y = 0 }
 				}
 
@@ -3832,8 +3832,8 @@ guiTypes = {
 					font = "vic_22s"
 					borderSize = {x = 5 y = 5}
 					text = ""
-					maxWidth = 1193
-					maxHeight = 32
+					maxWidth = 1432
+					maxHeight = 38
 					format = center
 					fixedsize = yes
 					scripted = yes
@@ -3961,8 +3961,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -3974,8 +3974,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4085,8 +4085,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4098,8 +4098,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4209,8 +4209,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4222,8 +4222,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4333,8 +4333,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4346,8 +4346,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4457,8 +4457,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4470,8 +4470,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4581,8 +4581,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4594,8 +4594,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4705,8 +4705,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4718,8 +4718,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4829,8 +4829,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4842,8 +4842,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -4965,8 +4965,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -4978,8 +4978,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5089,8 +5089,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5102,8 +5102,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5213,8 +5213,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5226,8 +5226,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5337,8 +5337,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5350,8 +5350,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5461,8 +5461,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5474,8 +5474,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5585,8 +5585,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5598,8 +5598,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5709,8 +5709,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5722,8 +5722,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5833,8 +5833,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -5846,8 +5846,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -5877,7 +5877,7 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 				}
 				if_resolution = {
-					min_height = 865 #Resolution too big? To the Ruined Sea!
+					min_height = 1038 #Resolution too big? To the Ruined Sea!
 					position = { x = 12000 y = 12000 }
 				}
 
@@ -5889,8 +5889,8 @@ guiTypes = {
 					font = "vic_22s"
 					borderSize = {x = 5 y = 5}
 					text = ""
-					maxWidth = 613
-					maxHeight = 32
+					maxWidth = 736
+					maxHeight = 38
 					format = center
 					fixedsize = yes
 					scripted = yes
@@ -6066,8 +6066,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -6079,8 +6079,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -6238,8 +6238,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -6251,8 +6251,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -6410,8 +6410,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -6423,8 +6423,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -6582,8 +6582,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -6595,8 +6595,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -6754,8 +6754,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -6767,8 +6767,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -6926,8 +6926,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -6939,8 +6939,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -7098,8 +7098,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -7111,8 +7111,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -7270,8 +7270,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = {x = 5 y = 5}
 							text = ""
-							maxWidth = 500
-							maxHeight = 32
+							maxWidth = 600
+							maxHeight = 38
 							format = left
 							scripted = yes
 						}
@@ -7283,8 +7283,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 490
-							maxHeight = 64
+							maxWidth = 588
+							maxHeight = 77
 							format = left
 							scripted = yes
 						}
@@ -7332,9 +7332,9 @@ guiTypes = {
 				font = "vic_29s"
 				text = "Achievement Complete"
 				borderSize = {x = 5 y = 5}
-				maxWidth = 553
+				maxWidth = 664
 				position = { x = -5 y = 174 } #157
-				maxHeight = 32
+				maxHeight = 38
 				format = centre
 			}
 
@@ -7355,9 +7355,9 @@ guiTypes = {
 				font = "vic_22"
 				text = ""
 				borderSize = {x = 5 y = 5}
-				maxWidth = 553
+				maxWidth = 664
 				position = { x = -5 y = 252 }
-				maxHeight = 32
+				maxHeight = 38
 				format = centre
 				scripted = yes
 			}
@@ -7368,9 +7368,9 @@ guiTypes = {
 				font = "vic_18"
 				text = ""
 				borderSize = {x = 5 y = 5}
-				maxWidth = 300
+				maxWidth = 360
 				position = { x = 137 y = 326 }
-				maxHeight = 32
+				maxHeight = 38
 				format = centre
 				scripted = yes
 			}
@@ -7871,8 +7871,8 @@ guiTypes = {
 					position = { x = 144 y = 101 }
 					font = "vic_29"
 					text = "magic_menu_heading"
-					maxWidth = 300
-					maxHeight = 28
+					maxWidth = 360
+					maxHeight = 34
 					format = center
 				}
 
@@ -7988,8 +7988,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = magic_menu_text_school
-							maxWidth = 50
-							maxHeight = 28
+							maxWidth = 60
+							maxHeight = 34
 							format = center
 							fixedsize = yes
 						}
@@ -8021,8 +8021,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = magic_menu_text_experience
-							maxWidth = 100
-							maxHeight = 28
+							maxWidth = 120
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 						}
@@ -8038,8 +8038,8 @@ guiTypes = {
 							position = { x = 32 y = 115 }
 							font = "vic_18"
 							borderSize = { x = 0 y = 0 }
-							maxWidth = 110
-							maxHeight = 28
+							maxWidth = 132
+							maxHeight = 34
 							text = magic_menu_text_monthly_xp_gain
 							orientation = "UPPER_LEFT"
 							format = centre
@@ -8065,8 +8065,8 @@ guiTypes = {
 							name = "last_months_xp_gain_val"
 							position = { x = 140 y = 115 }
 							font = "vic_18"
-							maxWidth = 65
-							maxHeight = 28
+							maxWidth = 78
+							maxHeight = 34
 							orientation = "UPPER_LEFT"
 							format = right
 							scripted = yes
@@ -8120,8 +8120,8 @@ guiTypes = {
 							name = "magic_menu_mana_generation_textbox"
 							position = { x = 16 y = 115 }
 							font = "vic_18"
-							maxWidth = 110
-							maxHeight = 28
+							maxWidth = 132
+							maxHeight = 34
 							text = magic_menu_text_mana_generation
 							orientation = "UPPER_LEFT"
 							format = centre
@@ -8139,8 +8139,8 @@ guiTypes = {
 							name = "magic_menu_mana_regen_rate"
 							position = { x = 144 y = 115 }
 							font = "vic_18"
-							maxWidth = 48
-							maxHeight = 28
+							maxWidth = 58
+							maxHeight = 34
 							text = ""
 							orientation = "UPPER_LEFT"
 							scripted = yes
@@ -8218,7 +8218,7 @@ guiTypes = {
 						font = "vic_18"
 						text = "magic_menu_infamy_types"
 						maxheight = 72
-						maxWidth = 200
+						maxWidth = 240
 						fixedsize = yes
 						truncate = yes
 						format = left
@@ -8230,9 +8230,9 @@ guiTypes = {
 						position = { x = 192 y = 4 } # y + 5
 						font = "vic_18"
 						text = "magic_menu_infamy_text"
-						maxWidth = 90
+						maxWidth = 108
 						fixedsize = yes
-						# maxHeight = 28
+						# maxHeight = 34
 						format = center
 						scripted = yes
 						# alwaystransparent = yes
@@ -8277,8 +8277,8 @@ guiTypes = {
 					position = { x = 144 y = 53 }
 					font = "vic_29"
 					text = "magic_spellbook_heading"
-					maxWidth = 300
-					maxHeight = 28
+					maxWidth = 360
+					maxHeight = 34
 					format = center
 				}
 
@@ -8307,8 +8307,8 @@ guiTypes = {
 						text = magic_menu_mana_title_text
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
-						maxWidth = 150
-						maxHeight = 28
+						maxWidth = 180
+						maxHeight = 34
 						format = center
 					}
 					guiButtonType = {
@@ -8322,8 +8322,8 @@ guiTypes = {
 						name = "magic_menu_mana_generation_textbox"
 						position = { x = 16 y = 115 }
 						font = "vic_18"
-						maxWidth = 110
-						maxHeight = 28
+						maxWidth = 132
+						maxHeight = 34
 						text = magic_menu_text_mana_generation
 						orientation = "UPPER_LEFT"
 						format = centre
@@ -8341,8 +8341,8 @@ guiTypes = {
 						name = "magic_menu_mana_regen_rate"
 						position = { x = 144 y = 115 }
 						font = "vic_18"
-						maxWidth = 48
-						maxHeight = 28
+						maxWidth = 58
+						maxHeight = 34
 						text = ""
 						orientation = "UPPER_LEFT"
 						scripted = yes
@@ -8396,8 +8396,8 @@ guiTypes = {
 						font = "vic_22"
 						borderSize = { x = 5 y = 5 }
 						text = magic_spellbook_schools_text
-						maxWidth = 200
-						maxHeight = 28
+						maxWidth = 240
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 					}
@@ -8546,8 +8546,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 0 y = 5 }
 						text = magic_menu_button_custom_magic_lists_text
-						maxWidth = 149
-						maxHeight = 31
+						maxWidth = 179
+						maxHeight = 37
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -8581,8 +8581,8 @@ guiTypes = {
 						font = "vic_22"
 						borderSize = { x = 5 y = 5 }
 						text = magic_menu_text_cast_spells
-						maxWidth = 200
-						maxHeight = 28
+						maxWidth = 240
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 					}
@@ -9182,8 +9182,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 1"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -9195,8 +9195,8 @@ guiTypes = {
 						text_color_code = g
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 1"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 						scripted = yes
@@ -9207,8 +9207,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 2"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -9220,8 +9220,8 @@ guiTypes = {
 						text_color_code = g
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 2"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 						scripted = yes
@@ -9232,8 +9232,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 3"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -9245,8 +9245,8 @@ guiTypes = {
 						text_color_code = g
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 3"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 						scripted = yes
@@ -9257,8 +9257,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 4"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -9270,8 +9270,8 @@ guiTypes = {
 						text_color_code = g
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 4"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 						scripted = yes
@@ -9282,8 +9282,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 5"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -9295,8 +9295,8 @@ guiTypes = {
 						text_color_code = g
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 5"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 						scripted = yes
@@ -9307,8 +9307,8 @@ guiTypes = {
 						font = "vic_18"
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 6"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -9320,8 +9320,8 @@ guiTypes = {
 						text_color_code = g
 						borderSize = { x = 5 y = 5 }
 						text = "Cast Spell Slot 6"
-						maxWidth = 212
-						maxHeight = 28
+						maxWidth = 254
+						maxHeight = 34
 						format = left
 						alwaystransparent = yes
 						scripted = yes
@@ -9359,8 +9359,8 @@ guiTypes = {
 						font = "vic_22"
 						borderSize = { x = 5 y = 5 }
 						text = magic_menu_text_cast_spells
-						maxWidth = 200
-						maxHeight = 28
+						maxWidth = 240
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 					}
@@ -9713,8 +9713,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = "Cast Spell Slot 1"
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -9726,8 +9726,8 @@ guiTypes = {
 							text_color_code = g
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = left
 							alwaystransparent = yes
 							scripted = yes
@@ -9738,8 +9738,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = "Cast Spell Slot 2"
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -9751,8 +9751,8 @@ guiTypes = {
 							text_color_code = g
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = left
 							alwaystransparent = yes
 							scripted = yes
@@ -9763,8 +9763,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = "Cast Spell Slot 3"
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -9776,8 +9776,8 @@ guiTypes = {
 							text_color_code = g
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = left
 							alwaystransparent = yes
 							scripted = yes
@@ -9788,8 +9788,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = "Cast Spell Slot 4"
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -9801,8 +9801,8 @@ guiTypes = {
 							text_color_code = g
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = left
 							alwaystransparent = yes
 							scripted = yes
@@ -9813,8 +9813,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = "Cast Spell Slot 5"
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -9826,8 +9826,8 @@ guiTypes = {
 							text_color_code = g
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = left
 							alwaystransparent = yes
 							scripted = yes
@@ -9838,8 +9838,8 @@ guiTypes = {
 							font = "vic_18"
 							borderSize = { x = 5 y = 5 }
 							text = "Cast Spell Slot 6"
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -9851,8 +9851,8 @@ guiTypes = {
 							text_color_code = g
 							borderSize = { x = 5 y = 5 }
 							text = ""
-							maxWidth = 212
-							maxHeight = 28
+							maxWidth = 254
+							maxHeight = 34
 							format = left
 							alwaystransparent = yes
 							scripted = yes
@@ -9874,8 +9874,8 @@ guiTypes = {
 					position = { x = 144 y = 125 }
 					font = "vic_29"
 					text = "magic_advancement_heading"
-					maxWidth = 300
-					maxHeight = 28
+					maxWidth = 360
+					maxHeight = 34
 					format = center
 				}
 				guiButtonType = {
@@ -9899,8 +9899,8 @@ guiTypes = {
 					name = "magic_advancement_current_subject"
 					position = { x = 54 y = 278 }
 					font = "vic_18"
-					maxWidth = 295
-					maxHeight = 28
+					maxWidth = 354
+					maxHeight = 34
 					orientation = "UPPER_LEFT"
 					format = centre
 					scripted = yes
@@ -9917,8 +9917,8 @@ guiTypes = {
 					position = { x = 428 y = 344 }
 					font = "vic_18"
 					borderSize = { x = 0 y = 0 }
-					maxWidth = 110
-					maxHeight = 28
+					maxWidth = 132
+					maxHeight = 34
 					text = magic_menu_text_xp_modifiers
 					orientation = "UPPER_LEFT"
 					format = centre
@@ -9935,8 +9935,8 @@ guiTypes = {
 					name = "total_experience_mod_val"
 					position = { x = 548 y = 344 }
 					font = "vic_18"
-					maxWidth = 65
-					maxHeight = 28
+					maxWidth = 78
+					maxHeight = 34
 					orientation = "UPPER_LEFT"
 					format = right
 					scripted = yes
@@ -9985,8 +9985,8 @@ guiTypes = {
 					position = { x = 24 y = 748 }
 					font = "vic_18"
 					text = magical_infrastructure_banner_text
-					maxWidth = 345
-					maxHeight = 28
+					maxWidth = 414
+					maxHeight = 34
 					format = center
 				}
 				guiButtonType = {
@@ -10000,8 +10000,8 @@ guiTypes = {
 					name = "magical_infrastructure_modifier"
 					position = { x = 42 y = 776 }
 					font = "vic_18"
-					maxWidth = 320
-					maxHeight = 28
+					maxWidth = 384
+					maxHeight = 34
 					orientation = "UPPER_LEFT"
 					format = center
 					scripted = yes
@@ -10204,8 +10204,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_1"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10216,8 +10216,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_2"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10228,8 +10228,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_3"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10240,8 +10240,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_4"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10252,8 +10252,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_5"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10264,8 +10264,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_6"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10276,8 +10276,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_7"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10288,8 +10288,8 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						font = "vic_18"
 						text = "project_button_8"
-						maxWidth = 180
-						maxHeight = 28
+						maxWidth = 216
+						maxHeight = 34
 						format = center
 						alwaystransparent = yes
 						scripted = yes
@@ -10370,8 +10370,8 @@ guiTypes = {
 						position = { x = 72 y = 60 }
 						# text = "regional_projects_none"
 						font = "vic_18"
-						maxWidth = 200
-						maxHeight = 28
+						maxWidth = 240
+						maxHeight = 34
 						orientation = "UPPER_LEFT"
 						format = center
 						scripted = yes
@@ -10382,8 +10382,8 @@ guiTypes = {
 						position = { x = 348 y = 60 }
 						# text = "tag_projects_none"
 						font = "vic_18"
-						maxWidth = 200
-						maxHeight = 28
+						maxWidth = 240
+						maxHeight = 34
 						orientation = "UPPER_LEFT"
 						format = center
 						scripted = yes
@@ -10477,8 +10477,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_region_project_1_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10489,8 +10489,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_region_project_2_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10501,8 +10501,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_region_project_3_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10513,8 +10513,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_region_project_4_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10653,8 +10653,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_tag_project_1_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10665,8 +10665,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_tag_project_2_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10677,8 +10677,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_tag_project_3_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -10689,8 +10689,8 @@ guiTypes = {
 							Orientation = "UPPER_LEFT"
 							font = "vic_18"
 							text = "template_tag_project_4_textbox"
-							maxWidth = 180
-							maxHeight = 28
+							maxWidth = 216
+							maxHeight = 34
 							format = center
 							alwaystransparent = yes
 							scripted = yes
@@ -11403,8 +11403,8 @@ guiTypes = {
 					position = { x = 108 y = 14 }
 					font = "vic_18"
 					text = magic_menu_text_who_will_study
-					maxWidth = 150
-					maxHeight = 28
+					maxWidth = 180
+					maxHeight = 34
 					format = center
 				}
 				instantTextBoxType = {
@@ -11412,8 +11412,8 @@ guiTypes = {
 					position = { x = 108 y = 157 }
 					font = "vic_18"
 					text = magic_menu_text_select_magic_school
-					maxWidth = 150
-					maxHeight = 28
+					maxWidth = 180
+					maxHeight = 34
 					format = center
 				}
 				guiButtonType = {
@@ -11516,8 +11516,8 @@ guiTypes = {
 					position = { x = 96 y = 349 }
 					font = "vic_18"
 					text = magic_menu_text_xp_modifier
-					maxWidth = 100
-					maxHeight = 28
+					maxWidth = 120
+					maxHeight = 34
 					orientation = "UPPER_LEFT"
 					format = left
 					# scripted = yes
@@ -11526,8 +11526,8 @@ guiTypes = {
 					name = "magic_study_xp_modifier"
 					position = { x = 224 y = 349 }
 					font = "vic_18"
-					maxWidth = 50
-					maxHeight = 28
+					maxWidth = 60
+					maxHeight = 34
 					orientation = "UPPER_LEFT"
 					format = right
 					scripted = yes
@@ -11545,8 +11545,8 @@ guiTypes = {
 					position = { x = 144 y = -7 }
 					font = "vic_29"
 					text = "magic_patron_heading"
-					maxWidth = 300
-					maxHeight = 28
+					maxWidth = 360
+					maxHeight = 34
 					format = center
 				}
 
@@ -11577,8 +11577,8 @@ guiTypes = {
 					text_color_code = "S"
 					font = "vic_29"
 					text = "text"
-					maxWidth = 400
-					maxHeight = 28
+					maxWidth = 480
+					maxHeight = 34
 					format = center
 					# alwaystransparent = yes
 					scripted = yes
@@ -11588,8 +11588,8 @@ guiTypes = {
 					position = { x = 120 y = 107 }
 					font = "vic_18"
 					text = patron_banner_text2
-					maxWidth = 345
-					maxHeight = 28
+					maxWidth = 414
+					maxHeight = 34
 					format = center
 				}
 				guiButtonType = {
@@ -11604,8 +11604,8 @@ guiTypes = {
 					position = { x = 60 y = 204 }
 					font = "vic_18"
 					text = magic_menu_text_approval
-					maxWidth = 200
-					maxHeight = 28
+					maxWidth = 240
+					maxHeight = 34
 					format = center
 				}
 				guiButtonType = {
@@ -11656,8 +11656,8 @@ guiTypes = {
 					position = { x = 324 y = 204 }
 					font = "vic_18"
 					text = magic_menu_patron_favoured_text
-					maxWidth = 100
-					maxHeight = 28
+					maxWidth = 120
+					maxHeight = 34
 					format = center
 					alwaystransparent = yes
 				}
@@ -11682,8 +11682,8 @@ guiTypes = {
 					position = { x = 468 y = 204 }
 					font = "vic_18"
 					text = magic_menu_patron_disfavoured_text
-					maxWidth = 100
-					maxHeight = 28
+					maxWidth = 120
+					maxHeight = 34
 					format = center
 					alwaystransparent = yes
 				}
@@ -11715,8 +11715,8 @@ guiTypes = {
 					position = { x = 60 y = 294 }
 					font = "vic_18"
 					text = "text"
-					maxWidth = 430 #decreased for scrollbar
-					maxHeight = 280
+					maxWidth = 516 #decreased for scrollbar
+					maxHeight = 336
 					borderSize = { x = 10 y = 10 }
 					scrollbartype = "standardtext_slider"
 					format = left

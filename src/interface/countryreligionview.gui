@@ -42,8 +42,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Province name"
-			maxWidth = 135
-			maxHeight = 32
+			maxWidth = 162
+			maxHeight = 38
 			format = left
 		}
 
@@ -54,8 +54,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Province religion"
-			maxWidth = 100
-			maxHeight = 32
+			maxWidth = 120
+			maxHeight = 38
 			format = left
 		}
 
@@ -66,8 +66,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "4.2%"
-			maxWidth = 80
-			maxHeight = 32
+			maxWidth = 96
+			maxHeight = 38
 			format = centre
 		}
 
@@ -78,8 +78,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 5}
 			text = "4.2%"
-			maxWidth = 60
-			maxHeight = 32
+			maxWidth = 72
+			maxHeight = 38
 			format = centre
 		}
 
@@ -119,8 +119,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "SEND"
-			maxWidth = 87
-			maxHeight = 32
+			maxWidth = 104
+			maxHeight = 38
 			format = centre
 			alwaystransparent = yes
 			fixedsize = yes
@@ -168,8 +168,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Province name"
-			maxWidth = 230
-			maxHeight = 32
+			maxWidth = 276
+			maxHeight = 38
 			format = left
 		}
 
@@ -188,8 +188,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Reformation center desc"
-			maxWidth = 400
-			maxHeight = 32
+			maxWidth = 480
+			maxHeight = 38
 			format = left
 		}
 
@@ -243,8 +243,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "Province name"
-			maxWidth = 292
-			maxHeight = 32
+			maxWidth = 350
+			maxHeight = 38
 			format = left
 		}
 	}
@@ -299,11 +299,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				spriteType = "GFX_country_religion_view_bg_large"
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				spriteType = "GFX_country_religion_view_bg_huge"
 			}
 			position = { x= -8 y = -12 }
@@ -328,8 +328,8 @@ guiTypes = {
 			font = "vic_29s"
 			borderSize = {x = 5 y = 5}
 			text = "HEADER_RELIGION"
-			maxWidth = 512
-			maxHeight = 32
+			maxWidth = 614
+			maxHeight = 38
 			format = centre
 		}
 
@@ -341,8 +341,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
-			maxWidth = 124
-			maxHeight = 32
+			maxWidth = 149
+			maxHeight = 38
 			format = left
 			fixedsize = yes
 		}
@@ -360,8 +360,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = ""
-			maxWidth = 100
-			maxHeight = 32
+			maxWidth = 120
+			maxHeight = 38
 			format = left
 			fixedsize = yes
 		}
@@ -383,8 +383,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
 				text = ""
-				maxWidth = 100
-				maxHeight = 32
+				maxWidth = 120
+				maxHeight = 38
 				format = right
 				fixedsize = yes
 			}
@@ -491,8 +491,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "TOLERANCE"
-			maxWidth = 80
-			maxHeight = 32
+			maxWidth = 96
+			maxHeight = 38
 			format = left
 		}
 
@@ -510,8 +510,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "5"
-			maxWidth = 35
-			maxHeight = 24
+			maxWidth = 42
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
@@ -529,8 +529,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "5"
-			maxWidth = 35
-			maxHeight = 24
+			maxWidth = 42
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
@@ -548,8 +548,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "5"
-			maxWidth = 35
-			maxHeight = 24
+			maxWidth = 42
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
@@ -635,8 +635,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 32
-				maxHeight = 24
+				maxWidth = 38
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -647,8 +647,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "CURRENT_PATRIARCH_AUTHORITY"
-				maxWidth = 256
-				maxHeight = 24
+				maxWidth = 307
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -721,8 +721,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "ISOLATIONISM"
-				maxWidth = 132
-				maxHeight = 24
+				maxWidth = 158
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -733,8 +733,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "0"
-				maxWidth = 268
-				maxHeight = 24
+				maxWidth = 322
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -745,8 +745,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "POSSIBLE_INCIDENTS"
-				maxWidth = 138
-				maxHeight = 24
+				maxWidth = 166
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -766,8 +766,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "ACTIVE_INCIDENTS"
-				maxWidth = 138
-				maxHeight = 24
+				maxWidth = 166
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -787,8 +787,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "PAST_INCIDENTS"
-				maxWidth = 138
-				maxHeight = 24
+				maxWidth = 166
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -827,8 +827,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "CURRENT_HARMONY"
-				maxWidth = 230
-				maxHeight = 24
+				maxWidth = 276
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -874,8 +874,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "0"
-				maxWidth = 32
-				maxHeight = 24
+				maxWidth = 38
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -1007,8 +1007,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93						#Anbennar, vanilla is 128
-				maxHeight = 24
+				maxWidth = 112						#Anbennar, vanilla is 128
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1028,8 +1028,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93						#Anbennar, vanilla is 128
-				maxHeight = 24
+				maxWidth = 112						#Anbennar, vanilla is 128
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1049,8 +1049,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93						#Anbennar, vanilla is 128
-				maxHeight = 24
+				maxWidth = 112						#Anbennar, vanilla is 128
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1070,8 +1070,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93						#Anbennar, vanilla is 128
-				maxHeight = 24
+				maxWidth = 112						#Anbennar, vanilla is 128
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1091,8 +1091,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93						#Anbennar, vanilla is 128
-				maxHeight = 24
+				maxWidth = 112						#Anbennar, vanilla is 128
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1113,8 +1113,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93
-				maxHeight = 24
+				maxWidth = 112
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1134,8 +1134,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 93
-				maxHeight = 24
+				maxWidth = 112
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -1682,8 +1682,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 34
-				maxHeight = 24
+				maxWidth = 41
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -1694,8 +1694,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "CURRENT_PIETY"
-				maxWidth = 160
-				maxHeight = 24
+				maxWidth = 192
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2044,8 +2044,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 32
-				maxHeight = 24
+				maxWidth = 38
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 				scripted = yes
@@ -2057,8 +2057,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 32
-				maxHeight = 24
+				maxWidth = 38
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 				scripted = yes
@@ -2125,8 +2125,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 32
-				maxHeight = 24
+				maxWidth = 38
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2137,8 +2137,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "CURRENT_KARMA"
-				maxWidth = 240
-				maxHeight = 24
+				maxWidth = 288
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2149,8 +2149,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "No effects"
-				maxWidth = 256
-				maxHeight = 48
+				maxWidth = 307
+				maxHeight = 58
 				Orientation = "UPPER_LEFT"
 				format = centre
 				fixedsize = yes
@@ -2182,8 +2182,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "RV_NO_DEITY"
-				maxWidth = 200
-				maxHeight = 24
+				maxWidth = 240
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2194,8 +2194,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 256
-				maxHeight = 24
+				maxWidth = 307
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2279,8 +2279,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "RV_NO_CULT"
-				maxWidth = 200
-				maxHeight = 24
+				maxWidth = 240
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2291,8 +2291,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 256
-				maxHeight = 24
+				maxWidth = 307
+				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2332,8 +2332,8 @@ guiTypes = {
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
 					text = "NO_GURU_TITLE"
-					maxWidth = 200
-					maxHeight = 18
+					maxWidth = 240
+					maxHeight = 22
 					Orientation = "UPPER_LEFT"
 					format = left
 				}
@@ -2344,8 +2344,8 @@ guiTypes = {
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
 					text = "NO_EFFECT"
-					maxWidth = 256
-					maxHeight = 18
+					maxWidth = 307
+					maxHeight = 22
 					Orientation = "UPPER_LEFT"
 					format = left
 					fixedsize = yes
@@ -2368,8 +2368,8 @@ guiTypes = {
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
 					text = "NO_GURU_TITLE"
-					maxWidth = 200
-					maxHeight = 24
+					maxWidth = 240
+					maxHeight = 29
 					Orientation = "UPPER_LEFT"
 					format = left
 				}
@@ -2380,8 +2380,8 @@ guiTypes = {
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
 					text = "NO_EFFECT"
-					maxWidth = 256
-					maxHeight = 24
+					maxWidth = 307
+					maxHeight = 29
 					Orientation = "UPPER_LEFT"
 					format = left
 					fixedsize = yes
@@ -2445,8 +2445,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "ANCESTORS"
-				maxWidth = 100
-				maxHeight = 32
+				maxWidth = 120
+				maxHeight = 38
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2526,8 +2526,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "NO_ACTVIVE_CARDINALS"
-				maxWidth = 200
-				maxHeight = 32
+				maxWidth = 240
+				maxHeight = 38
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2556,8 +2556,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
-				maxWidth = 40
-				maxHeight = 45
+				maxWidth = 48
+				maxHeight = 54
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2579,8 +2579,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
-				maxWidth = 55
-				maxHeight = 25
+				maxWidth = 66
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2601,8 +2601,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
-				maxWidth = 55
-				maxHeight = 25
+				maxWidth = 66
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -2625,8 +2625,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "Church of Nothingland"
-				maxWidth = 200
-				maxHeight = 25
+				maxWidth = 240
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2643,8 +2643,8 @@ guiTypes = {
 				position = { x = 12 y = -44 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
+				maxWidth = 180
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2691,8 +2691,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "Church of Nothingland"
-				maxWidth = 200
-				maxHeight = 25
+				maxWidth = 240
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2702,8 +2702,8 @@ guiTypes = {
 				position = { x = 12 y = 24 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
+				maxWidth = 180
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2735,8 +2735,8 @@ guiTypes = {
 				font = "vic_18"
 				text = "CELEBRATE"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
+				maxWidth = 180
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2765,8 +2765,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "Church of Nothingland"
-				maxWidth = 200
-				maxHeight = 25
+				maxWidth = 240
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2791,8 +2791,8 @@ guiTypes = {
 				position = { x = 86 y = -23 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 150
-				maxHeight = 25
+				maxWidth = 180
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2863,8 +2863,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FERVOR_CHANGE"
-				maxWidth = 128
-				maxHeight = 25
+				maxWidth = 154
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2875,8 +2875,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "123"
-				maxWidth = 52
-				maxHeight = 25
+				maxWidth = 62
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = center
 			}
@@ -2887,8 +2887,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FERVOR_VALUE2"
-				maxWidth = 128
-				maxHeight = 25
+				maxWidth = 154
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -2899,8 +2899,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
-				maxWidth = 52
-				maxHeight = 25
+				maxWidth = 62
+				maxHeight = 30
 				Orientation = "UPPER_LEFT"
 				format = center
 			}
@@ -2925,8 +2925,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "%%%"
-			maxWidth = 40
-			maxHeight = 30
+			maxWidth = 48
+			maxHeight = 36
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
@@ -2948,8 +2948,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "TEMP"
-			maxWidth = 60
-			maxHeight = 30
+			maxWidth = 72
+			maxHeight = 36
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
@@ -2961,8 +2961,8 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "CONVERT"
-			maxWidth = 128
-			maxHeight = 50
+			maxWidth = 154
+			maxHeight = 60
 			Orientation = "UPPER_LEFT"
 			format = centre
 			fixedsize = yes
@@ -3041,11 +3041,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				size = { x=636 y =324}
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				size = { x=636 y =540}
 			}
 			Orientation = "UPPER_LEFT"
@@ -3062,11 +3062,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				position = { x=48 y=821 }
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				position = { x=48 y=1037 }
 			}
 			quadTextureSprite ="GFX_checkbox_gold_32"
@@ -3081,17 +3081,17 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				position = {x = 89 y = 827 }
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				position = {x = 89 y = 1043 }
 			}
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 160
-			maxHeight = 18
+			maxWidth = 192
+			maxHeight = 22
 			text = "MACRO_BUILDR_INCL_SUBJ"
 			format = left
 		}
@@ -3104,11 +3104,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				position = {x = 408 y = 815 }
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				position = {x = 408 y = 1031 }
 			}
 			alwaystransparent = yes
@@ -3122,18 +3122,18 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				position = {x = 204 y = 827 }
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				position = {x = 204 y = 1043 }
 			}
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "Automatic"
-			maxWidth =144
-			maxHeight = 32
+			maxWidth =173
+			maxHeight = 38
 			format = right
 
 		}
@@ -3146,11 +3146,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				position = {x = 425 y = 818 }
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				position = {x = 425 y = 1034 }
 			}
 			size = { x= 288 y = 34 }
@@ -3166,11 +3166,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				position = {x = 382 y = 824 }
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				position = {x = 382 y = 1040 }
 			}
 			quadTextureSprite ="GFX_button_plus"
@@ -3185,11 +3185,11 @@ guiTypes = {
 			}
 			if_resolution = {
 				max_height = 1079
-				min_height = 900
+				min_height = 1080
 				spriteType = "GFX_country_religion_view_allreligion_bg_large"
 			}
 			if_resolution = {
-				min_height = 1080
+				min_height = 1296
 				spriteType = "GFX_country_religion_view_allreligion_bg_huge"
 			}
 			position = { x= 14 y = 438 }
@@ -3204,8 +3204,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
 			text = "FULL_UNITY"
-			maxWidth = 490
-			maxHeight = 105
+			maxWidth = 588
+			maxHeight = 126
 			format = left
 
 		}
@@ -3287,8 +3287,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
 				text = "LEDGER_DEFENDER_OF_FAITH"
-				maxWidth = 170
-				maxHeight = 32
+				maxWidth = 204
+				maxHeight = 38
 				format = center
 			}
 
@@ -3336,8 +3336,8 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}
 				text = "taychendi_religious_reform_text"
-				maxWidth = 170
-				maxHeight = 32
+				maxWidth = 204
+				maxHeight = 38
 				format = center
 				scripted = yes
 				Orientation = "UPPER_LEFT"
@@ -3470,8 +3470,8 @@ guiTypes = {
 				position = { x = 84 y =166 }
 				format = centre
 				font = "vic_22"
-				maxWidth = 420
-				maxHeight = 32
+				maxWidth = 504
+				maxHeight = 38
 				Orientation = "UPPER_LEFT"
 				text = "CONVERT"
 
@@ -3484,8 +3484,8 @@ guiTypes = {
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				text = "NO_POTENTIAL_RELIGION"
-				maxWidth = 300
-				maxHeight = 32
+				maxWidth = 360
+				maxHeight = 38
 				format = center
 			}
 
@@ -3705,8 +3705,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="taychend_deity_desc"
 			position = { x= 66 y = 277 }
-			maxWidth = 300
-			maxHeight = 300
+			maxWidth = 360
+			maxHeight = 360
 			scripted = yes
 			borderSize = { x = 187 y = 48 }
 			font = "vic_18"
@@ -3837,8 +3837,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityName"
-			maxWidth = 68
-			maxHeight = 24
+			maxWidth = 82
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -3849,8 +3849,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityEffect"
-			maxWidth = 256
-			maxHeight = 40
+			maxWidth = 307
+			maxHeight = 48
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -3890,8 +3890,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityName"
-			maxWidth = 290
-			maxHeight = 24
+			maxWidth = 348
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -3902,8 +3902,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityEffect"
-			maxWidth = 290
-			maxHeight = 40
+			maxWidth = 348
+			maxHeight = 48
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -3943,8 +3943,8 @@ guiTypes = {
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 50
-			maxHeight = 24
+			maxWidth = 60
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = center
 		}
@@ -3962,8 +3962,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityName"
-			maxWidth = 280
-			maxHeight = 24
+			maxWidth = 336
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -3974,8 +3974,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "DeityEffect"
-			maxWidth = 280
-			maxHeight = 40
+			maxWidth = 336
+			maxHeight = 48
 			Orientation = "UPPER_LEFT"
 			format = left
 			fixedsize = yes	#Anbennar
@@ -4015,8 +4015,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CultName"
-			maxWidth = 128
-			maxHeight = 24
+			maxWidth = 154
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4027,8 +4027,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CultEffect"
-			maxWidth = 208
-			maxHeight = 54
+			maxWidth = 250
+			maxHeight = 65
 			Orientation = "UPPER_LEFT"
 			format = left
 			fixedsize = yes
@@ -4049,8 +4049,8 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CULT_HELP_DESC"
-			maxWidth = 432
-			maxHeight = 42
+			maxWidth = 518
+			maxHeight = 50
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4102,8 +4102,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4114,8 +4114,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4154,8 +4154,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4166,8 +4166,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4206,8 +4206,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4218,8 +4218,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4259,8 +4259,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4271,8 +4271,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4312,8 +4312,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4324,8 +4324,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4365,8 +4365,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4377,8 +4377,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4419,8 +4419,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4431,8 +4431,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4472,8 +4472,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4484,8 +4484,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4525,8 +4525,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4537,8 +4537,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4579,8 +4579,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4591,8 +4591,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4632,8 +4632,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4644,8 +4644,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4685,8 +4685,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4697,8 +4697,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4738,8 +4738,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = { x = 0 y = 0 }
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4750,8 +4750,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = { x = 0 y = 0 }
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4792,8 +4792,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4804,8 +4804,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4844,8 +4844,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4856,8 +4856,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4897,8 +4897,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4909,8 +4909,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4950,8 +4950,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -4962,8 +4962,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5003,8 +5003,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5015,8 +5015,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5056,8 +5056,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5068,8 +5068,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5109,8 +5109,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5121,8 +5121,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5162,8 +5162,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5174,8 +5174,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5215,8 +5215,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5227,8 +5227,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5267,8 +5267,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5279,8 +5279,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5319,8 +5319,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5331,8 +5331,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5372,8 +5372,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5384,8 +5384,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5425,8 +5425,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5437,8 +5437,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5477,8 +5477,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5489,8 +5489,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5529,8 +5529,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5541,8 +5541,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5581,8 +5581,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5593,8 +5593,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5633,8 +5633,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5645,8 +5645,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5685,8 +5685,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5697,8 +5697,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5737,8 +5737,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5749,8 +5749,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5789,8 +5789,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5801,8 +5801,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5904,8 +5904,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 300
-			maxHeight = 24
+			maxWidth = 360
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -5989,8 +5989,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "TEST"
-			maxWidth = 300
-			maxHeight = 24
+			maxWidth = 360
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 			alwaystransparent = yes
@@ -6002,8 +6002,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 300
-			maxHeight = 24
+			maxWidth = 360
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 			alwaystransparent = yes
@@ -6029,8 +6029,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "PICK_TEACHING"
-			maxWidth = 200
-			maxHeight = 24
+			maxWidth = 240
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6102,8 +6102,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 300
-			maxHeight = 24
+			maxWidth = 360
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 			alwaystransparent = yes
@@ -6115,8 +6115,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "EFFECT"
-			maxWidth = 300
-			maxHeight = 24
+			maxWidth = 360
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 			alwaystransparent = yes
@@ -6142,8 +6142,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "PICK_ANCESTOR"
-			maxWidth = 200
-			maxHeight = 24
+			maxWidth = 240
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6193,8 +6193,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6205,8 +6205,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6246,8 +6246,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6258,8 +6258,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6299,8 +6299,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6311,8 +6311,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6354,8 +6354,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6366,8 +6366,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6407,8 +6407,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6419,8 +6419,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6461,8 +6461,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6473,8 +6473,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6515,8 +6515,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6527,8 +6527,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6568,8 +6568,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6580,8 +6580,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6623,8 +6623,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6635,8 +6635,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6694,8 +6694,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6706,8 +6706,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6747,8 +6747,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6759,8 +6759,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6800,8 +6800,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6812,8 +6812,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6853,8 +6853,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6865,8 +6865,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6905,8 +6905,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 98					#anbennar, x was 102
-			maxHeight = 24
+			maxWidth = 118					#anbennar, x was 102
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6917,8 +6917,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 280					#anbennar, x was 206
-			maxHeight = 24
+			maxWidth = 336					#anbennar, x was 206
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6958,8 +6958,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
@@ -6970,8 +6970,8 @@ moveable = 0
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"
-			maxWidth = 340						#anbennar, was 300
-			maxHeight = 24
+			maxWidth = 408						#anbennar, was 300
+			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
 		}
