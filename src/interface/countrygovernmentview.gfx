@@ -120,7 +120,7 @@ spriteTypes = {
 		name = "GFX_tech_group_strip"
 		texturefile = "gfx//interface//tech_group_strip.dds"
 		transparencecheck = yes
-		noOfFrames = 71	#Anbennar
+		noOfFrames = 72	#Anbennar
 	}
 
 	spriteType = {
@@ -212,8 +212,8 @@ spriteTypes = {
 		name = "GFX_single_government_power_bar"
 		color = { 1.0 0.0 0.0 }
 		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx\\interface\\single_government_power_bar_green.dds"
-		textureFile2 = "gfx\\interface\\single_government_power_bar_black.dds"
+		textureFile1 = "gfx\\interface\\single_government_power_bar_green.dds" #1.35
+		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_black.dds"
 		size = { x = 276 y = 21 }
 		effectFile = "gfx/FX/progress.lua"
 	}
@@ -229,8 +229,8 @@ spriteTypes = {
 		name = "GFX_government_power_bar"
 		color = { 1.0 0.0 0.0 }
 		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx\\interface\\government_view\\government_mechanics_progressbar_green.dds"
-		textureFile2 = "gfx\\interface\\government_view\\government_mechanics_progressbar_black.dds"
+		textureFile1 = "gfx\\interface\\provinceView_progressbar_w92_h11_green.dds"
+		textureFile2 = "gfx\\interface\\provinceView_progressbar_w92_h11_black.dds"
 		size = { x = 92 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
@@ -295,5 +295,46 @@ spriteTypes = {
 		name = "GFX_racial_mil_strip"
 		texturefile = "gfx//interface//custom_gui//racial_mil_strip.dds"
 		noOfFrames = 22
+	}
+    
+	spriteType = {
+		name = "GFX_command_korashi_1"
+		texturefile = "gfx//interface//government_mechanics//command_korashi//command_korashi_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_command_korashi_2"
+		texturefile = "gfx//interface//government_mechanics//command_korashi//command_korashi_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_command_korashi_3"
+		texturefile = "gfx//interface//government_mechanics//command_korashi//command_korashi_3.dds"
+	}
+
+    #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+	progressbartype = {
+		name = "GFX_command_korashi_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/command_korashi/command_korashi_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/command_korashi/command_korashi_progress_bar_empty.dds"
+		size = { x = 230 y = 17 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+    #BACK TO PROPER 2K VALUES
+
+	spriteType = {
+		name = "GFX_command_korashi_bar_frame"
+		texturefile = "gfx//interface//government_mechanics//command_korashi//command_korashi_bar_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_tsukqiao_banner"
+		texturefile = "gfx//interface//government_mechanics//tsukqiao_of_might_and_right//tsukqiao_banner.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
 	}
 }

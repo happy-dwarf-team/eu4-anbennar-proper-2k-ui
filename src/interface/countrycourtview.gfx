@@ -90,7 +90,11 @@ spriteTypes = {
 		name = "GFX_support_heir_button"
 		texturefile = "gfx/interface/support_heir_button.dds"
 	}
-	
+
+    spriteType = {
+		name = "GFX_abdicate_forbidden"
+		texturefile = "gfx/interface/abdicate_forbidden.dds"
+	}
 	spriteType = {
 		name = "GFX_abdicate_button"
 		texturefile = "gfx/interface/abdicate_button.dds"
@@ -217,26 +221,26 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_local_government_view_bg"
-		texturefile = "gfx//interface/government_view/country_local_government_view_bg.dds"
+		texturefile = "gfx//interface/government_view/country_local_government_view_bg.dds" #1.35
 		loadType = "INGAME"
 		transparencecheck = yes	
 	}	
 	
 	spriteType = {
 		name = "GFX_local_government_view_bg_large"
-		texturefile = "gfx//interface/government_view/country_local_government_view_bg_large.dds"
+		texturefile = "gfx//interface/government_view/country_local_government_view_bg_large.dds" #1.35
 		loadType = "INGAME"
 		transparencecheck = yes	
 	}
 
 	spriteType = {
 		name = "GFX_local_government_view_bg_huge"
-		texturefile = "gfx//interface/government_view/country_local_government_view_bg_huge.dds"
+		texturefile = "gfx//interface/government_view/country_local_government_view_bg_huge.dds" #1.35
 		loadType = "INGAME"
 		transparencecheck = yes	
 	}
 
-	spriteType = {
+	spriteType = { #1.35
 		name = "GFX_government_mechanics_bg"
 		texturefile = "gfx//interface/government_view/government_mechanics_bg.dds"
 		loadType = "INGAME"
@@ -363,6 +367,5 @@ spriteTypes = {
 		name = "GFX_assign_heir"
 		texturefile = "gfx/interface/assign_heir.dds"
 	}
-	
 
 }

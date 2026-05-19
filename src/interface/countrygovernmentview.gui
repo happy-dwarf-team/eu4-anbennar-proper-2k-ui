@@ -80,14 +80,14 @@ guiTypes = {
 		iconType = {
 			name = "effelai_government_bg"
 			position = { x= 76 y = 220 }
-			quadTextureSprite = "GFX_effelai_government_background_bg" 
+			quadTextureSprite = "GFX_effelai_government_background_bg"
 			scripted = yes
 		}
 
 		iconType = {
 			name = "harpy_queendom_bg"
 			position = { x= 76 y = 220 }
-			quadTextureSprite = "GFX_harpy_queendom_claim_bg" 
+			quadTextureSprite = "GFX_harpy_queendom_claim_bg"
 			scripted = yes
 		}
 
@@ -95,7 +95,7 @@ guiTypes = {
 		iconType = {
 			name = "kalsyto_democracy_bg"
 			position = { x= 76 y = 220 }
-			quadTextureSprite = "GFX_kalsyto_democracy_bg" 
+			quadTextureSprite = "GFX_kalsyto_democracy_bg"
 			scripted = yes
 		}
 
@@ -103,7 +103,7 @@ guiTypes = {
 		iconType = {
 			name = "drakonshan_bg"
 			position = { x= 76 y = 220 }
-			quadTextureSprite = "GFX_drakonshan_bg" 
+			quadTextureSprite = "GFX_drakonshan_bg"
 			scripted = yes
 		}
 
@@ -111,7 +111,7 @@ guiTypes = {
 		iconType = {
 			name = "jaddari_desert_legion_bg"
 			position = { x= 100 y = 255 }
-			quadTextureSprite = "GFX_jaddari_desert_legion_bg" 
+			quadTextureSprite = "GFX_jaddari_desert_legion_bg"
 			scripted = yes
 		}
 
@@ -119,15 +119,15 @@ guiTypes = {
 		iconType = {
 			name = "karakhanbar_black_hearth_bg"
 			position = { x= 76 y = 220 }
-			quadTextureSprite = "GFX_karakhanbar_black_hearth_bg" 
+			quadTextureSprite = "GFX_karakhanbar_black_hearth_bg"
 			scripted = yes
 		}
-		
+
 		#Gronstunad Gov Mechanic
         iconType = {
             name = "gronstunad_authority_bg"
             position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_gronstunad_authority_bg" 
+            quadTextureSprite = "GFX_gronstunad_authority_bg"
             scripted = yes
         }
 
@@ -135,129 +135,129 @@ guiTypes = {
         iconType = {
             name = "gronstunad_authority_gem_peridot"
             position = { x= 174 y = 295 } # +115/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_peridot" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_peridot"
             scripted = yes
         }
-        
+
         iconType = {
             name = "gronstunad_authority_gem_granite"
             position = { x= 186 y = 295 } # +125/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_granite" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_granite"
             scripted = yes
         }
-        
+
         iconType = {
             name = "gronstunad_authority_gem_emerald"
             position = { x= 198 y = 289 } # +135/+10
-            quadTextureSprite = "GFX_gronstunad_authority_gem_emerald" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_emerald"
             scripted = yes
         }
-        
+
         iconType = {
             name = "gronstunad_authority_gem_jade"
             position = { x= 217 y = 289 } # +150/+10
-            quadTextureSprite = "GFX_gronstunad_authority_gem_jade" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_jade"
             scripted = yes
         }
-        
+
         iconType = {
             name = "gronstunad_authority_gem_damestear"
             position = { x= 235 y = 289 } # +165/+10
-            quadTextureSprite = "GFX_gronstunad_authority_gem_damestear" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_damestear"
             scripted = yes
         }
-        
+
         iconType = {
             name = "gronstunad_authority_gem_amethyst"
             position = { x= 247 y = 295 } # +175/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_amethyst" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_amethyst"
             scripted = yes
         }
-        
+
         iconType = {
             name = "gronstunad_authority_gem_amber"
             position = { x= 265 y = 295 } # +190/+15
-            quadTextureSprite = "GFX_gronstunad_authority_gem_amber" 
+            quadTextureSprite = "GFX_gronstunad_authority_gem_amber"
             scripted = yes
         }
 
 		#Konolkhatep Gov Mechanic
-		
+
         iconType = {
             name = "konolkhatep_bg"
             position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_konolkhatep_bg" 
+            quadTextureSprite = "GFX_konolkhatep_bg"
             scripted = yes
         }
 
 		#Taychendi Vainglory
-		
+
         iconType = {
             name = "taychendi_vainglory_bg"
             position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_taychendi_vainglory_bg" 
+            quadTextureSprite = "GFX_taychendi_vainglory_bg"
             scripted = yes
         }
-		
+
 		#Khugra Gov Mechanic
         iconType = {
             name = "khugra_araizary_affinity_bg"
             position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_khugra_araizary_affinity_bg" 
+            quadTextureSprite = "GFX_khugra_araizary_affinity_bg"
             scripted = yes
         }
 
 		#Corinsfield Gov Mechanic
-		
+
         iconType = {
             name = "corinsfield_paranoia_bg"
             position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_bg" 
+            quadTextureSprite = "GFX_corinsfield_paranoia_bg"
             scripted = yes
         }
-		
+
         iconType = {
             name = "corinsfield_paranoia_chicken_1"
             position = { x= 167 y = 264 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_1" 
+            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_1"
             scripted = yes
         }
-		
+
         iconType = {
             name = "corinsfield_paranoia_chicken_2"
             position = { x= 137 y = 264 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_2" 
+            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_2"
             scripted = yes
         }
-		
+
         iconType = {
             name = "corinsfield_paranoia_chicken_3"
             position = { x= 131 y = 264 }
-            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_3" 
+            quadTextureSprite = "GFX_corinsfield_paranoia_chicken_3"
             scripted = yes
         }
-		
+
 		#Wyvernheart Gov Mechanic
         iconType = {
             name = "floodborn_council_bg"
             position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_floodborn_council_bg" 
+            quadTextureSprite = "GFX_floodborn_council_bg"
             scripted = yes
         }
-		
+
 		#Phoenix Estate Gov Mechanic
         iconType = {
             name = "phoenix_estate_bg"
             position = { x= 100 y = 255 }
-            quadTextureSprite = "GFX_phoenix_estate_bg" 
+            quadTextureSprite = "GFX_phoenix_estate_bg"
             scripted = yes
         }
-		
+
 		#Eduz-Vacyn Gov Mechanic
         iconType = {
             name = "vacyntassi_temple_authority_bg"
            position = { x= 76 y = 220 }
-            quadTextureSprite = "GFX_vacyntassi_temple_authority_bg" 
+            quadTextureSprite = "GFX_vacyntassi_temple_authority_bg"
             scripted = yes
         }
 
@@ -579,6 +579,58 @@ guiTypes = {
 			scripted = yes
 		}
 
+        #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+        #Tsukqiao Of Might and Right
+		windowType = {
+			name = "tsukqiao_of_might_and_right_ui"
+			position = { x = 66 y = 240 }
+			scripted = yes
+
+			iconType = {
+				name = "tsukqiao_of_might_and_right_banner"
+				spriteType = "GFX_tsukqiao_banner"
+				position = { x = 0 y = 0 }
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "tsukqiao_of_might_and_right_tooltip"
+				position = { x = 42 y = 35 }
+				textureFile = ""
+				font = "vic_22"
+				#borderSize = { x = 50 y = 200 }
+				text = ""
+				maxWidth = 200
+				maxHeight = 200
+				alwaystransparent = yes
+				scripted = yes
+			}
+		}
+
+		windowType = {
+			name = "strengthen_government_custom"
+			position = { x = 56 y = 188 }
+			scripted = yes
+
+			guiButtonType = {
+				name = "strengthen_government_custom_button_blocker"
+				spriteType = "GFX_invisible_button_tile"
+				position = { x = 0 y = 0 }
+				size = { x = 228 y = 42 }
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "strengthen_government_custom_button"
+				quadTextureSprite= "GFX_standard_button_224"
+				position = { x = 0 y = 0 }
+				buttonText = "STRENGTHEN_GOVERNMENT"
+				buttonFont = "vic_18"
+				scripted = yes
+			}
+		}
+        #BACK TO PROPER 2K VALUES
+
 		### ----------
 
 #		iconType =
@@ -895,7 +947,7 @@ guiTypes = {
 		}
 
 		# more modifier boxes can be added/removed, they need to be named modifiers_box_x in order and there needs to be at least one!
-		
+
 		OverlappingElementsBoxType = {
 			name = "modifiers_box_1"
 			position = { x = 35 y = 432 }
@@ -960,7 +1012,7 @@ guiTypes = {
 			iconType = {
 				name = "raj_bg_ui"
 				position = { x = 0 y = 36 }
-				quadTextureSprite = "GFX_raj_bg" 
+				quadTextureSprite = "GFX_raj_bg"
 			}
 
 			instantTextBoxType = {
@@ -994,7 +1046,7 @@ guiTypes = {
 				position = { x = 27 y = 206 }
 				moveable = 1
 				Orientation = "UPPER_LEFT"
-			
+
 				instantTextBoxType = {
 					name = "raj_text_vizier_mandates"
 					position = { x = 42 y = 57 }
@@ -1107,24 +1159,72 @@ guiTypes = {
 					scripted = yes
 				}
 				guiButtonType = {
-					name = "raj_mandate_raja_land_redistribution"
+					name = "raj_mandate_raja_introspection"
 					position = { x = 121 y = 0 }
-					quadTextureSprite = "GFX_raj_mandate_raja_land_redistribution"
+					quadTextureSprite = "GFX_raj_mandate_raja_introspection"
 					scripted = yes
 				}
-				# iconType = {
-				# 	name = "raj_mandate_raja_land_redistribution_active"
-				# 	position = { x = 100 y = 0 }
-				# 	quadTextureSprite = "GFX_raj_mandate_raja_land_redistribution"
-				# 	scripted = yes
-				# }
+				iconType = {
+					name = "raj_mandate_raja_introspection_active"
+					position = { x = 120 y = 0 }
+					quadTextureSprite = "GFX_raj_mandate_raja_introspection"
+					scripted = yes
+				}
 			}
 
+            #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+			# Vizier Influence Bar ------------
 			iconType = {
-				name = "raj_separator"
-				position = { x = 80 y = 310 }
-				quadTextureSprite = "GFX_raj_separator"
+				name = "raj_vizier_influence"
+				position = { x = 15 y = 264 }
+				quadTextureSprite = "GFX_raj_vizier_inf_bg"
 			}
+
+			guiButtonType = {
+				name = "raj_vizier_influence_L_bar"
+				position = { x = 40 y = 306 }
+				quadTextureSprite = "GFX_raj_vizier_inf_L_bar"
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "raj_vizier_influence_R_bar"
+				position = { x = 52 y = 306 }
+				quadTextureSprite = "GFX_raj_vizier_inf_R_bar"
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "raj_var_vizier_influence_number"
+				position = { x = 135 y = 327 }
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 125
+				maxHeight = 32
+				format = center
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "raj_vizier_influence_title"
+				position = { x = 132 y = 273 }
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = "Vizier Influence"
+				maxWidth = 125
+				maxHeight = 32
+				format = center
+				scripted = yes
+			}
+			# ---------------------------------
+            #BACK TO PROPER 2K VALUES
+
+			#iconType = {
+			#	name = "raj_separator"
+			#	position = { x = 80 y = 310 }
+			#	quadTextureSprite = "GFX_raj_separator"
+			#}
 
 			windowType = {
 				name = "raj_sw_window_subjects"
@@ -1274,7 +1374,7 @@ guiTypes = {
 				scripted = yes
 				quadTextureSprite = "GFX_shield_fancy"
 			}
-			
+
 			windowType = { # Privileges
 				name = "raj_window_se_screen"
 				position = { x = 261 y = 364 }
@@ -1291,7 +1391,7 @@ guiTypes = {
 					maxHeight = 39
 					format = left
 				}
-	
+
 				instantTextBoxType = {
 					name = "raj_text_privileges_internal_diplomacy"
 					position = { x = -7 y = 36 }
@@ -1302,14 +1402,14 @@ guiTypes = {
 					maxHeight = 39
 					format = left
 				}
-	
+
 				iconType = {
 					name = "raj_text_privileges_internal_diplomacy_yes_no"
 					position = { x = 151 y = 33 }
 					quadTextureSprite = "GFX_raj_yes_no"
 					scripted = yes
 				}
-	
+
 				instantTextBoxType = {
 					name = "raj_text_privileges_external_diplomacy"
 					position = { x = -7 y = 68 }
@@ -1320,14 +1420,14 @@ guiTypes = {
 					maxHeight = 39
 					format = left
 				}
-	
+
 				iconType = {
 					name = "raj_text_privileges_external_diplomacy_yes_no"
 					position = { x = 151 y = 64 }
 					quadTextureSprite = "GFX_raj_yes_no"
 					scripted = yes
 				}
-	
+
 				instantTextBoxType = {
 					name = "raj_text_privileges_raja_wars"
 					position = { x = -7 y = 99 }
@@ -1338,14 +1438,14 @@ guiTypes = {
 					maxHeight = 39
 					format = left
 				}
-	
+
 				iconType = {
 					name = "raj_text_privileges_raja_wars_yes_no"
 					position = { x = 151 y = 96 }
 					quadTextureSprite = "GFX_raj_yes_no"
 					scripted = yes
 				}
-	
+
 				instantTextBoxType = {
 					name = "raj_text_privileges_mandates"
 					position = { x = -7 y = 128 }
@@ -1356,14 +1456,14 @@ guiTypes = {
 					maxHeight = 39
 					format = left
 				}
-	
+
 				iconType = {
 					name = "raj_text_privileges_mandates_yes_no"
 					position = { x = 151 y = 126 }
 					quadTextureSprite = "GFX_raj_yes_no"
 					scripted = yes
 				}
-	
+
 				instantTextBoxType = {
 					name = "raj_text_privileges_cohesion"
 					position = { x = -7 y = 160 }
@@ -1374,7 +1474,7 @@ guiTypes = {
 					maxHeight = 39
 					format = left
 				}
-	
+
 				iconType = {
 					name = "raj_text_privileges_cohesion_yes_no"
 					position = { x = 151 y = 156 }
@@ -1388,12 +1488,353 @@ guiTypes = {
 		# TAG-SPECIFIC CUSTOM GUI #
 		##########################$
 
+        #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+		# Umbral Covenant
+		#Toggle button
+		guiButtonType = {
+			name = umbral_covenant_toggle_button
+			spriteType = GFX_UC_open_tab
+			position = { x = 534 y = 80 }
+			scripted = yes
+		}
+
+		windowType = {
+			name = umbral_covenant_window
+			position = { x = 550 y = 0 }
+			size = { x = 328 y = 414 }
+			scripted = yes
+
+			iconType = { #Borrowed
+				name = umbral_covenant_background
+				position = { x = 0 y = 30 }
+				quadTextureSprite = GFX_UC_background
+				# scale = 0.6
+			}
+			iconType = {
+				name = close_bg
+				spriteType = GFX_close_gold
+				position = { x = -40 y = 47 }
+				Orientation = UPPER_RIGHT
+				alwaystransparent = yes
+			}
+			guiButtonType = {
+				name = umbral_covenant_close_button
+				position = { x = -36 y = 50 }
+				spriteType = GFX_button_close
+				shortcut = "Z"
+				Orientation = "UPPER_RIGHT"
+				clicksound = back_click
+				scripted = yes
+			}
+			#Title
+			instantTextBoxType = {
+				name = umbral_covenant_ui_title
+				position = { x = 0 y = 56 }
+				maxWidth = 328 #width of parent background
+				fixedsize = yes
+				text = "S90"
+				font = vic_22
+				format = center
+			}
+
+			#First glow
+			iconType = {
+				name = UC_glow_star_1
+				position = { x = 47 y = 170 }
+				spriteType = GFX_UC_glow_star_1
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_star_2
+				position = { x = 118 y = 134 }
+				spriteType = GFX_UC_glow_star_2
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_star_3
+				position = { x = 202 y = 170 }
+				spriteType = GFX_UC_glow_star_3
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_star_4
+				position = { x = 179 y = 275 }
+				spriteType = GFX_UC_glow_star_4
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_star_5
+				position = { x = 65 y = 275 }
+				spriteType = GFX_UC_glow_star_5
+				alwaystransparent = yes
+				scripted = yes
+			}
+			#Second glow
+			iconType = {
+				name = UC_glow_second_1
+				position = { x = 47 y = 170 }
+				spriteType = GFX_UC_glow_second_1
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_second_2
+				position = { x = 118 y = 135 }
+				spriteType = GFX_UC_glow_second_2
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_second_3
+				position = { x = 202 y = 170 }
+				spriteType = GFX_UC_glow_second_3
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_second_4
+				position = { x = 179 y = 275 }
+				spriteType = GFX_UC_glow_second_4
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_second_5
+				position = { x = 65 y = 275 }
+				spriteType = GFX_UC_glow_second_5
+				alwaystransparent = yes
+				scripted = yes
+			}
+			#Third glow
+			iconType = {
+				name = UC_glow_middle_1
+				position = { x = 82 y = 141 }
+				spriteType = GFX_UC_glow_middle_1
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_middle_2
+				position = { x = 186 y = 141 }
+				spriteType = GFX_UC_glow_middle_2
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_middle_3
+				position = { x = 222 y = 241 }
+				spriteType = GFX_UC_glow_middle_3
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_middle_4
+				position = { x = 138 y = 297 }
+				spriteType = GFX_UC_glow_middle_4
+				alwaystransparent = yes
+				scripted = yes
+			}
+			iconType = {
+				name = UC_glow_middle_5
+				position = { x = 48 y = 241 }
+				spriteType = GFX_UC_glow_middle_5
+				alwaystransparent = yes
+				scripted = yes
+			}
+
+
+
+			windowType = {
+				name = umbral_covenant_button_container
+				position = { x = 10 y = 80 }
+				Orientation = UPPER_LEFT
+
+				# Category buttons
+				guiButtonType = {
+					name = umbral_covenant_spirits_button
+					spriteType = GFX_UC_categories_strip
+					position = { x = 10 y = 96 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_shadows_button
+					spriteType = GFX_UC_categories_strip
+					position = { x = 125 y = 20 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_dusk_button
+					spriteType = GFX_UC_categories_strip
+					position = { x = 240 y = 96 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_soul_button
+					spriteType = GFX_UC_categories_strip
+					position = { x = 195 y = 230 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_abyss_button
+					spriteType = GFX_UC_categories_strip
+					position = { x = 55 y = 230 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+
+				iconType = {
+					name = umbral_covenant_power_5_glow #Ritual
+					spriteType = GFX_UC_ritual_border
+					position = { x = 115 y = 127 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				#Ritual button - glow must be above to appear below
+				guiButtonType = {
+					name = umbral_covenant_power_5 #Ritual
+					spriteType = GFX_UC_ritual_button
+					position = { x = 115 y = 127 }
+					scripted = yes
+					clicksound = umbral_covenant_ritual
+				}
+
+				#Power selection buttons
+				guiButtonType = {
+					name = umbral_covenant_power_1
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 89 y = 158 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_power_2
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 107 y = 106 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_power_3
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 163 y = 106 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+				guiButtonType = {
+					name = umbral_covenant_power_4
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 181 y = 158 }
+					scripted = yes
+					clicksound = umbral_covenant_button
+				}
+
+				#Glow effects
+				##Category buttons
+				iconType = {
+					name = umbral_covenant_spirits_button_glow
+					spriteType = GFX_UC_categories_strip
+					position = { x = 10 y = 96 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_shadows_button_glow
+					spriteType = GFX_UC_categories_strip
+					position = { x = 125 y = 20 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_dusk_button_glow
+					spriteType = GFX_UC_categories_strip
+					position = { x = 240 y = 96 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_soul_button_glow
+					spriteType = GFX_UC_categories_strip
+					position = { x = 195 y = 230 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_abyss_button_glow
+					spriteType = GFX_UC_categories_strip
+					position = { x = 55 y = 230 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				#Power selection buttons
+				iconType = {
+					name = umbral_covenant_power_1_glow
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 89 y = 158 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_power_2_glow
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 107 y = 106 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_power_3_glow
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 163 y = 106 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+				iconType = {
+					name = umbral_covenant_power_4_glow
+					spriteType = GFX_UC_empowerments_strip
+					position = { x = 181 y = 158 }
+					alwaystransparent = yes
+					scripted = yes
+				}
+
+				iconType = {
+					name = UC_essence_display
+					spriteType = GFX_UC_essence_display
+					position = { x = 120 y = 229 }
+					# scripted = yes
+				}
+
+
+				instantTextBoxType = {
+					name = umbral_covenant_essence_textbox
+					position = { x = 128 y = 244 }
+					maxWidth = 53 #width of parent background
+					fixedsize = yes
+					font = vic_22
+					scripted = yes
+				}
+			}
+
+		}
+        #BACK TO PROPER 2K VALUES
+
 		# ALLCLAN
+		windowType = {
+			name = "gob_window"
+			position = { x = 0 y = 0 } #TODO: NOT SURE IF THIS NEEDS TO BE CHANGED FOR PROPER 2K UI
+			scripted = yes
+			Orientation = "UPPER_LEFT"
 
 		iconType = {
 			name = "gob_background_ui"
 			position = { x = 666 y = 85 }
-			quadTextureSprite = "GFX_allclan_gov_background" 
+			quadTextureSprite = "GFX_allclan_gov_background"
 			scripted = yes
 		}
 
@@ -1418,37 +1859,49 @@ guiTypes = {
 
 		#HARPYLEN
 
-		iconType = {
-			name = "harpy_queendom_ui"
-			position = { x = 76 y = 392 }
+		windowType = {
+			name = "harpy_queendom_window"
+			position = { x = 0 y = 0 } #TODO: NOT SURE IF THIS NEEDS TO BE CHANGED FOR PROPER 2K UI
 			scripted = yes
-			spriteType = image_harpy_queendom_ui
-			orientation = UPPER_LEFT
-		}
+			Orientation = "UPPER_LEFT"
 
-		guiButtonType = {
-			name = "harpylen_button_1"
-			position = { x = 58 y = 281 }
-			quadTextureSprite = "GFX_harpylen_queendom_claim_button_1"
-			scripted = yes
-			clicksound = back_click
-		}
-		guiButtonType = {
-			name = "harpylen_button_2"
-			position = { x = 182 y = 281 }
-			quadTextureSprite = "GFX_harpylen_queendom_claim_button_2"
-			scripted = yes
-			clicksound = back_click
-		}
-		guiButtonType = {
-			name = "harpylen_button_3"
-			position = { x = 303 y = 281 }
-			quadTextureSprite = "GFX_harpylen_queendom_claim_button_3"
-			scripted = yes
-			clicksound = back_click
-		}
+            iconType = {
+                name = "harpy_queendom_ui"
+                position = { x = 76 y = 392 }
+                scripted = yes
+                spriteType = image_harpy_queendom_ui
+                orientation = UPPER_LEFT
+            }
+
+            guiButtonType = {
+                name = "harpylen_button_1"
+                position = { x = 58 y = 281 }
+                quadTextureSprite = "GFX_harpylen_queendom_claim_button_1"
+                scripted = yes
+                clicksound = back_click
+            }
+            guiButtonType = {
+                name = "harpylen_button_2"
+                position = { x = 182 y = 281 }
+                quadTextureSprite = "GFX_harpylen_queendom_claim_button_2"
+                scripted = yes
+                clicksound = back_click
+            }
+            guiButtonType = {
+                name = "harpylen_button_3"
+                position = { x = 303 y = 281 }
+                quadTextureSprite = "GFX_harpylen_queendom_claim_button_3"
+                scripted = yes
+                clicksound = back_click
+            }
+        }
 
 		#Effelai Gov Buttons
+		windowType = {
+			name = "effelai_government_window"
+			position = { x = 0 y = 0 } #TODO: NOT SURE IF THIS NEEDS TO BE CHANGED FOR PROPER 2K UI
+			scripted = yes
+			Orientation = "UPPER_LEFT"
 
 		guiButtonType = {
 			name = "effelai_button_1"
@@ -1471,114 +1924,650 @@ guiTypes = {
 			scripted = yes
 			clicksound = back_click
 		}
-		
+
 		#Konolkhatep Buttons
-		
-		guiButtonType = {
-			name = "konolkhatep_governors"
-			position = { x= 90 y = 282 }
-			quadTextureSprite = "GFX_konolkhatep_governors" 
-			scripted = yes
-			clicksound = back_click
-		}
 
-		guiButtonType = {
-			name = "konolkhatep_projects"
-			position = { x= 83 y = 342 }
-			quadTextureSprite = "GFX_konolkhatep_projects" 
+        windowType = {
+			name = "konolkhatep_window"
+			position = { x = 0 y = 0 } #TODO: NOT SURE IF THIS NEEDS TO BE CHANGED FOR PROPER 2K UI
 			scripted = yes
-			clicksound = back_click
-		}
+			Orientation = "UPPER_LEFT"
 
-		guiButtonType = {
-			name = "konolkhatep_horutep"
-			position = { x= 172 y = 278 }
-			quadTextureSprite = "GFX_konolkhatep_horutep" 
-			scripted = yes
-			clicksound = back_click
-		}
+            guiButtonType = {
+                name = "konolkhatep_governors"
+                position = { x = 90 y = 282 }
+                quadTextureSprite = "GFX_konolkhatep_governors"
+                scripted = yes
+                clicksound = back_click
+            }
 
-		guiButtonType = {
-			name = "konolkhatep_legions"
-			position = { x= 313 y = 278 }
-			quadTextureSprite = "GFX_konolkhatep_legions" 
-			scripted = yes
-			clicksound = back_click
-		}
+            guiButtonType = {
+                name = "konolkhatep_projects"
+                position = { x = 83 y = 342 }
+                quadTextureSprite = "GFX_konolkhatep_projects"
+                scripted = yes
+                clicksound = back_click
+            }
 
-		guiButtonType = {
-			name = "konolkhatep_medasi"
-			position = { x= 313 y = 332 }
-			quadTextureSprite = "GFX_konolkhatep_medasi" 
-			scripted = yes
-			clicksound = back_click
-		}
-		
+            guiButtonType = {
+                name = "konolkhatep_horutep"
+                position = { x = 172 y = 278 }
+                quadTextureSprite = "GFX_konolkhatep_horutep"
+                scripted = yes
+                clicksound = back_click
+            }
+
+            guiButtonType = {
+                name = "konolkhatep_legions"
+                position = { x = 313 y = 278 }
+                quadTextureSprite = "GFX_konolkhatep_legions"
+                scripted = yes
+                clicksound = back_click
+            }
+
+            guiButtonType = {
+                name = "konolkhatep_medasi"
+                position = { x = 313 y = 332 }
+                quadTextureSprite = "GFX_konolkhatep_medasi"
+                scripted = yes
+                clicksound = back_click
+            }
+        }
+
 		#Taychendi Vainglory Buttons
-		
-		guiButtonType = {
-			name = "taychendi_vainglory_spoils_of_war"
-			position = { x= 39 y = 370 }
-			quadTextureSprite = "GFX_taychendi_vainglory_spoils_of_war" 
+		windowType = {
+			name = "taychendi_vainglory_window"
+			position = { x = 0 y = 0 }
 			scripted = yes
-			clicksound = back_click
-		}
-		
-		guiButtonType = {
-			name = "taychendi_vainglory_swords_to_plowshares"
-			position = { x= 111 y = 370 }
-			quadTextureSprite = "GFX_taychendi_vainglory_swords_to_plowshares" 
+			Orientation = "UPPER_LEFT"
+
+            guiButtonType = {
+                name = "taychendi_vainglory_spoils_of_war"
+                position = { x = 39 y = 370 }
+                quadTextureSprite = "GFX_taychendi_vainglory_spoils_of_war"
+                scripted = yes
+                clicksound = back_click
+            }
+
+            guiButtonType = {
+                name = "taychendi_vainglory_swords_to_plowshares"
+                position = { x = 111 y = 370 }
+                quadTextureSprite = "GFX_taychendi_vainglory_swords_to_plowshares"
+                scripted = yes
+                clicksound = back_click
+            }
+
+            guiButtonType = {
+                name = "taychendi_vainglory_settling_veterans"
+                position = { x = 183 y = 370 }
+                quadTextureSprite = "GFX_taychendi_vainglory_settling_veterans"
+                scripted = yes
+                clicksound = back_click
+            }
+
+            guiButtonType = {
+                name = "taychendi_vainglory_building_greatness"
+                position = { x = 257 y = 370 }
+                quadTextureSprite = "GFX_taychendi_vainglory_building_greatness"
+                scripted = yes
+                clicksound = back_click
+            }
+
+            guiButtonType = {
+                name = "taychendi_vainglory_taychend_in_bloom"
+                position = { x = 328 y = 370 }
+                quadTextureSprite = "GFX_taychendi_vainglory_taychend_in_bloom"
+                scripted = yes
+                clicksound = back_click
+            }
+        }
+
+        #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+        #Lelanan�n Love Buttons
+
+		windowType = {
+			name = "lelanan_window"
+			position = { x = 0 y = 0 }
 			scripted = yes
-			clicksound = back_click
+			Orientation = "UPPER_LEFT"
+
+			guiButtonType = {
+				name = "lelanan_tales"
+				position = { x= 74 y = 246 }
+				quadTextureSprite = "GFX_lelanan_tales"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "lelanan_relief"
+				position = { x= 121 y = 252 }
+				quadTextureSprite = "GFX_lelanan_relief"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "lelanan_festival"
+				position = { x= 212 y = 252 }
+				quadTextureSprite = "GFX_lelanan_festival"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "lelanan_bless"
+				position = { x= 241 y = 254 }
+				quadTextureSprite = "GFX_lelanan_bless"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "lelanan_enahelibe"
+				position = { x= 90 y = 285 }
+				quadTextureSprite = "GFX_lelanan_enahelibe"
+				scripted = yes
+				clicksound = back_click
+			}
 		}
-		
-		guiButtonType = {
-			name = "taychendi_vainglory_settling_veterans"
-			position = { x= 183 y = 370 }
-			quadTextureSprite = "GFX_taychendi_vainglory_settling_veterans" 
+
+		#Yezel Mora Misery buttons
+
+		#I am using fully custom buttons here so they can be placed higher than government_interaction_list allows
+		windowType = { #A container to keep things a little neater
+			name = "yezel_mora_misery_window_t1"
+			position = { x = 5 y = 214 } #Same position as yezel_mora_misery_bg_t1
+			moveable = 0
+			orientation = "UPPER_LEFT"
 			scripted = yes
-			clicksound = back_click
+
+			guiButtonType = {
+				name = "yezel_mora_misery_riftwhisper_t1"
+				position = { x = 52 y = 21 }
+				quadTextureSprite = "GFX_yezel_mora_misery_riftwhisper"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "yezel_mora_misery_smoketusk_t1"
+				position = { x = 107 y = 21 }
+				quadTextureSprite = "GFX_yezel_mora_misery_smoketusk"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "yezel_mora_misery_gloomweaver_t1"
+				position = { x = 253 y = 43 }
+				quadTextureSprite = "GFX_yezel_mora_misery_gloomweaver"
+				scripted = yes
+				clicksound = back_click
+			}
 		}
-		
-		guiButtonType = {
-			name = "taychendi_vainglory_building_greatness"
-			position = { x= 257 y = 370 }
-			quadTextureSprite = "GFX_taychendi_vainglory_building_greatness" 
+
+		windowType = { #A container to keep things a little neater
+			name = "yezel_mora_misery_window_t2"
+			position = { x = 5 y = 214 } #Same position as yezel_mora_misery_bg_t2
+			moveable = 0
+			orientation = "UPPER_LEFT"
 			scripted = yes
-			clicksound = back_click
+
+			guiButtonType = {
+				name = "yezel_mora_misery_riftwhisper_t2"
+				position = { x = 52 y = 21 }
+				quadTextureSprite = "GFX_yezel_mora_misery_riftwhisper"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "yezel_mora_misery_smoketusk_t2"
+				position = { x = 107 y = 21 }
+				quadTextureSprite = "GFX_yezel_mora_misery_smoketusk"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "yezel_mora_misery_gloomweaver_t2"
+				position = { x = 253 y = 43 }
+				quadTextureSprite = "GFX_yezel_mora_misery_gloomweaver"
+				scripted = yes
+				clicksound = back_click
+			}
 		}
-		
-		guiButtonType = {
-			name = "taychendi_vainglory_taychend_in_bloom"
-			position = { x= 328 y = 370 }
-			quadTextureSprite = "GFX_taychendi_vainglory_taychend_in_bloom" 
+
+		windowType = { #A container to keep things a little neater
+			name = "yezel_mora_misery_window_t3"
+			position = { x = 5 y = 214 } #Same position as yezel_mora_misery_bg_t3
+			moveable = 0
+			orientation = "UPPER_LEFT"
 			scripted = yes
-			clicksound = back_click
+
+			guiButtonType = {
+				name = "yezel_mora_misery_riftwhisper_t3"
+				position = { x = 52 y = 21 }
+				quadTextureSprite = "GFX_yezel_mora_misery_riftwhisper"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "yezel_mora_misery_smoketusk_t3"
+				position = { x = 107 y = 21 }
+				quadTextureSprite = "GFX_yezel_mora_misery_smoketusk"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "yezel_mora_misery_gloomweaver_t3"
+				position = { x = 253 y = 43 }
+				quadTextureSprite = "GFX_yezel_mora_misery_gloomweaver"
+				scripted = yes
+				clicksound = back_click
+			}
 		}
-		
-		#guiButtonType = {
-		#	name = "corinsfield_paranoia_be_good_to_your_neighbour"
-		#	position = { x= 55 y = 290 }
-		#	quadTextureSprite = "GFX_corinsfield_paranoia_be_good_to_your_neighbour" 
-		#	scripted = yes
-		#	clicksound = back_click
-		#}
-		
-		#guiButtonType = {
-		#	name = "corinsfield_paranoia_trust_no_one"
-		#	position = { x= 147 y = 290 }
-		#	quadTextureSprite = "GFX_corinsfield_paranoia_trust_no_one" 
-		#	scripted = yes
-		#	clicksound = back_click
-		#}
-		
-		#guiButtonType = {
-		#	name = "corinsfield_paranoia_witch_hunt"
-		#	position = { x= 239 y = 290 }
-		#	quadTextureSprite = "GFX_corinsfield_paranoia_witch_hunt" 
-		#	scripted = yes
-		#	clicksound = back_click
-		#}
+
+		windowType = { # Ashhana Blood Curse Control "backgrounds" (which need to be in front)
+			name = "ashhana_blood_curse_bg_window"
+			position = { x = 38 y = 217 }
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+
+			iconType = {
+				name = "ashhana_blood_curse_bar_frame_default"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bar_frame_default"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "ashhana_blood_curse_bar_frame_canvas_2"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bar_frame_canvas_2"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "ashhana_blood_curse_bg_default"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bg_default"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "ashhana_blood_curse_bg_canvas_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bg_canvas_1"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "ashhana_blood_curse_bg_canvas_2"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bg_canvas_2"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "ashhana_blood_curse_bg_claw_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bg_claw_1"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "ashhana_blood_curse_bg_claw_2"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ashhana_blood_curse_bg_claw_2"
+				scripted = yes
+			}
+		}
+
+		# Esthil Necronomics
+		windowType = {
+			name = "B54_gui_necronomics_window_main"
+			position = { x = 8 y = 216 }
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+
+			iconType = {
+				name = "B54_gui_necronomics_bg"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_B54_gui_necronomics_bg"
+			}
+			iconType = {
+				name = "B54_gui_necronomics_sign_indicator"
+				position = { x = 140 y = 85 }
+				quadTextureSprite = "GFX_B54_gui_necronomics_sign_indicator"
+				scripted = yes
+			}
+			instantTextBoxType = {
+				name = "B54_gui_necronomics_gov_power"
+				position = { x = 140 y = 81 }
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				text = ""
+				maxWidth = 125
+				maxHeight = 32
+				format = center
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "B54_gui_necronomics_btn_aid_build"
+				position = { x = 38 y = 18 }
+				quadTextureSprite = "GFX_B54_gui_necronomics_btn_aid_build"
+				scripted = yes
+				clicksound = back_click
+			}
+			guiButtonType = {
+				name = "B54_gui_necronomics_btn_deadmines"
+				position = { x = 122 y = 14 }
+				quadTextureSprite = "GFX_B54_gui_necronomics_btn_deadmines"
+				scripted = yes
+				clicksound = back_click
+			}
+			guiButtonType = {
+				name = "B54_gui_necronomics_btn_reapfields"
+				position = { x = 187 y = 14 }
+				quadTextureSprite = "GFX_B54_gui_necronomics_btn_reapfields"
+				scripted = yes
+				clicksound = back_click
+			}
+			guiButtonType = {
+				name = "B54_gui_necronomics_btn_aid_dev"
+				position = { x = 254 y = 18 }
+				quadTextureSprite = "GFX_B54_gui_necronomics_btn_aid_dev"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			windowType = {
+				name = "B54_gui_necronomics_window_soldiers_vs_workers_main"
+				position = { x = 0 y = 0 }
+				moveable = 0
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+
+				guiButtonType = {
+					name = "B54_gui_necronomics_btn_more_workers"
+					position = { x = 35 y = 113 }
+					quadTextureSprite = "GFX_B54_gui_necronomics_btn_more_workers"
+					scripted = yes
+					clicksound = back_click
+				}
+
+				guiButtonType = {
+					name = "B54_gui_necronomics_btn_more_soldiers"
+					position = { x = 308 y = 113 }
+					quadTextureSprite = "GFX_B54_gui_necronomics_btn_more_soldiers"
+					scripted = yes
+					clicksound = back_click
+				}
+
+				windowType = {
+					name = "B54_gui_necronomics_window_soldiers_vs_workers_8_skulls"
+					position = { x = 0 y = 0 }
+					moveable = 0
+					Orientation = "UPPER_LEFT"
+					scripted = yes
+
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_1_of_8"
+						position = { x = 255 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_2_of_8"
+						position = { x = 231 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_3_of_8"
+						position = { x = 207 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_4_of_8"
+						position = { x = 183 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_5_of_8"
+						position = { x = 159 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_6_of_8"
+						position = { x = 135 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_7_of_8"
+						position = { x = 111 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_8_of_8"
+						position = { x = 87 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+				}
+
+
+				windowType = {
+					name = "B54_gui_necronomics_window_soldiers_vs_workers_10_skulls"
+					position = { x = 0 y = 0 }
+					moveable = 0
+					Orientation = "UPPER_LEFT"
+					scripted = yes
+
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_1_of_10"
+						position = { x = 279 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_2_of_10"
+						position = { x = 255 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_3_of_10"
+						position = { x = 231 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_4_of_10"
+						position = { x = 207 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_5_of_10"
+						position = { x = 183 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_6_of_10"
+						position = { x = 159 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_7_of_10"
+						position = { x = 135 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_8_of_10"
+						position = { x = 111 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_9_of_10"
+						position = { x = 87 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+					iconType = {
+						name = "B54_gui_necronomics_icon_skellyboys_10_of_10"
+						position = { x = 63 y = 110 }
+						quadTextureSprite = "GFX_B54_gui_necronomics_icon_skellyboys"
+						scripted = yes
+					}
+				}
+			}
+		}
+
+		windowType = { # Charkuchin Kobold Citadel Supply "backgrounds" (which need to be in front)
+			name = "kobold_supply_bg_window"
+			position = { x = 38 y = 232 } # ends up at 38 372
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+
+			iconType = {
+				name = "kobold_supply_bg_default"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_citadel_supplies_bg_default"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "kobold_supply_bg_disaster"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_citadel_supplies_bg_disaster"
+				scripted = yes
+			}
+		}
+
+		#Zerat/Anzara Buttons and Elements
+
+		windowType = {
+			name = "anzara_resurgence_window"
+			position = { x = 0 y = 0 }
+			moveable = 0
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+
+			iconType = {
+				name = "anzara_rusty_border"
+				position = { x = 51 y = 215 }
+				quadTextureSprite = "GFX_anzara_rusty_frame"
+				scripted = yes
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "anzara_gold_border"
+				position = { x = 51 y = 215 }
+				quadTextureSprite = "GFX_anzara_gold_frame"
+				scripted = yes
+				alwaystransparent = yes
+			}
+
+			guiButtonType = {
+				name = "anzara_zerat_button"
+				position = { x = 86 y = 255 }
+				quadTextureSprite = "GFX_anzara_zerat_button"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "anzara_karassk_button"
+				position = { x = 158 y = 266 }
+				quadTextureSprite = "GFX_anzara_karassk_button"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			guiButtonType = {
+				name = "anzara_shalazar_button"
+				position = { x = 264 y = 255 }
+				quadTextureSprite = "GFX_anzara_shalazar_button"
+				scripted = yes
+				clicksound = back_click
+			}
+
+			iconType = {
+				name = "anzara_gem_gray"
+				position = { x = 187 y = 230 }
+				quadTextureSprite = "GFX_anzara_gem_gray"
+				scripted = yes
+			}
+
+			iconType = {
+				name = "anzara_gem_green"
+				position = { x = 187 y = 230 }
+				quadTextureSprite = "GFX_anzara_gem_green"
+				scripted = yes
+				alwaystransparent = yes
+			}
+		}
+
+		#Sri Baginda Buttons
+
+		windowType = {
+			name = "sri_baginda_buttons"
+			size = { x = 400 y = 80 }
+			position = { x = -880 y = 280 }
+			backGround = ""
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			Orientation = "UPPER_RIGHT"
+			scripted = yes
+
+			guiButtonType = {
+				name = "sri_baginda_button_left"
+				quadTextureSprite = "GFX_sri_baginda_authority_button_1"
+				position = { x = -140 y = 0 }
+				tooltip = ""
+				tooltipText = ""
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				Orientation = "UPPER_LEFT"
+				clicksound = back_click
+				text = ""
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "sri_baginda_button_right"
+				quadTextureSprite = "GFX_sri_baginda_authority_button_2"
+				position = { x = 120 y = 0 }
+				tooltip = ""
+				tooltipText = ""
+				delayedTooltipText = ""
+				buttonFont = "vic_18"
+				Orientation = "UPPER_LEFT"
+				clicksound = back_click
+				text = ""
+				scripted = yes
+			}
+		}
+        #BACK TO PROPER 2K VALUES
 
 		### MODIFIER VIEW (for when you click on the modifier list button in the top right)
 		windowType = {
@@ -1600,7 +2589,8 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 			}
-			
+
+            # TODO: Check if it has to be removed
 			iconType =
 			{
 				name ="modifiers_box_bg"
