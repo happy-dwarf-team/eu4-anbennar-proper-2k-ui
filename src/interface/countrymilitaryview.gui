@@ -1157,6 +1157,29 @@ guiTypes = {
 			hint_tag = "hint_leaders"
 		}
 
+        #TODO: VALUES NOT ADJUSTED FOR PROPER 2K UI
+        guiButtonType = {
+			name = "convert_heir_to_war_wizard"
+			if_resolution = {
+				max_height = 867
+				position = { x=562 y =559 }
+            }
+            if_resolution = {
+				min_height = 1042
+				max_height = 1047
+				position = { x=562 y =780 }
+            }
+            if_resolution = {
+				min_height = 1258
+				position = { x=562 y =996 }
+			}
+			quadTextureSprite ="GFX_convert_heir_to_war_wizard"
+			clicksound = hire_general
+			hint_tag = "hint_leaders"
+			scripted = yes
+		}
+        #BACK TO PROPER 2K VALUES
+
 		### leader list
 		windowType = {
 			name = "leaderlist_window"

@@ -87,6 +87,20 @@ guiTypes = {
 			buttonFont = "vic_18"
 			clicksound = back_click
 		}
+        		
+		#Anbennar
+		iconType = {
+			name = "abdicate_ruler_forbidden"
+			spriteType = "GFX_abdicate_forbidden"
+			position = { x= 568	y = 180 }
+			Orientation = "UPPER_LEFT"
+			scripted = yes
+			tooltip = disable_abdication_tt
+			tooltipText = disable_abdication_tt
+		}
+
+		#Back to Non-Anbennar
+
 		guiButtonType = {
 			name = "extend_regency_button"
 			position = { x= 498	y = 180 }

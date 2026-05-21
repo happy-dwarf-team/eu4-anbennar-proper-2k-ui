@@ -1,25 +1,25 @@
 guiTypes = {
 	windowType = {
 		name = "corinsfield_paranoia_bar"
-		size = { x = 286 y = 1 }
+		size = { x = 236 y = 1 }
 		moveable = 0
 
 		iconType = {
 			name = "government_power_bar"
 			spriteType = "GFX_corinsfield_paranoia_bar"
-			position = { x = 48 y = -96 }
+			position = { x = 40 y = -79 }
 		}
 
 		iconType = {
 			name = "frame_background"
 			spriteType = "GFX_corinsfield_paranoia_bar_frame"
 			alwaystransparent = yes
-			position = { x = 48 y = -96 }
+			position = { x = 40 y = -79 }
 		}
 	}
 	windowType = {
 		name = "corinsfield_paranoia_button_left"
-		size = { x = 136 y = 146 }
+		size = { x = 112 y = 121 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -31,7 +31,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM"
-			position = { x = 11 y = 73 }
+			position = { x = 9 y = 60 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""
@@ -44,13 +44,13 @@ guiTypes = {
 		iconType = {
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 24 y = 93 }
+			position = { x = 20 y = 77 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 7 y = 93 }
+			position = { x = 6 y = 77 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -58,7 +58,7 @@ guiTypes = {
 	}
 	windowType = {
 		name = "corinsfield_paranoia_button"
-		size = { x = 113 y = 146 }
+		size = { x = 93 y = 121 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -70,7 +70,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM"
-			position = { x = 0 y = 73 }
+			position = { x = 0 y = 60 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""
@@ -83,13 +83,13 @@ guiTypes = {
 		iconType = {
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 24 y = 93 }
+			position = { x = 20 y = 77 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 7 y = 93 }
+			position = { x = 6 y = 77 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

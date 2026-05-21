@@ -51,7 +51,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icon_twitter.dds"
 		noOfFrames = 1
 	}
-	spriteType = {
+    	spriteType = {
 		name = "discord"
 		texturefile = "gfx/interface/icon_discord.dds"
 		noOfFrames = 1
@@ -71,7 +71,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icon_wiki.dds"
 		noOfFrames = 1
 	}
-
+    
 	spriteType = {
 		name = "login_logout"
 		texturefile = "gfx//interface//button_login_logout.dds"
@@ -557,21 +557,21 @@ objectTypes = {
 bitmapfonts = {
 
 	# Global text colorings
-	textcolors = {			#"Used" as in "used in the English localization"
-		M = { 35 206 255 }	#Marine, used for Shogunate and tutorials
-		W = { 255 255 255 }	#White, default text color in the game
-		B = { 0 0 255 }		#Blue, unused
-		G = { 0 255 0 }		#Green, used for positive effects in tooltips
-		R = { 255 50 50 }	#Red, used for negative effects in tooltips
-		b = { 0 0 0 }		#Black, unused
-		g = { 176 176 176 }	#Grey, used when something is not possible ("greyed out")
-		Y = { 255 189 0 }	#Yellow, used for tooltips for a neutral effect
-		T = { 0 255 239 }	#Turquoise, unused
-		O = { 255 160 0 }	#Orange, used for anything related to branching missions
-		l = { 154 193 75 }	#Lime, Multiplayer
-		V = { 250 182 255 }	#Violet, used for debug text
+	textcolors = {
+		M = { 35 206 255 }	# Light blue
+		W = { 255 255 255 }	# White
+		B = { 0 0 255 }		# Blue
+		G = { 0 255 0 }		# Green
+		R = { 255 50 50 }	# Red
+		b = { 0 0 0 }		# Black
+		g = { 176 176 176 } # Gray
+		Y = { 255 189 0 }	# Yellow
+		T = { 0 255 239 }	# Teal
+		O = { 255 160 0 }	# Orange
+		l = { 154 193 75 }	# Lime/Mustard
 		J = { 0 168 107 }	#Jade, used for Mercs without Army Professionalism cost
-		
+		V = { 250 182 255 }	#Violet, used for debug text #1.36
+
 		#Anbennar
 		P = { 104 75 148 }	# Purple
 		H = { 255 243 156 }	# Pale yellow
@@ -592,6 +592,7 @@ bitmapfonts = {
 		A = { 198 167 93 }	# (Light) Gold
 		s = { 143 180 185 }	# Silver
 		Z = { 201 127 76 }	# Brown/Bronze
+		U = { 170 55 102 }  # Burgundy
 	}
 
 	bitmapfont = {

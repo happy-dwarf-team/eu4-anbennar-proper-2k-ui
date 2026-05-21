@@ -1254,6 +1254,24 @@ guiTypes = {
 			maxHeight = 21
 			text = "2000¤"
 		}
+        
+        #TODO: CHECK IF THIS WORKS
+		checkboxType = {
+			name = "build_automatory"
+			position = { x = 380 y = 504 }
+			quadTextureSprite = "GFX_furnace"
+		}
+
+		instantTextBoxType={
+			name = "automatory_cost"
+			position = {x = 380 y = 564 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 153
+			maxHeight = 21
+			text = "2000¤"
+		}
+        #BACK TO PROPER 2K UI VALUES
 
 		iconType = {
 			name = "current_building"

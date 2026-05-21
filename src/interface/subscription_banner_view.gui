@@ -3,7 +3,7 @@ guiTypes = {
 		name = "game_subscription_banner_view"
 		position = { x= 96 y=-660 }
 		size = { x=463 y=393 }
-		Orientation = "LOWER_LEFT"
+		Orientation = "LOWER_RIGHT"
 
 		# Windows to allow animation
 		windowType = {
