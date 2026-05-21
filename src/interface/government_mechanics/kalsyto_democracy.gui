@@ -1,14 +1,14 @@
 guiTypes = {
 	windowType = { # Copied and adjusted from government_interaction_type
 		name = "kalsyto_democracy_gov_mech"
-		size = { x = 300 y = 26 }
+		size = { x = 363 y = 31 }
 		moveable = 0
 
 		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_kalsyto_democracy_bar"
-			position = { x = 29 y = 5 }
+			position = { x = 35 y = 6 }
 		}
 
 		# Progressbar Frame
@@ -16,14 +16,14 @@ guiTypes = {
 			name = "frame_background"
 			spriteType = "GFX_kalsyto_democracy_bar_frame"
 			alwaystransparent = yes
-			position = { x = 23 y = 0 }
+			position = { x = 28 y = 0 }
 		}
 	}
 	
 	# Interactions, copied from government_interaction_type but we want a different size than default
 	windowType = {
 		name = "kalsyto_democracy_interaction_button"
-		size = { x = 107 y = 82 }
+		size = { x = 129 y = 99 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -49,14 +49,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 20 y = 77 }
+			position = { x = 24 y = 93 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 6 y = 74 }
+			position = { x = 7 y = 90 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

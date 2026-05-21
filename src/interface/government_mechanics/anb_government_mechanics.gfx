@@ -15,7 +15,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx//interface//government_mechanics//allclan_pandemonium//allclan_pandemonium_progressbar.dds"
 		textureFile2 = "gfx//interface//government_mechanics//allclan_pandemonium//allclan_pandemonium_progressbar_frame.dds"
-		size = { x = 232 y = 20 }
+		size = { x = 281 y = 24 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -33,7 +33,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/arg_ordstun/arg_ord_roughness.dds"
 		textureFile2 = "gfx/interface/government_mechanics/arg_ordstun/arg_ord_neutral.dds"
-		size = { x = 290 y = 50 }
+		size = { x = 351 y = 61 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -43,7 +43,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/arg_ordstun/arg_ord_luster.dds"
 		textureFile2 = "gfx/interface/government_mechanics/arg_ordstun/arg_ord_neutral_darker.dds"
-		size = { x = 290 y = 50 }
+		size = { x = 351 y = 61 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -82,7 +82,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/kalsyto_democracy/kalsyto_democracy_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/kalsyto_democracy/kalsyto_democracy_bar_empty.dds"
-		size = { x = 263 y = 14 }
+		size = { x = 318 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -133,7 +133,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/drakonshan/drakonshan_bar.dds"
 		textureFile2 = "gfx/interface/government_mechanics/drakonshan/drakonshan_bar_empty.dds"
-		size = { x = 210 y = 13 }
+		size = { x = 254 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -171,7 +171,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/spider_caravan/spider_caravan_preparation_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/spider_caravan/spider_caravan_preparation_empty.dds"
-		size = { x = 230 y = 12 }
+		size = { x = 278 y = 15 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -203,7 +203,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/medasi_power_share/medasi_power_share_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/medasi_power_share/medasi_power_share_bar_empty.dds"
-		size = { x = 204 y = 17 }
+		size = { x = 247 y = 21 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -233,7 +233,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/jaddari_desert_legion/jaddari_desert_legion_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/jaddari_desert_legion/jaddari_desert_legion_bar_empty.dds"
-		size = { x = 238 y = 12 }
+		size = { x = 288 y = 15 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -278,7 +278,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/karakhanbar_black_hearth/karakhanbar_black_hearth_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/karakhanbar_black_hearth/karakhanbar_black_hearth_bar_empty.dds"
-		size = { x = 246 y = 23 }
+		size = { x = 298 y = 28 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -325,7 +325,7 @@ spriteTypes = {
         colortwo = { 1.0 1.0 1.0 }
         textureFile1 = "gfx/interface/government_mechanics/gronstunad_authority/gronstunad_authority_bar_full.dds"
         textureFile2 = "gfx/interface/government_mechanics/gronstunad_authority/gronstunad_authority_bar_empty.dds"
-        size = { x = 226 y = 9 }
+        size = { x = 273 y = 11 }
         effectFile = "gfx/FX/progress.lua"
     }
 
@@ -418,7 +418,7 @@ spriteTypes = {
         colortwo = { 1.0 1.0 1.0 }
         textureFile1 = "gfx/interface/government_mechanics/konolkhatep/konolkhatep_bar_full.dds"
         textureFile2 = "gfx/interface/government_mechanics/konolkhatep/konolkhatep_bar_empty.dds"
-        size = { x = 91 y = 24 }
+        size = { x = 110 y = 29 }
         effectFile = "gfx/FX/progress.lua"
     }
 	
@@ -476,7 +476,7 @@ spriteTypes = {
         colortwo = { 1.0 1.0 1.0 }
         textureFile1 = "gfx/interface/government_mechanics/taychendi_vainglory/taychendi_vainglory_bar_full.dds"
         textureFile2 = "gfx/interface/government_mechanics/taychendi_vainglory/taychendi_vainglory_bar_empty.dds"
-        size = { x = 300 y = 74 }
+        size = { x = 363 y = 90 }
         effectFile = "gfx/FX/progress.lua"
     }
 	
@@ -535,7 +535,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/khugra_araizary_affinity/khugra_araizary_affinity_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/khugra_araizary_affinity/khugra_araizary_affinity_bar_empty.dds"
-		size = { x = 238 y = 11 }
+		size = { x = 288 y = 13 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -580,7 +580,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/corinsfield_paranoia/corinsfield_paranoia_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/corinsfield_paranoia/corinsfield_paranoia_bar_empty.dds"
-		size = { x = 236 y = 13 }
+		size = { x = 286 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
@@ -646,7 +646,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/floodborn_council/floodborn_council_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/floodborn_council/floodborn_council_bar_empty.dds"
-		size = { x = 271 y = 13 }
+		size = { x = 328 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -719,7 +719,7 @@ spriteTypes = {
 		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/government_mechanics/vacyntassi_temple_authority/vacyntassi_temple_authority_bar_full.dds"
 		textureFile2 = "gfx/interface/government_mechanics/vacyntassi_temple_authority/vacyntassi_temple_authority_bar_empty.dds"
-		size = { x = 258 y = 9 }
+		size = { x = 312 y = 11 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 

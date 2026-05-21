@@ -2,7 +2,7 @@ guiTypes = {
 	# Interactions, copied from government_interaction_type but we want a different size than default
 	windowType = {
 		name = "rezankand_exemplar_button"
-		size = { x = 150 y = 100 }
+		size = { x = 182 y = 121 }
 		position = { x = 0 y = 0 }
 		backGround = ""
 		moveable = 0
@@ -14,7 +14,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_russian_ability_ADM" #placeholder so we don't get an assert - you have to set something - but this will be overridden by the interaction's icon
-			position = { x = 10 y = 0 }
+			position = { x = 12 y = 0 }
 			tooltip = ""
 			tooltipText = ""
 			delayedTooltipText = ""
@@ -28,14 +28,14 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_government_power_bar"
-			position = { x = 20 y = 77 }
+			position = { x = 24 y = 93 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "government_power_bar_frame"
 			spriteType = "GFX_government_power_bar_frame"
-			position = { x = 6 y = 74 }
+			position = { x = 7 y = 90 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}

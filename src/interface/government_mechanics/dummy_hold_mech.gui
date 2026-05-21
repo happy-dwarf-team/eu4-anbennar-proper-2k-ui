@@ -11,7 +11,7 @@ guiTypes = {
 		#iconType = { 
 		#	name = "government_power_bar"
 		#	spriteType = "GFX_hessian_militarization_power_bar"
-		#	position = { x = 16 y = 49 }
+		#	position = { x = 19 y = 59 }
 		#}	
 		#
 		## Frame
@@ -26,7 +26,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "government_interaction_button"
 			quadTextureSprite = "GFX_blank_icon1x1"
-			position = { x = 10 y = 5 }
+			position = { x = 12 y = 6 }
 			buttonFont = "vic_18"
 			clicksound = back_click
 		}
